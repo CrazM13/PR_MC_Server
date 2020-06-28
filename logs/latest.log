@@ -1,0 +1,74 @@
+[15:10:00] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[15:10:01] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:10:01] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:10:01] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:10:01] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:10:01] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:10:01] [main/INFO]: Reloading ResourceManager: Default
+[15:10:02] [Worker-Main-4/INFO]: Loaded 7 recipes
+[15:10:03] [Worker-Main-4/INFO]: Loaded 927 advancements
+[15:10:05] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[15:10:05] [Server thread/INFO]: Loading properties
+[15:10:05] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:273) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at yd$1.run(SourceFile:90) [server.jar:?]
+[15:10:05] [Server thread/INFO]: Default game type: SURVIVAL
+[15:10:05] [Server thread/INFO]: Generating keypair
+[15:10:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:10:05] [Server thread/INFO]: Using default channel type
+[15:10:07] [Server thread/INFO]: Preparing level "world"
+[15:10:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:10:13] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:10:13] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[15:10:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[15:10:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[15:10:15] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[15:10:15] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[15:10:16] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[15:10:16] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:10:17] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[15:10:17] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[15:10:18] [Worker-Main-6/INFO]: Preparing spawn area: 9%
+[15:10:18] [Worker-Main-4/INFO]: Preparing spawn area: 9%
+[15:10:19] [Worker-Main-5/INFO]: Preparing spawn area: 9%
+[15:10:19] [Worker-Main-6/INFO]: Preparing spawn area: 18%
+[15:10:20] [Worker-Main-6/INFO]: Preparing spawn area: 22%
+[15:10:20] [Worker-Main-4/INFO]: Preparing spawn area: 22%
+[15:10:21] [Worker-Main-4/INFO]: Preparing spawn area: 34%
+[15:10:21] [Worker-Main-5/INFO]: Preparing spawn area: 34%
+[15:10:22] [Worker-Main-5/INFO]: Preparing spawn area: 34%
+[15:10:22] [Worker-Main-6/INFO]: Preparing spawn area: 34%
+[15:10:23] [Worker-Main-5/INFO]: Preparing spawn area: 54%
+[15:10:23] [Worker-Main-5/INFO]: Preparing spawn area: 54%
+[15:10:24] [Worker-Main-5/INFO]: Preparing spawn area: 54%
+[15:10:24] [Worker-Main-5/INFO]: Preparing spawn area: 68%
+[15:10:25] [Worker-Main-4/INFO]: Preparing spawn area: 68%
+[15:10:26] [Worker-Main-5/INFO]: Preparing spawn area: 72%
+[15:10:27] [Worker-Main-5/INFO]: Preparing spawn area: 84%
+[15:10:27] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[15:10:27] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[15:10:27] [Server thread/INFO]: Time elapsed: 14210 ms
+[15:10:27] [Server thread/INFO]: Done (20.556s)! For help, type "help"
+[15:10:53] [Server thread/INFO]: Stopping server
+[15:10:53] [Server thread/INFO]: Saving players
+[15:10:53] [Server thread/INFO]: Saving worlds
+[15:10:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:10:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:10:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:10:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:10:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:10:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:10:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:10:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:10:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
