@@ -1,27 +1,21 @@
-[15:20:14] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[15:20:24] [main/INFO]: Found new data pack file/VanillaTweaks_c627756.zip, loading it automatically
-[15:20:24] [main/INFO]: Found new data pack file/afk display v1.0.1.zip, loading it automatically
-[15:20:24] [main/INFO]: Found new data pack file/anti enderman grief v1.0.0.zip, loading it automatically
-[15:20:24] [main/INFO]: Found new data pack file/double shulker shells v1.2.0.zip, loading it automatically
-[15:20:24] [main/INFO]: Found new data pack file/more mob heads v2.6.2.zip, loading it automatically
-[15:20:24] [main/INFO]: Found new data pack file/multiplayer sleep v1.0.2.zip, loading it automatically
-[15:20:25] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[15:20:25] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[15:20:25] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[15:20:25] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[15:20:25] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[15:20:25] [main/INFO]: Reloading ResourceManager: Default, VanillaTweaks_c627756.zip, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip
-[15:20:30] [Worker-Main-5/INFO]: Loaded 7 recipes
-[15:20:31] [Worker-Main-5/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[15:20:31] [Worker-Main-5/INFO]: Loaded 1038 advancements
-[15:21:17] [Server thread/INFO]: Starting minecraft server version 1.16.1
-[15:21:17] [Server thread/INFO]: Loading properties
-[15:21:17] [Server thread/INFO]: Default game type: SURVIVAL
-[15:21:17] [Server thread/INFO]: Generating keypair
-[15:21:17] [Server console handler/ERROR]: Exception handling console input
+[15:27:21] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[15:27:57] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:27:58] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:27:58] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:27:58] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:27:58] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:27:58] [main/INFO]: Reloading ResourceManager: Default, VanillaTweaks_c627756.zip, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip
+[15:28:09] [Worker-Main-4/INFO]: Loaded 7 recipes
+[15:30:08] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[15:30:12] [main/FATAL]: Failed to start the minecraft server
+java.io.[15:30:43] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[15:30:43] [Server thread/INFO]: Loading properties
+[15:30:43] [Server thread/INFO]: Default game type: SURVIVAL
+[15:30:43] [Server thread/INFO]: Generating keypair
+[15:30:43] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:280) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:273) ~[?:?]
 	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
 	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
 	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
@@ -32,78 +26,52 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
 	at yd$1.run(SourceFile:90) [server.jar:?]
-[15:21:18] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:21:18] [Server thread/INFO]: Using default channel type
-[15:21:22] [Server thread/INFO]: Preparing level "world"
-[15:21:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:39] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:40] [Server thread/INFO]: Preparing spawn area: 0%
-[15:21:42] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[15:21:42] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[15:21:42] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[15:21:42] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[15:21:42] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[15:21:43] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[15:21:43] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[15:21:44] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[15:21:44] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[15:21:45] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[15:21:45] [User Authenticator #1/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
-[15:21:45] [Worker-Main-6/INFO]: Preparing spawn area: 84%
-[15:21:46] [Worker-Main-4/INFO]: Preparing spawn area: 87%
-[15:21:46] [Server thread/INFO]: Preparing spawn area: 92%
-[15:21:46] [Server thread/INFO]: Time elapsed: 23147 ms
-[15:21:46] [Server thread/INFO]: Done (24.168s)! For help, type "help"
-[15:21:46] [Server thread/INFO]: CrazM13[/70.188.147.193:54088] logged in with entity id 44 at (198.5, 66.0, 81.5)
-[15:21:46] [Server thread/INFO]: CrazM13 joined the game
-[15:22:11] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[15:22:11] [Server thread/INFO]: Hello<--[HERE]
-[15:22:39] [Server thread/INFO]: Made CrazM13 a server operator
-[15:22:40] [Server thread/INFO]: <CrazM13> op CrazM13
-[15:24:04] [Server thread/INFO]: CrazM13 lost connection: Disconnected
-[15:24:04] [Server thread/INFO]: CrazM13 left the game
-[15:24:11] [Server thread/INFO]: Stopping the server
-[15:24:11] [Server thread/INFO]: Stopping server
-[15:24:11] [Server thread/INFO]: Saving players
-[15:24:11] [Server thread/INFO]: Saving worlds
-[15:24:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:24:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:24:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[15:24:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:24:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[15:24:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:24:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:24:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:24:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:30:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:30:45] [Server thread/INFO]: Using default channel type
+[15:30:53] [Server thread/INFO]: Preparing level "world"
+[15:30:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:30:59] [Server thread/INFO]: Preparing spawn area: 0%
+[15:30:59] [Server thread/INFO]: Preparing spawn area: 0%
+[15:30:59] [Server thread/INFO]: Preparing spawn area: 0%
+[15:30:59] [Server thread/INFO]: Preparing spawn area: 0%
+[15:30:59] [Server thread/INFO]: Preparing spawn area: 0%
+[15:30:59] [Server thread/INFO]: Preparing spawn area: 0%
+[15:30:59] [Server thread/INFO]: Preparing spawn area: 0%
+[15:30:59] [Server thread/INFO]: Preparing spawn area: 0%
+[15:30:59] [Server thread/INFO]: Preparing spawn area: 0%
+[15:31:01] [Server thread/INFO]: Preparing spawn area: 18%
+[15:31:01] [Server thread/INFO]: Preparing spawn area: 18%
+[15:31:01] [Server thread/INFO]: Preparing spawn area: 18%
+[15:31:02] [Server thread/INFO]: Preparing spawn area: 62%
+[15:31:03] [Worker-Main-6/INFO]: Preparing spawn area: 91%
+[15:31:03] [Worker-Main-7/INFO]: Preparing spawn area: 91%
+[15:31:03] [Worker-Main-7/INFO]: Preparing spawn area: 91%
+[15:31:03] [Worker-Main-6/INFO]: Preparing spawn area: 91%
+[15:31:04] [Worker-Main-6/INFO]: Preparing spawn area: 91%
+[15:31:04] [Worker-Main-7/INFO]: Preparing spawn area: 91%
+[15:31:05] [Worker-Main-8/INFO]: Preparing spawn area: 91%
+[15:31:05] [Worker-Main-7/INFO]: Preparing spawn area: 91%
+[15:31:06] [Worker-Main-6/INFO]: Preparing spawn area: 92%
+[15:31:06] [Worker-Main-8/INFO]: Preparing spawn area: 94%
+[15:31:07] [Server thread/INFO]: Time elapsed: 11439 ms
+[15:31:07] [Server thread/INFO]: Done (14.177s)! For help, type "help"
+[15:31:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2097ms or 41 ticks behind
+[15:31:30] [User Authenticator #1/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[15:31:30] [Server thread/INFO]: CrazM13[/127.0.0.1:54196] logged in with entity id 158 at (196.88761194863457, 68.0, 72.39968232095792)
+[15:31:31] [Server thread/INFO]: CrazM13 joined the game
+[15:31:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16556ms or 331 ticks behind
+[15:32:04] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[15:32:04] [Server thread/INFO]: CrazM13 left the game
+[15:32:09] [Server thread/INFO]: Stopping the server
+[15:32:10] [Server thread/INFO]: Stopping server
+[15:32:10] [Server thread/INFO]: Saving players
+[15:32:10] [Server thread/INFO]: Saving worlds
+[15:32:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:32:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:32:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:32:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:32:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:32:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:32:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:32:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:32:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
