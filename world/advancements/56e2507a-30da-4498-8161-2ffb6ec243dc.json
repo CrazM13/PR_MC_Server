@@ -1,0 +1,70 @@
+{
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2020-06-28 15:23:17 -0400"
+    },
+    "done": true
+  },
+  "main:main/double_shulkers": {
+    "criteria": {
+      "tick": "2020-06-28 15:21:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2020-06-28 15:23:17 -0400"
+    },
+    "done": true
+  },
+  "main:main/mmh": {
+    "criteria": {
+      "tick": "2020-06-28 15:21:47 -0400"
+    },
+    "done": true
+  },
+  "main:main/anti_enderman": {
+    "criteria": {
+      "tick": "2020-06-28 15:21:47 -0400"
+    },
+    "done": true
+  },
+  "main:main/afk": {
+    "criteria": {
+      "tick": "2020-06-28 15:21:47 -0400"
+    },
+    "done": true
+  },
+  "main:main/multiplayer_sleep": {
+    "criteria": {
+      "tick": "2020-06-28 15:21:47 -0400"
+    },
+    "done": true
+  },
+  "main:main/root": {
+    "criteria": {
+      "tick": "2020-06-28 15:21:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2020-06-28 15:23:17 -0400"
+    },
+    "done": true
+  },
+  "multiplayer_sleep:sleep": {
+    "criteria": {
+      "tick": "2020-06-28 15:21:47 -0400"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2020-06-28 15:21:47 -0400",
+      "minecraft:beach": "2020-06-28 15:21:55 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 2567
+}
