@@ -143,6 +143,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2020-07-01 22:40:55 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2020-06-28 15:37:11 -0400"
@@ -418,8 +424,10 @@
     "criteria": {
       "cooked_porkchop": "2020-06-28 18:38:54 -0400",
       "bread": "2020-06-28 16:51:50 -0400",
+      "golden_apple": "2020-07-01 22:57:55 -0400",
       "rotten_flesh": "2020-06-28 15:58:05 -0400",
       "dried_kelp": "2020-06-28 15:44:14 -0400",
+      "salmon": "2020-07-01 22:20:51 -0400",
       "melon_slice": "2020-06-28 21:18:15 -0400"
     },
     "done": false
@@ -653,6 +661,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:turtle": "2020-07-01 22:42:57 -0400"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2020-06-28 15:41:50 -0400"
@@ -677,17 +691,17 @@
     },
     "done": true
   },
-  "multiplayer_sleep:sleep": {
-    "criteria": {
-      "tick": "2020-06-28 22:13:10 -0400"
-    },
-    "done": false
-  },
   "minecraft:recipes/redstone/warped_fence_gate": {
     "criteria": {
       "has_planks": "2020-06-28 20:50:50 -0400"
     },
     "done": true
+  },
+  "multiplayer_sleep:sleep": {
+    "criteria": {
+      "tick": "2020-07-01 22:52:01 -0400"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/blue_wool": {
     "criteria": {
@@ -953,6 +967,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2020-07-01 22:20:49 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-06-28 15:55:16 -0400"
@@ -1206,6 +1226,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_the_recipe": "2020-07-01 22:19:06 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/blue_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-06-28 15:55:16 -0400"
@@ -1311,6 +1337,12 @@
   "minecraft:husbandry/tactical_fishing": {
     "criteria": {
       "tropical_fish_bucket": "2020-06-28 16:32:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2020-07-01 22:20:49 -0400"
     },
     "done": true
   },
@@ -1467,6 +1499,12 @@
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2020-06-28 19:03:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2020-07-01 22:41:32 -0400"
     },
     "done": true
   },
@@ -1663,6 +1701,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2020-07-01 22:20:49 -0400"
+    },
+    "done": true
+  },
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2020-06-28 15:37:13 -0400"
@@ -1854,6 +1898,7 @@
       "minecraft:cold_ocean": "2020-06-28 16:37:40 -0400",
       "minecraft:forest": "2020-06-28 15:21:47 -0400",
       "minecraft:deep_cold_ocean": "2020-06-28 16:36:53 -0400",
+      "minecraft:desert": "2020-07-01 22:40:56 -0400",
       "minecraft:deep_frozen_ocean": "2020-06-28 16:37:17 -0400",
       "minecraft:deep_lukewarm_ocean": "2020-06-28 15:41:17 -0400",
       "minecraft:beach": "2020-06-28 15:21:55 -0400",
@@ -2076,6 +2121,12 @@
   "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
     "criteria": {
       "has_warped_fungus": "2020-06-28 18:05:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2020-07-01 22:42:57 -0400"
     },
     "done": true
   },
