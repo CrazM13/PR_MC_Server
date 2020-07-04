@@ -22,5 +22,11 @@
     "name": "The15Percenter",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b8e5cd4e-3514-452a-b3b4-bccdb689abae",
+    "name": "Murloc_Rampage",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

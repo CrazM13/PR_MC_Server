@@ -1,100 +1,46 @@
-[22:07:03] [main/INFO]: Found new data pack file/BarteringTweaks, loading it automatically
-[22:07:03] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22:07:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:07:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:07:03] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[22:07:03] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[22:07:03] [main/INFO]: Reloading ResourceManager: Default, VanillaTweaks_c627756.zip, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks
-[22:07:08] [Worker-Main-4/INFO]: Loaded 7 recipes
-[22:07:08] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[22:07:08] [Worker-Main-4/INFO]: Loaded 1038 advancements
-[22:07:20] [Server thread/INFO]: Starting minecraft server version 1.16.1
-[22:07:20] [Server thread/INFO]: Loading properties
-[22:07:20] [Server thread/INFO]: Default game type: SURVIVAL
-[22:07:20] [Server thread/INFO]: Generating keypair
-[22:07:20] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: The handle is invalid
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:280) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
-	at yd$1.run(SourceFile:90) [server.jar:?]
-[22:07:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:07:20] [Server thread/INFO]: Using default channel type
-[22:07:22] [Server thread/INFO]: Preparing level "world"
-[22:07:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:07:23] [Server thread/INFO]: Preparing spawn area: 0%
-[22:07:23] [Server thread/INFO]: Preparing spawn area: 0%
-[22:07:23] [Server thread/INFO]: Preparing spawn area: 0%
-[22:07:23] [Server thread/INFO]: Preparing spawn area: 0%
-[22:07:25] [Server thread/INFO]: Preparing spawn area: 0%
-[22:07:25] [Server thread/INFO]: Preparing spawn area: 0%
-[22:07:25] [Server thread/INFO]: Preparing spawn area: 83%
-[22:07:26] [Server thread/INFO]: Time elapsed: 4034 ms
-[22:07:26] [Server thread/INFO]: Done (4.174s)! For help, type "help"
-[22:08:38] [User Authenticator #1/INFO]: UUID of player Brew_Bone is e3006ffe-2439-4525-987d-23c6336b34ae
-[22:08:39] [Server thread/INFO]: Brew_Bone[/192.168.1.1:65325] logged in with entity id 15 at (1201.3605732692827, 62.9375, 862.3812307915739)
-[22:08:39] [Server thread/INFO]: Brew_Bone joined the game
-[22:08:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2449ms or 48 ticks behind
-[22:08:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3732ms or 74 ticks behind
-[22:09:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2062ms or 41 ticks behind
-[22:09:39] [User Authenticator #2/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
-[22:09:40] [Server thread/INFO]: CrazM13[/70.188.147.193:55084] logged in with entity id 240 at (1199.729376709148, 63.0, 857.562893972671)
-[22:09:40] [Server thread/INFO]: CrazM13 joined the game
-[22:12:53] [User Authenticator #3/INFO]: UUID of player Chimi_Wacha is 70b91697-5476-4632-a3c3-5c8d449d7cd8
-[22:12:54] [Server thread/INFO]: Chimi_Wacha[/127.0.0.1:50131] logged in with entity id 635 at (1197.0811852086724, 64.0, 846.5118819486476)
-[22:12:54] [Server thread/INFO]: Chimi_Wacha joined the game
-[22:15:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
-[22:16:06] [Server thread/INFO]: Chimi_Wacha fell off a ladder
-[22:18:00] [User Authenticator #4/INFO]: UUID of player The15Percenter is 0538d89a-fca6-4d1c-b462-b6ed01dcfda5
-[22:18:01] [Server thread/INFO]: The15Percenter[/100.10.51.177:64844] logged in with entity id 1572 at (1203.4747331927638, 63.0, 869.9760806576047)
-[22:18:01] [Server thread/INFO]: The15Percenter joined the game
-[22:18:03] [Server thread/INFO]: Brew_Bone tried to swim in lava
-[22:27:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3984ms or 79 ticks behind
-[22:34:37] [Server thread/INFO]: The15Percenter has made the advancement [Fishy Business]
-[22:42:57] [Server thread/INFO]: CrazM13 has made the advancement [The Parrots and the Bats]
-[22:46:13] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1678, y=53, z=1531} fu{x=1678, y=54, z=1531}
-[22:48:29] [Server thread/WARN]: Brew_Bone was kicked for floating too long!
-[22:48:29] [Server thread/INFO]: Brew_Bone lost connection: Disconnected
-[22:48:29] [Server thread/INFO]: Brew_Bone left the game
-[22:48:29] [Server thread/WARN]: handleDisconnection() called twice
-[22:48:34] [User Authenticator #5/INFO]: UUID of player Brew_Bone is e3006ffe-2439-4525-987d-23c6336b34ae
-[22:48:34] [Server thread/INFO]: Brew_Bone[/192.168.1.1:65503] logged in with entity id 10633 at (1206.7932704101615, 64.0, 838.613644994849)
-[22:48:34] [Server thread/INFO]: Brew_Bone joined the game
-[23:02:14] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 3289d00b-41a2-44e4-ac8e-936f999c1c65
-[23:02:22] [Server thread/INFO]: CrazM13 lost connection: Disconnected
-[23:02:22] [Server thread/INFO]: CrazM13 left the game
-[23:05:47] [Server thread/INFO]: The15Percenter has made the advancement [Best Friends Forever]
-[23:21:06] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 5aab8180-03b4-4628-aae5-2ceeb1b8dee1
-[23:23:32] [Server thread/WARN]: The15Percenter moved too quickly! 371.8737179594423,-4.0,539.4778990608943
-[23:24:19] [Server thread/INFO]: The15Percenter has made the advancement [Tactical Fishing]
-[23:26:35] [Server thread/INFO]: The15Percenter lost connection: Disconnected
-[23:26:35] [Server thread/INFO]: The15Percenter left the game
-[23:29:57] [Server thread/INFO]: Chimi_Wacha was shot by Skeleton
-[23:30:20] [Server thread/WARN]: Chimi_Wacha moved too quickly! 972.1094077819025,5.0,802.8925124821379
-[23:33:10] [Server thread/INFO]: Brew_Bone fell from a high place
-[23:33:47] [Server thread/INFO]: Brew_Bone was slain by Iron Golem
-[23:34:13] [Server thread/INFO]: Brew_Bone lost connection: Disconnected
-[23:34:13] [Server thread/INFO]: Brew_Bone left the game
-[23:37:42] [Server thread/INFO]: Chimi_Wacha lost connection: Disconnected
-[23:37:42] [Server thread/INFO]: Chimi_Wacha left the game
-[23:37:47] [Server thread/INFO]: Stopping the server
-[23:37:47] [Server thread/INFO]: Stopping server
-[23:37:47] [Server thread/INFO]: Saving players
-[23:37:47] [Server thread/INFO]: Saving worlds
-[23:37:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:37:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:37:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:37:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:37:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:37:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:37:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:37:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:37:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:00:35] [Server thread/INFO]: <Murloc_Rampage> 76
+[00:01:34] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 2a1f6128-9fd9-4e15-97be-20a79bd55947
+[00:07:40] [Server thread/INFO]: Chimi_Wacha was blown up by Creeper
+[00:19:07] [Server thread/WARN]: Boat (vehicle of Murloc_Rampage) moved wrongly! 0.2607510691202606
+[00:22:58] [Server thread/INFO]: Murloc_Rampage has made the advancement [Monster Hunter]
+[00:25:28] [Server thread/INFO]: Chimi_Wacha was slain by Zombie
+[00:25:40] [Server thread/WARN]: Chimi_Wacha moved too quickly! 336.64605860560005,-1.0,501.96803441462725
+[00:29:40] [Server thread/INFO]: Chimi_Wacha has made the advancement [Tactical Fishing]
+[00:44:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[01:01:56] [User Authenticator #3/INFO]: UUID of player Brew_Bone is e3006ffe-2439-4525-987d-23c6336b34ae
+[01:01:56] [Server thread/INFO]: Brew_Bone[/192.168.1.1:61982] logged in with entity id 21726 at (1190.7765990039145, 63.0, 872.0196691552221)
+[01:01:56] [Server thread/INFO]: Brew_Bone joined the game
+[01:03:14] [Server thread/WARN]: Brew_Bone moved too quickly! 301.4731477110397,4.0,866.8951061579643
+[01:03:14] [Server thread/WARN]: Brew_Bone moved too quickly! 301.4731477110397,4.0,866.8951061579643
+[01:09:53] [Server thread/WARN]: Brew_Bone moved too quickly! -369.59911872499856,-7.0,-945.3908763482547
+[01:36:45] [Server thread/INFO]: Brew_Bone fell off a ladder
+[01:46:35] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:46:47] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:47:05] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:47:13] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:47:23] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:47:33] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:47:46] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:49:08] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:49:39] [Server thread/INFO]: Brew_Bone lost connection: Disconnected
+[01:49:39] [Server thread/INFO]: Brew_Bone left the game
+[01:56:25] [Server thread/INFO]: Chimi_Wacha was slain by Zombie
+[01:59:59] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1675, y=61, z=1508} fu{x=1672, y=61, z=1508}
+[02:04:51] [Server thread/INFO]: Chimi_Wacha has made the advancement [The Parrots and the Bats]
+[02:19:53] [Server thread/INFO]: Chimi_Wacha lost connection: Disconnected
+[02:19:53] [Server thread/INFO]: Chimi_Wacha left the game
+[02:19:58] [Server thread/INFO]: Stopping the server
+[02:19:59] [Server thread/INFO]: Stopping server
+[02:19:59] [Server thread/INFO]: Saving players
+[02:19:59] [Server thread/INFO]: Murloc_Rampage lost connection: Server closed
+[02:19:59] [Server thread/INFO]: Murloc_Rampage left the game
+[02:19:59] [Server thread/INFO]: Saving worlds
+[02:19:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:19:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:19:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:20:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:20:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:20:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:20:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:20:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:20:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
