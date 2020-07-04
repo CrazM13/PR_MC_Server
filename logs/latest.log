@@ -1,0 +1,46 @@
+[00:00:35] [Server thread/INFO]: <Murloc_Rampage> 76
+[00:01:34] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 2a1f6128-9fd9-4e15-97be-20a79bd55947
+[00:07:40] [Server thread/INFO]: Chimi_Wacha was blown up by Creeper
+[00:19:07] [Server thread/WARN]: Boat (vehicle of Murloc_Rampage) moved wrongly! 0.2607510691202606
+[00:22:58] [Server thread/INFO]: Murloc_Rampage has made the advancement [Monster Hunter]
+[00:25:28] [Server thread/INFO]: Chimi_Wacha was slain by Zombie
+[00:25:40] [Server thread/WARN]: Chimi_Wacha moved too quickly! 336.64605860560005,-1.0,501.96803441462725
+[00:29:40] [Server thread/INFO]: Chimi_Wacha has made the advancement [Tactical Fishing]
+[00:44:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[01:01:56] [User Authenticator #3/INFO]: UUID of player Brew_Bone is e3006ffe-2439-4525-987d-23c6336b34ae
+[01:01:56] [Server thread/INFO]: Brew_Bone[/192.168.1.1:61982] logged in with entity id 21726 at (1190.7765990039145, 63.0, 872.0196691552221)
+[01:01:56] [Server thread/INFO]: Brew_Bone joined the game
+[01:03:14] [Server thread/WARN]: Brew_Bone moved too quickly! 301.4731477110397,4.0,866.8951061579643
+[01:03:14] [Server thread/WARN]: Brew_Bone moved too quickly! 301.4731477110397,4.0,866.8951061579643
+[01:09:53] [Server thread/WARN]: Brew_Bone moved too quickly! -369.59911872499856,-7.0,-945.3908763482547
+[01:36:45] [Server thread/INFO]: Brew_Bone fell off a ladder
+[01:46:35] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:46:47] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:47:05] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:47:13] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:47:23] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:47:33] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:47:46] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:49:08] [Server thread/INFO]: Brew_Bone fell from a high place
+[01:49:39] [Server thread/INFO]: Brew_Bone lost connection: Disconnected
+[01:49:39] [Server thread/INFO]: Brew_Bone left the game
+[01:56:25] [Server thread/INFO]: Chimi_Wacha was slain by Zombie
+[01:59:59] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1675, y=61, z=1508} fu{x=1672, y=61, z=1508}
+[02:04:51] [Server thread/INFO]: Chimi_Wacha has made the advancement [The Parrots and the Bats]
+[02:19:53] [Server thread/INFO]: Chimi_Wacha lost connection: Disconnected
+[02:19:53] [Server thread/INFO]: Chimi_Wacha left the game
+[02:19:58] [Server thread/INFO]: Stopping the server
+[02:19:59] [Server thread/INFO]: Stopping server
+[02:19:59] [Server thread/INFO]: Saving players
+[02:19:59] [Server thread/INFO]: Murloc_Rampage lost connection: Server closed
+[02:19:59] [Server thread/INFO]: Murloc_Rampage left the game
+[02:19:59] [Server thread/INFO]: Saving worlds
+[02:19:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:19:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:19:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:20:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:20:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:20:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:20:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:20:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:20:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
