@@ -1,46 +1,450 @@
-[00:00:35] [Server thread/INFO]: <Murloc_Rampage> 76
-[00:01:34] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 2a1f6128-9fd9-4e15-97be-20a79bd55947
-[00:07:40] [Server thread/INFO]: Chimi_Wacha was blown up by Creeper
-[00:19:07] [Server thread/WARN]: Boat (vehicle of Murloc_Rampage) moved wrongly! 0.2607510691202606
-[00:22:58] [Server thread/INFO]: Murloc_Rampage has made the advancement [Monster Hunter]
-[00:25:28] [Server thread/INFO]: Chimi_Wacha was slain by Zombie
-[00:25:40] [Server thread/WARN]: Chimi_Wacha moved too quickly! 336.64605860560005,-1.0,501.96803441462725
-[00:29:40] [Server thread/INFO]: Chimi_Wacha has made the advancement [Tactical Fishing]
-[00:44:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[01:01:56] [User Authenticator #3/INFO]: UUID of player Brew_Bone is e3006ffe-2439-4525-987d-23c6336b34ae
-[01:01:56] [Server thread/INFO]: Brew_Bone[/192.168.1.1:61982] logged in with entity id 21726 at (1190.7765990039145, 63.0, 872.0196691552221)
-[01:01:56] [Server thread/INFO]: Brew_Bone joined the game
-[01:03:14] [Server thread/WARN]: Brew_Bone moved too quickly! 301.4731477110397,4.0,866.8951061579643
-[01:03:14] [Server thread/WARN]: Brew_Bone moved too quickly! 301.4731477110397,4.0,866.8951061579643
-[01:09:53] [Server thread/WARN]: Brew_Bone moved too quickly! -369.59911872499856,-7.0,-945.3908763482547
-[01:36:45] [Server thread/INFO]: Brew_Bone fell off a ladder
-[01:46:35] [Server thread/INFO]: Brew_Bone fell from a high place
-[01:46:47] [Server thread/INFO]: Brew_Bone fell from a high place
-[01:47:05] [Server thread/INFO]: Brew_Bone fell from a high place
-[01:47:13] [Server thread/INFO]: Brew_Bone fell from a high place
-[01:47:23] [Server thread/INFO]: Brew_Bone fell from a high place
-[01:47:33] [Server thread/INFO]: Brew_Bone fell from a high place
-[01:47:46] [Server thread/INFO]: Brew_Bone fell from a high place
-[01:49:08] [Server thread/INFO]: Brew_Bone fell from a high place
-[01:49:39] [Server thread/INFO]: Brew_Bone lost connection: Disconnected
-[01:49:39] [Server thread/INFO]: Brew_Bone left the game
-[01:56:25] [Server thread/INFO]: Chimi_Wacha was slain by Zombie
-[01:59:59] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1675, y=61, z=1508} fu{x=1672, y=61, z=1508}
-[02:04:51] [Server thread/INFO]: Chimi_Wacha has made the advancement [The Parrots and the Bats]
-[02:19:53] [Server thread/INFO]: Chimi_Wacha lost connection: Disconnected
-[02:19:53] [Server thread/INFO]: Chimi_Wacha left the game
-[02:19:58] [Server thread/INFO]: Stopping the server
-[02:19:59] [Server thread/INFO]: Stopping server
-[02:19:59] [Server thread/INFO]: Saving players
-[02:19:59] [Server thread/INFO]: Murloc_Rampage lost connection: Server closed
-[02:19:59] [Server thread/INFO]: Murloc_Rampage left the game
-[02:19:59] [Server thread/INFO]: Saving worlds
-[02:19:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:19:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:19:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[02:20:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:20:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[02:20:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:20:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:20:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:20:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:30:49] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[11:32:11] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:32:11] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:32:11] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:32:11] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:32:11] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:32:11] [main/INFO]: Reloading ResourceManager: Default, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks, VanillaTweaks_c257530.zip, player head drops v1.0.0.zip, villager death messages v1.1.0.zip
+[11:32:16] [Worker-Main-4/INFO]: Loaded 7 recipes
+[11:32:17] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[11:32:17] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
+[11:32:17] [Worker-Main-4/INFO]: Loaded 1028 advancements
+[11:32:32] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[11:32:32] [Server thread/INFO]: Loading properties
+[11:32:32] [Server thread/INFO]: Default game type: SURVIVAL
+[11:32:32] [Server thread/INFO]: Generating keypair
+[11:32:32] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:280) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at yd$1.run(SourceFile:90) [server.jar:?]
+[11:32:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:32:33] [Server thread/INFO]: Using default channel type
+[11:32:36] [Server thread/INFO]: Preparing level "world"
+[11:32:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:32:39] [Server thread/INFO]: Preparing spawn area: 0%
+[11:32:39] [Server thread/INFO]: Preparing spawn area: 0%
+[11:32:39] [Server thread/INFO]: Preparing spawn area: 0%
+[11:32:39] [Server thread/INFO]: Preparing spawn area: 0%
+[11:32:39] [Server thread/INFO]: Preparing spawn area: 0%
+[11:32:41] [Server thread/INFO]: Preparing spawn area: 0%
+[11:32:41] [Server thread/INFO]: Preparing spawn area: 0%
+[11:32:41] [Server thread/INFO]: Preparing spawn area: 0%
+[11:32:41] [Server thread/INFO]: Preparing spawn area: 0%
+[11:32:42] [Server thread/INFO]: Time elapsed: 4612 ms
+[11:32:42] [Server thread/INFO]: Done (5.845s)! For help, type "help"
+[11:32:49] [User Authenticator #1/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[11:32:49] [Server thread/INFO]: CrazM13[/70.188.147.193:55651] logged in with entity id 15 at (1156.8608943135002, 8.5, 965.7957570831434)
+[11:32:50] [Server thread/INFO]: CrazM13 joined the game
+[11:32:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2095ms or 41 ticks behind
+[11:33:34] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 38c21d18-84de-4b67-a32f-b739f2e015f9
+[11:33:38] [User Authenticator #2/INFO]: UUID of player Chimi_Wacha is 70b91697-5476-4632-a3c3-5c8d449d7cd8
+[11:33:39] [Server thread/INFO]: Chimi_Wacha[/127.0.0.1:53856] logged in with entity id 298 at (1264.7581091324105, 70.0, 911.4366469921631)
+[11:33:39] [Server thread/INFO]: Chimi_Wacha joined the game
+[11:35:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2283ms or 45 ticks behind
+[11:35:25] [Server thread/INFO]: CrazM13 was shot by Skeleton
+[11:40:14] [User Authenticator #3/INFO]: UUID of player Brew_Bone is e3006ffe-2439-4525-987d-23c6336b34ae
+[11:40:14] [Server thread/INFO]: Brew_Bone[/192.168.1.1:64759] logged in with entity id 2002 at (1181.699999988079, 66.875, 883.4526304289528)
+[11:40:14] [Server thread/INFO]: Brew_Bone joined the game
+[11:42:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13102ms or 262 ticks behind
+[11:47:29] [Server thread/INFO]: Chimi_Wacha was shot by Skeleton
+[11:48:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2292ms or 45 ticks behind
+[11:48:13] [Server thread/WARN]: Chimi_Wacha moved too quickly! -0.09928862414267314,-1.1661092609382138,-10.127497041360698
+[11:48:13] [Server thread/WARN]: CrazM13 moved too quickly! 10.14535489677553,0.0,-0.010156670160583303
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -0.44194528467323835,0.0,-10.159530796596187
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -0.47975992807664625,0.0,-10.55417830790023
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -0.5246758200701152,0.0,-10.94785218108936
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -0.5781959076571184,0.0,-11.339954163991393
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -0.64140875541284,0.0,-11.729908789104257
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -0.7150689921834328,0.0,-12.11718338354018
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -0.7996484538120967,0.0,-12.50130647658122
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -0.8953957371893466,0.0,-12.881871652062927
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -3.651374112362646,0.0,-9.374404475721946
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -3.874484910915953,0.0,-9.70035718164445
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -4.099204905153556,0.0,-10.025774241445106
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -4.323793542485873,0.0,-10.351829328859964
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -4.546197229016343,0.0,-10.679760317147299
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -4.764087622323814,0.0,-11.010755563322732
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -4.974899118039502,0.0,-11.345848203761676
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -5.175865974984845,0.0,-11.685820901034703
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -5.3640803566213435,0.0,-12.031116319990844
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -5.537252746736613,0.0,-12.381703232429459
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -5.69435021830509,0.0,-12.737212147367757
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -5.83538896276923,0.0,-13.097168637798433
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -5.961238671103274,0.0,-13.461114747362672
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.073456583313373,0.0,-13.828652538506844
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.173440382393892,0.0,-14.199423729606423
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.262440316241964,0.0,-14.573105647415701
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.341585442307178,0.0,-14.949407967977692
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.411884244862904,0.0,-15.328069191121756
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.47424436008032,0.0,-15.708853955524631
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.529478826760851,0.0,-16.09155033914351
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.5783155460749185,0.0,-16.475967519012613
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.621413463197541,0.0,-16.86193382897312
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.659357960725856,0.0,-17.249294601848135
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.692679717180226,0.0,-17.63791071168791
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.72185250919415,0.0,-18.027656859459313
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.74730273584305,0.0,-18.41842027603556
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.768712656472417,0.0,-18.81007938243991
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.785169052518768,0.0,-19.202473568382175
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.795292784753428,0.0,-19.595352773207935
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.798038459196505,0.0,-19.98843427484036
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.792642022171776,0.0,-20.38142625503002
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.778576489243051,0.0,-20.774044586159675
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.755507961063813,0.0,-21.166022846896283
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.723267081731819,0.0,-21.557120732780504
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.6818159603328695,0.0,-21.947127069727088
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.63122228487714,0.0,-22.335861240949953
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.571636267917711,0.0,-22.72317261227488
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.503277310936255,0.0,-23.108941296420824
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.426415033202602,0.0,-23.493075063408725
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.341356025485538,0.0,-23.875506906381446
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.248432152840678,0.0,-24.256192102058463
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.147993705844556,0.0,-24.635106507643627
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -6.040399895120117,0.0,-25.01224299403367
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -5.926647222330303,0.0,-25.38791182823877
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -5.808242676306463,0.0,-25.76266251664663
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -5.68711119576119,0.0,-26.137191194176324
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -5.565516468650003,0.0,-26.512238484155034
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -5.4453277243242155,0.0,-26.88830845784733
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -5.328064847429914,0.0,-27.26572418187729
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -5.214946686643998,0.0,-27.644673248009354
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -5.106926149702531,0.0,-28.025241746404248
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -5.004731323804435,0.0,-28.407442628726017
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -4.90820609403886,0.0,-28.79116380105353
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -4.8164712193502055,0.0,-29.17621623849203
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -4.72807855219753,0.0,-29.562336090336828
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -4.641135706215664,0.0,-29.94915547227191
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -4.553424832246947,0.0,-30.336157601326732
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -4.462510876962369,0.0,-30.722625189313334
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -4.365846314858572,0.0,-31.107590521225262
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -4.26087403575707,0.0,-31.489793453875848
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -4.145122343568573,0.0,-31.86764796581275
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -4.016306339817447,0.0,-32.23922726632745
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -3.872926716330312,0.0,-32.602747762659845
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -3.7141160254166152,0.0,-32.95663332147356
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -3.539932968937819,0.0,-33.300094743544065
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -3.3510765115431695,0.0,-33.63308724289766
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -3.1486964052255644,0.0,-33.95622482959766
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -2.9342736159462675,0.0,-34.270669752718476
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -2.709548086681707,0.0,-34.578006432117064
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -2.476484465263411,0.0,-34.880118329902075
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -2.2372623278138235,0.0,-35.179071213409884
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -1.9942781962190566,0.0,-35.47700066179448
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -1.7496023178068754,0.0,-35.77554293481262
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -1.5050030301165407,0.0,-36.07593395381028
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -1.261400692315874,0.0,-36.37868166990984
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -1.0189728864745575,0.0,-36.68374943697913
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -0.7772845262165902,0.0,-36.99067696035107
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -0.5359770976278924,0.0,-37.299069696523105
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -0.294760430176666,0.0,-37.60859311995483
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -0.05339923880683273,0.0,-37.91896280226484
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 0.1882957825646372,0.0,-38.22993758829742
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 0.43047286255682593,0.0,-38.54131568603128
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 0.6732495558132996,0.0,-38.85292633442276
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 0.9167100045351617,0.0,-39.164631740625026
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 1.1609174607044679,0.0,-39.476316854127674
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 1.405916498040824,0.0,-39.787887243396824
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 1.6517320206678505,0.0,-40.099269604427235
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 1.8983772724941446,0.0,-40.41040492432086
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 2.1458550721529264,0.0,-40.721247135994844
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 2.394158911409022,0.0,-41.031761896242784
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 2.642734376404178,0.0,-41.342368208802355
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 2.890571891489799,0.0,-41.65382382905278
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 3.1362675668485736,0.0,-41.967108771217056
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 3.378667063860121,0.0,-42.28293913481849
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 3.6168387810555487,0.0,-42.60182043745641
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 3.8500458080595763,0.0,-42.924092261541716
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 4.077724495110715,0.0,-43.24996190964933
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 4.2994596708279005,0.0,-43.579534265926014
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 4.514964096537369,0.0,-43.9128349050884
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 4.724058733713491,0.0,-44.24982925511816
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 4.927302884372921,0.0,-44.59018123775988
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 5.125858841282934,0.0,-44.93331524058172
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 5.321341798200592,0.0,-45.278444846220964
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 5.51508256008151,0.0,-45.624879668725015
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 5.708159519129822,0.0,-45.97202528342598
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 5.90144417469719,0.0,-46.319372643608006
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 6.0956312866728695,0.0,-46.66649191944521
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 6.291268880145026,0.0,-47.01302368969172
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 6.488778242324543,0.0,-47.358673830522406
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 6.68847808326791,0.0,-47.70320403908454
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 6.890599453933646,0.0,-48.04642665373066
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 7.095302111686351,0.0,-48.38819734354675
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 7.302688945638465,0.0,-48.728407999936564
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 7.512809392912686,0.0,-49.06698664223896
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 7.725677943430583,0.0,-49.403885899867475
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 7.941275093984814,0.0,-49.73908362094147
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 8.159557372982135,0.0,-50.072576450036024
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 8.38101178618922,0.0,-50.40394468423568
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 8.60652018861083,0.0,-50.73240173100305
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 8.837228317603376,0.0,-51.056821148647884
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 9.073946337638745,0.0,-51.37626336049709
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 9.317215683069207,0.0,-51.6899636757737
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 9.567361199790412,0.0,-51.99732125320594
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 9.824540320948472,0.0,-52.29787871138569
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 10.08837031794269,0.0,-52.59188065605818
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 10.35806400291608,0.0,-52.88014990053952
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 10.632502979596893,0.0,-53.163968017468505
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 10.910717953583571,0.0,-53.44441066979297
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 11.191878007517516,0.0,-53.72237107766799
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 11.47527293563985,0.0,-53.99858967889159
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 11.760296361416522,0.0,-54.273680171370444
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 12.046434870324902,0.0,-54.54814669098798
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 12.333260470125424,0.0,-54.82239621135929
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 12.620413020389606,0.0,-55.096760702529906
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 12.908075438415153,0.0,-55.37099975764153
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 13.196392359858237,0.0,-55.644915072597456
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 13.485471804366625,0.0,-55.91834947865058
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 17.206653212969286,0.0,-47.14425947560386
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 17.49746780290161,0.0,-47.416392856537044
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 17.788743495978224,0.0,-47.68828021720523
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 18.079641099234095,0.0,-47.96079010925678
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 18.36896382320242,0.0,-48.235082277201855
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 18.65570983433281,0.0,-48.5120348218245
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 18.913781237513604,0.0,-48.76129210538181
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 19.146045494223472,0.0,-48.98562365464065
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 19.378449916274576,0.0,-49.21998744193672
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 19.61013869445651,0.0,-49.46396984864796
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! 19.84041369231818,0.0,-49.717120591819054
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved wrongly! 2.959660806506264
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved wrongly! 2.959660806506264
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved wrongly! 2.959660806506264
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved wrongly! 2.959660806506264
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved wrongly! 2.959660806506264
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved wrongly! 2.959660806506264
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved wrongly! 2.959660806506264
+[11:48:13] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved wrongly! 2.959660806506264
+[11:48:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13584ms or 271 ticks behind
+[11:54:38] [User Authenticator #4/INFO]: UUID of player The15Percenter is 0538d89a-fca6-4d1c-b462-b6ed01dcfda5
+[11:54:38] [Server thread/INFO]: The15Percenter[/100.10.51.177:56385] logged in with entity id 8525 at (1221.300000011921, 70.0, 921.1322337540466)
+[11:54:38] [Server thread/INFO]: The15Percenter joined the game
+[11:55:38] [User Authenticator #5/INFO]: UUID of player Murloc_Rampage is b8e5cd4e-3514-452a-b3b4-bccdb689abae
+[11:55:38] [Server thread/INFO]: Murloc_Rampage[/70.172.160.90:62677] logged in with entity id 8906 at (1510.585583145313, 71.0, 1807.3568996817828)
+[11:55:38] [Server thread/INFO]: Murloc_Rampage joined the game
+[11:57:27] [Server thread/INFO]: Brew_Bone has made the advancement [Acquire Hardware]
+[11:57:45] [Server thread/INFO]: Brew_Bone was shot by Skeleton
+[11:58:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[12:01:35] [Server thread/INFO]: Murloc_Rampage has made the advancement [Ice Bucket Challenge]
+[12:03:19] [Server thread/WARN]: Brew_Bone moved too quickly! 6.921259874999578,-1.127890238205481,-7.4925713700374
+[12:03:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2066ms or 41 ticks behind
+[12:03:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2826ms or 56 ticks behind
+[12:04:50] [Server thread/INFO]: Brew_Bone has made the advancement [Isn't It Iron Pick]
+[12:12:12] [Server thread/INFO]: Brew_Bone has made the advancement [Not Today, Thank You]
+[12:12:45] [Server thread/INFO]: Brew_Bone was slain by Zombie
+[12:14:45] [Server thread/INFO]: Brew_Bone fell out of the world
+[12:20:02] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/22252, l='ServerLevel[world]', x=155.10, y=128.00, z=128.02]
+[12:21:19] [Server thread/INFO]: The15Percenter fell from a high place
+[12:21:58] [Server thread/INFO]: Brew_Bone fell out of the world
+[12:22:48] [Server thread/WARN]: The15Percenter moved too quickly! -15.074671701932857,36.87720334025373,-34.581962376604
+[12:22:50] [Server thread/INFO]: Brew_Bone was shot by Skeleton
+[12:23:52] [Server thread/INFO]: Brew_Bone fell from a high place
+[12:23:56] [Server thread/INFO]: Brew_Bone fell from a high place
+[12:23:59] [Server thread/INFO]: Brew_Bone fell from a high place
+[12:28:03] [Server thread/WARN]: Brew_Bone moved too quickly! -3512.416407511275,13.0,-2896.8978767006715
+[12:28:03] [Server thread/WARN]: Brew_Bone moved too quickly! -3512.416407511275,13.0,-2896.8978767006715
+[12:29:19] [Server thread/WARN]: Fetching packet for removed entity bbg['Sea Pickle'/26195, l='ServerLevel[world]', x=1180.78, y=62.21, z=859.32]
+[12:32:44] [Server thread/WARN]: Brew_Bone moved too quickly! 3285.163358701322,-5.9375,2983.0375937502986
+[12:34:17] [Server thread/WARN]: Brew_Bone moved too quickly! -1127.4763683910967,38.0,-776.1999999880791
+[12:35:12] [Server thread/INFO]: Brew_Bone fell from a high place
+[12:37:09] [Server thread/WARN]: Brew_Bone moved too quickly! -203.5488742316752,-7.9375,-39.50922591323638
+[12:37:49] [Server thread/INFO]: Brew_Bone drowned
+[12:39:26] [Server thread/INFO]: Brew_Bone fell from a high place
+[12:39:29] [Server thread/WARN]: Brew_Bone moved too quickly! -1012.9257783875676,31.0,-803.4597272503274
+[12:39:49] [Server thread/WARN]: Brew_Bone moved too quickly! 1017.1616314903938,-7.0,766.960012066291
+[12:40:20] [Server thread/INFO]: Brew_Bone lost connection: Disconnected
+[12:40:20] [Server thread/INFO]: Brew_Bone left the game
+[12:44:00] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1207, y=64, z=929} fu{x=1206, y=63, z=930}
+[12:44:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@c0fcd3f[id=<null>,name=Brew_Bone,properties={},legacy=false] (/192.168.1.1:64978) lost connection: Disconnected
+[12:44:15] [User Authenticator #6/INFO]: UUID of player Brew_Bone is e3006ffe-2439-4525-987d-23c6336b34ae
+[12:44:15] [Server thread/INFO]: Brew_Bone[/192.168.1.1:64979] logged in with entity id 34635 at (1203.699999988079, 61.0, 881.6999999880791)
+[12:44:15] [Server thread/INFO]: Brew_Bone joined the game
+[12:44:59] [Server thread/INFO]: CrazM13 has made the advancement [Hot Stuff]
+[12:49:34] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1206, y=64, z=930} fu{x=1206, y=63, z=930}
+[12:50:10] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1207, y=64, z=930} fu{x=1206, y=63, z=930}
+[12:51:17] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1207, y=64, z=930} fu{x=1207, y=63, z=930}
+[12:52:32] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1207, y=64, z=930} fu{x=1206, y=63, z=930}
+[12:52:39] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1206, y=64, z=930} fu{x=1207, y=64, z=929}
+[12:53:13] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1206, y=64, z=930} fu{x=1206, y=63, z=930}
+[12:53:21] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1206, y=64, z=930} fu{x=1206, y=63, z=930}
+[12:53:29] [Server thread/INFO]: Brew_Bone fell from a high place
+[12:53:50] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1206, y=64, z=930} fu{x=1206, y=63, z=930}
+[12:53:58] [Server thread/INFO]: Brew_Bone was slain by Zombified Piglin
+[12:53:58] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1206, y=64, z=930} fu{x=1206, y=63, z=930}
+[12:56:27] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1207, y=64, z=929} fu{x=1206, y=63, z=930}
+[12:56:43] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1207, y=64, z=930} fu{x=1206, y=63, z=930}
+[12:57:15] [Server thread/INFO]: Brew_Bone fell from a high place
+[12:58:07] [Server thread/INFO]: <CrazM13> jgv jv j
+[12:58:40] [Server thread/INFO]: Brew_Bone drowned
+[12:59:13] [Server thread/INFO]: CrazM13 fell from a high place
+[12:59:45] [Server thread/INFO]: <Murloc_Rampage> X: 1589 Y: 70 Z: 1851
+[13:00:10] [Server thread/INFO]: Brew_Bone fell from a high place
+[13:00:53] [Server thread/INFO]: Brew_Bone was slain by Polar Bear
+[13:00:54] [Server thread/INFO]: <Murloc_Rampage> X: 198 Y:9 Z:231
+[13:02:40] [Server thread/INFO]: <The15Percenter> dats my bitch no touch
+[13:03:01] [Server thread/INFO]: Chimi_Wacha lost connection: Disconnected
+[13:03:01] [Server thread/INFO]: Chimi_Wacha left the game
+[13:03:15] [Server thread/INFO]: Brew_Bone fell from a high place
+[13:03:25] [Server thread/INFO]: Brew_Bone fell from a high place
+[13:03:35] [Server thread/INFO]: Brew_Bone fell from a high place
+[13:03:42] [Server thread/INFO]: Brew_Bone lost connection: Disconnected
+[13:03:42] [Server thread/INFO]: Brew_Bone left the game
+[13:17:30] [Server thread/INFO]: CrazM13 was slain by Enderman
+[13:18:22] [Server thread/WARN]: The15Percenter moved too quickly! 8.169422620342402,0.0,7.198475556358744
+[13:22:32] [Server thread/WARN]: Boat (vehicle of The15Percenter) moved wrongly! 0.3033110451765424
+[13:24:10] [Server thread/WARN]: Boat (vehicle of The15Percenter) moved wrongly! 0.28189975629925357
+[13:40:37] [Server thread/INFO]: Villager bdp['Leatherworker'/56613, l='ServerLevel[world]', x=1584.07, y=53.00, z=1795.70] died, message: 'Leatherworker hit the ground too hard'
+[13:41:22] [Server thread/INFO]: Villager bdp['Villager'/56625, l='ServerLevel[world]', x=1550.70, y=65.00, z=1828.70] died, message: 'Villager was slain by Zombie'
+[13:49:08] [Server thread/INFO]: <CrazM13> 154 95
+[13:51:34] [Server thread/INFO]: CrazM13 has completed the challenge [Hot Tourist Destinations]
+[14:21:18] [Server thread/INFO]: The15Percenter fell from a high place
+[14:24:11] [Server thread/WARN]: The15Percenter moved too quickly! -0.39370310802132735,116.0,4.630304163035959
+[14:25:15] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=161, y=204, z=-231} fu{x=161, y=203, z=-231}
+[14:28:34] [Server thread/WARN]: The15Percenter moved too quickly! -3.9266640445924565,-116.5,-3.5742232062629853
+[14:38:22] [Server thread/WARN]: CrazM13 moved too quickly! -0.009991956850171846,-10.552241243705605,-0.03970819385392588
+[15:10:37] [Server thread/INFO]: Villager bdp['Villager'/56612, l='ServerLevel[world]', x=1543.25, y=71.00, z=1859.62] died, message: 'Villager hit the ground too hard'
+[15:29:26] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1139, y=63, z=884} fu{x=1139, y=62, z=884}
+[15:47:35] [Server thread/INFO]: The15Percenter fell from a high place
+[15:48:27] [Server thread/WARN]: The15Percenter moved too quickly! 7.124201388818847,34.9375,-30.290352634704277
+[15:58:24] [Server thread/WARN]: Murloc_Rampage moved wrongly!
+[15:59:26] [Server thread/INFO]: The15Percenter lost connection: Disconnected
+[15:59:26] [Server thread/INFO]: The15Percenter left the game
+[15:59:28] [User Authenticator #7/INFO]: UUID of player The15Percenter is 0538d89a-fca6-4d1c-b462-b6ed01dcfda5
+[15:59:29] [Server thread/INFO]: The15Percenter[/100.10.51.177:60253] logged in with entity id 117423 at (157.38966255534245, 128.0, 113.59423305648023)
+[15:59:29] [Server thread/INFO]: The15Percenter joined the game
+[16:07:48] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=161, y=188, z=-232} fu{x=161, y=187, z=-232}
+[16:15:40] [Server thread/WARN]: The15Percenter moved too quickly! -0.8026229235984204,-0.44999998807907104,262.46976796517646
+[16:18:32] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[16:18:32] [Server thread/INFO]: CrazM13 left the game
+[16:19:54] [Server thread/INFO]: Villager bdp['Villager'/56615, l='ServerLevel[world]', x=1527.30, y=73.00, z=1795.50] died, message: 'Villager was slain by Zombie'
+[16:20:17] [User Authenticator #8/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[16:20:17] [Server thread/INFO]: CrazM13[/70.188.147.193:57248] logged in with entity id 124026 at (151.83957379770067, 128.0, 97.85903350016689)
+[16:20:17] [Server thread/INFO]: CrazM13 joined the game
+[16:37:55] [Server thread/INFO]: CrazM13 fell from a high place
+[17:17:53] [Server thread/INFO]: Villager bdp['Mason'/56611, l='ServerLevel[world]', x=1552.30, y=66.36, z=1851.50] died, message: 'Mason was slain by Zombie'
+[17:20:56] [Server thread/INFO]: The15Percenter has made the advancement [Who is Cutting Onions?]
+[17:24:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=187, y=36, z=85} fu{x=187, y=35, z=83}
+[17:24:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=187, y=36, z=85} fu{x=187, y=35, z=83}
+[17:24:50] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=199, y=36, z=90} fu{x=197, y=35, z=89}
+[17:24:50] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=199, y=36, z=90} fu{x=197, y=35, z=89}
+[17:24:50] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=199, y=36, z=90} fu{x=197, y=35, z=89}
+[17:24:50] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=199, y=36, z=90} fu{x=197, y=35, z=89}
+[17:24:50] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=199, y=36, z=90} fu{x=197, y=35, z=89}
+[17:24:50] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=199, y=36, z=90} fu{x=197, y=35, z=89}
+[17:24:50] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=199, y=36, z=90} fu{x=197, y=35, z=89}
+[17:24:50] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=199, y=36, z=90} fu{x=197, y=35, z=89}
+[17:25:06] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=199, y=36, z=90} fu{x=201, y=32, z=81}
+[17:25:06] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=199, y=36, z=90} fu{x=201, y=32, z=81}
+[17:25:06] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=199, y=36, z=90} fu{x=201, y=32, z=81}
+[17:25:06] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=199, y=36, z=90} fu{x=201, y=32, z=81}
+[17:25:06] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=199, y=36, z=90} fu{x=201, y=32, z=81}
+[17:25:06] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=199, y=36, z=90} fu{x=201, y=32, z=81}
+[17:25:06] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=199, y=36, z=90} fu{x=201, y=32, z=81}
+[17:25:57] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=204, y=35, z=80} fu{x=205, y=34, z=80}
+[17:25:57] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=204, y=35, z=80} fu{x=205, y=34, z=80}
+[17:25:57] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=204, y=35, z=80} fu{x=205, y=34, z=80}
+[17:25:57] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=204, y=35, z=80} fu{x=205, y=34, z=80}
+[17:25:57] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=204, y=35, z=80} fu{x=205, y=34, z=80}
+[17:56:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[17:57:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6743ms or 134 ticks behind
+[18:03:42] [User Authenticator #9/INFO]: UUID of player Chimi_Wacha is 70b91697-5476-4632-a3c3-5c8d449d7cd8
+[18:03:43] [Server thread/INFO]: Chimi_Wacha[/127.0.0.1:55620] logged in with entity id 168733 at (1197.2705237565035, 64.5625, 842.5314669361043)
+[18:03:43] [Server thread/INFO]: Chimi_Wacha joined the game
+[18:03:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2100ms or 42 ticks behind
+[18:05:25] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1200, y=64, z=858} fu{x=1143, y=65, z=899}
+[18:06:52] [Server thread/INFO]: CrazM13 fell from a high place
+[18:06:53] [Server thread/WARN]: Fetching packet for removed entity bbg['Rotten Flesh'/170348, l='ServerLevel[world]', x=156.01, y=129.33, z=129.55]
+[18:12:22] [Server thread/INFO]: Villager bdp['Nitwit'/56666, l='ServerLevel[world]', x=1504.41, y=67.00, z=1761.46] died, message: 'Nitwit was burnt to a crisp whilst fighting Zombie'
+[18:18:10] [Server thread/INFO]: <Chimi_Wacha> 1. Cow
+[18:18:18] [Server thread/INFO]: <Chimi_Wacha> 2. Pigs
+[18:18:26] [Server thread/INFO]: <Chimi_Wacha> 3. Chicken/Ducks
+[18:18:37] [Server thread/INFO]: <Chimi_Wacha> 4. Sheep
+[18:18:44] [Server thread/INFO]: <Chimi_Wacha> 5. Horses
+[18:19:08] [Server thread/INFO]: <Chimi_Wacha> 6. Donkeys/Mules
+[18:19:13] [Server thread/INFO]: <The15Percenter> 7. Villagers
+[18:19:17] [Server thread/INFO]: <Chimi_Wacha> 7. Llamas
+[18:19:34] [Server thread/INFO]: <Chimi_Wacha> 8. Bears
+[18:38:37] [Server thread/INFO]: CrazM13 was slain by Gim
+[18:39:46] [Server thread/INFO]: Chimi_Wacha was shot by Pillager
+[18:40:39] [Server thread/INFO]: The15Percenter was shot by Pillager
+[18:41:58] [Server thread/INFO]: Chimi_Wacha was shot by Pillager
+[18:44:33] [Server thread/INFO]: Chimi_Wacha has made the advancement [Voluntary Exile]
+[18:58:49] [Server thread/INFO]: Chimi_Wacha lost connection: Disconnected
+[18:58:49] [Server thread/INFO]: Chimi_Wacha left the game
+[19:07:24] [Server thread/INFO]: The15Percenter has made the advancement [Oh Shiny]
+[19:09:38] [Server thread/INFO]: CrazM13 fell off some twisting vines
+[19:14:03] [User Authenticator #10/INFO]: UUID of player Chimi_Wacha is 70b91697-5476-4632-a3c3-5c8d449d7cd8
+[19:14:03] [Server thread/INFO]: Chimi_Wacha[/127.0.0.1:55975] logged in with entity id 202253 at (1294.4282867419115, 69.0, 909.5295319145624)
+[19:14:03] [Server thread/INFO]: Chimi_Wacha joined the game
+[19:19:05] [Server thread/INFO]: Chimi_Wacha was blown up by Creeper
+[19:25:45] [Server thread/INFO]: Villager bdp['Villager'/186242, l='ServerLevel[world]', x=232.49, y=33.00, z=108.89] died, message: 'Villager hit the ground too hard'
+[19:48:36] [Server thread/WARN]: The15Percenter moved too quickly! -0.24544755145825548,-4.123444680071103,-9.307968610779653
+[19:48:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3597ms or 71 ticks behind
+[19:58:38] [Server thread/WARN]: The15Percenter moved too quickly! 7.388192893205314,0.0,7.136957483885794
+[19:58:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[19:59:01] [Server thread/WARN]: The15Percenter moved too quickly! 0.7126878146295894,0.0,10.822604241376212
+[20:03:10] [Server thread/INFO]: Villager bdp['Villager'/56623, l='ServerLevel[world]', x=1528.35, y=72.00, z=1817.55] died, message: 'Villager was slain by Zombie'
+[20:03:50] [Server thread/INFO]: Villager bdp['Villager'/106098, l='ServerLevel[world]', x=1542.51, y=67.00, z=1847.70] died, message: 'Villager was slain by Zombie'
+[20:05:47] [Server thread/WARN]: Fetching packet for removed entity bbg['Stick'/230325, l='ServerLevel[world]', x=1214.13, y=90.00, z=832.21]
+[20:32:14] [Server thread/INFO]: <CrazM13> wttwtwtfafa,g
+[20:32:23] [Server thread/INFO]: <CrazM13> s sxtfsdaz
+[20:32:31] [Server thread/INFO]: <CrazM13> cccc..wsD
+[20:32:41] [Server thread/INFO]: <The15Percenter> you having da stroke mate?
+[20:33:06] [Server thread/INFO]: <CrazM13> ddad
+[20:33:13] [Server thread/INFO]: CrazM13 fell from a high place
+[20:42:26] [Server thread/INFO]: CrazM13 hit the ground too hard
+[20:50:03] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 907fc4c2-4109-42b5-acef-e4acd2483de2
+[20:56:00] [Server thread/INFO]: The15Percenter fell from a high place
+[20:56:42] [Server thread/INFO]: The15Percenter was slain by Slime
+[20:59:10] [Server thread/INFO]: Villager bdp['Villager'/56603, l='ServerLevel[world]', x=1589.51, y=48.00, z=1792.20] died, message: 'Villager was slain by Zombie'
+[21:00:26] [Server thread/INFO]: The15Percenter was burnt to a crisp whilst fighting Zombie
+[21:09:14] [Server thread/WARN]: Fetching packet for removed entity bbg['Andesite'/254034, l='ServerLevel[world]', x=1173.17, y=17.03, z=885.88]
+[21:10:30] [Server thread/WARN]: The15Percenter moved too quickly! 65.57520609385665,-1.0,-8.322849069054428
+[21:20:36] [Server thread/INFO]: The15Percenter was slain by Magma Cube
+[21:22:23] [Server thread/INFO]: The15Percenter burned to death
+[21:22:44] [Server thread/INFO]: Chimi_Wacha burned to death
+[21:30:28] [Server thread/WARN]: Fetching packet for removed entity bbg['Cobblestone'/261438, l='ServerLevel[world]', x=1203.56, y=61.11, z=881.12]
+[21:36:12] [Server thread/WARN]: Horse (vehicle of The15Percenter) moved wrongly! 0.37346066838824754
+[21:47:17] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[21:47:17] [Server thread/INFO]: CrazM13 left the game
+[21:48:30] [Server thread/INFO]: Murloc_Rampage has made the advancement [Cover Me With Diamonds]
+[21:51:52] [Server thread/INFO]: com.mojang.authlib.GameProfile@20bf23a1[id=<null>,name=CrazM13,properties={},legacy=false] (/70.188.147.193:59909) lost connection: Disconnected
+[21:51:54] [Server thread/INFO]: com.mojang.authlib.GameProfile@71f7a5b0[id=<null>,name=CrazM13,properties={},legacy=false] (/70.188.147.193:59911) lost connection: Disconnected
+[21:53:22] [Server thread/WARN]: The15Percenter moved too quickly! 260.78872767363964,5.200000047683716,898.547282234308
+[21:53:33] [Server thread/WARN]: The15Percenter moved too quickly! -320.3687902366639,-14.878703159460798,-932.1515996218726
+[21:54:31] [Server thread/INFO]: Chimi_Wacha fell from a high place
+[21:54:41] [User Authenticator #11/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[21:54:41] [Server thread/INFO]: CrazM13[/70.188.147.193:59999] logged in with entity id 270285 at (1193.8307395839913, 64.0, 863.9040823766117)
+[21:54:41] [Server thread/INFO]: CrazM13 joined the game
+[21:56:51] [Server thread/INFO]: CrazM13 fell from a high place
+[22:14:48] [Server thread/INFO]: The15Percenter fell from a high place
+[22:17:50] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[22:17:50] [Server thread/INFO]: CrazM13 left the game
+[22:34:08] [Server thread/INFO]: The15Percenter lost connection: Disconnected
+[22:34:08] [Server thread/INFO]: The15Percenter left the game
+[22:39:41] [Server thread/INFO]: Chimi_Wacha lost connection: Disconnected
+[22:39:41] [Server thread/INFO]: Chimi_Wacha left the game
+[22:39:48] [Server thread/INFO]: Murloc_Rampage lost connection: Disconnected
+[22:39:48] [Server thread/INFO]: Murloc_Rampage left the game
+[22:39:52] [Server thread/INFO]: Stopping the server
+[22:39:52] [Server thread/INFO]: Stopping server
+[22:39:53] [Server thread/INFO]: Saving players
+[22:39:53] [Server thread/INFO]: Saving worlds
+[22:39:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:39:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:39:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:39:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:39:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:39:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:39:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:39:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:39:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
