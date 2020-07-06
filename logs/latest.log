@@ -1,23 +1,22 @@
-[09:16:10] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[09:16:13] [main/INFO]: Found new data pack file/AutoLighting, loading it automatically
-[09:16:14] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[09:16:14] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:16:14] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:16:14] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[09:16:14] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:16:14] [main/INFO]: Reloading ResourceManager: Default, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks, VanillaTweaks_c257530.zip, player head drops v1.0.0.zip, villager death messages v1.1.0.zip, AutoLighting
-[09:16:17] [Worker-Main-6/INFO]: Loaded 7 recipes
-[09:16:17] [Worker-Main-6/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[09:16:17] [Worker-Main-6/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
-[09:16:17] [Worker-Main-6/INFO]: Loaded 1028 advancements
-[09:16:32] [Server thread/INFO]: Starting minecraft server version 1.16.1
-[09:16:32] [Server thread/INFO]: Loading properties
-[09:16:32] [Server thread/INFO]: Default game type: SURVIVAL
-[09:16:32] [Server thread/INFO]: Generating keypair
-[09:16:32] [Server console handler/ERROR]: Exception handling console input
+[13:40:11] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[13:40:14] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:40:14] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:40:14] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:40:14] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:40:14] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:40:14] [main/INFO]: Reloading ResourceManager: Default, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks, VanillaTweaks_c257530.zip, player head drops v1.0.0.zip, villager death messages v1.1.0.zip
+[13:40:24] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[13:40:24] [main/FATAL]: Failed to start the minecraft server
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:68) ~[?:?][13:40:38] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[13:40:38] [Server thread/INFO]: Loading properties
+[13:40:38] [Server thread/INFO]: Default game type: SURVIVAL
+[13:40:38] [Server thread/INFO]: Generating keypair
+[13:40:38] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:273) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:280) ~[?:?]
 	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
 	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
 	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
@@ -28,82 +27,413 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
 	at yd$1.run(SourceFile:90) [server.jar:?]
-[09:16:33] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:16:33] [Server thread/INFO]: Using default channel type
-[09:16:37] [Server thread/INFO]: Preparing level "world"
-[09:16:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:46] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:47] [Server thread/INFO]: Preparing spawn area: 0%
-[09:16:47] [Server thread/INFO]: Time elapsed: 9814 ms
-[09:16:47] [Server thread/INFO]: Done (10.022s)! For help, type "help"
-[09:20:27] [User Authenticator #1/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
-[09:20:28] [Server thread/INFO]: CrazM13[/127.0.0.1:60838] logged in with entity id 15 at (1194.4134329458418, 64.0, 869.3250075359971)
-[09:20:28] [Server thread/INFO]: CrazM13 joined the game
-[09:20:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6311ms or 126 ticks behind
-[09:20:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2278ms or 45 ticks behind
-[09:21:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
-[09:24:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2641ms or 52 ticks behind
-[09:33:15] [Server thread/INFO]: CrazM13 hit the ground too hard
-[09:34:53] [Server thread/INFO]: CrazM13 was slain by Zombie
-[09:35:21] [Server thread/WARN]: CrazM13 moved too quickly! 995.2265269732661,0.0,775.0681054141763
-[09:37:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6022ms or 120 ticks behind
-[09:45:19] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[09:45:20] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:45:20] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:45:20] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[09:45:20] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:45:20] [Server thread/INFO]: Reloading ResourceManager: Default, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks, VanillaTweaks_c257530.zip, player head drops v1.0.0.zip, villager death messages v1.1.0.zip, AutoLighting
-[09:45:20] [Server thread/INFO]: Loaded 7 recipes
-[09:45:21] [Server thread/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[09:45:21] [Server thread/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
-[09:45:21] [Server thread/INFO]: Loaded 1028 advancements
-[09:45:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2263ms or 45 ticks behind
-[09:53:26] [Server thread/INFO]: CrazM13 was killed by Witch using magic
-[10:02:37] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/8971, l='ServerLevel[world]', x=1289.94, y=69.00, z=927.63]
-[10:02:55] [Server thread/INFO]: Villager bdp['Fletcher'/5254, l='ServerLevel[world]', x=1142.30, y=62.91, z=890.70] died, message: 'Fletcher was slain by Zombie'
-[10:07:10] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:07:10] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10:07:10] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10:07:10] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:07:10] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10:07:10] [Server thread/INFO]: Reloading ResourceManager: Default, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks, VanillaTweaks_c257530.zip, player head drops v1.0.0.zip, villager death messages v1.1.0.zip
-[10:07:11] [Server thread/INFO]: Loaded 7 recipes
-[10:07:11] [Server thread/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[10:07:11] [Server thread/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
-[10:07:11] [Server thread/INFO]: Loaded 1028 advancements
-[10:33:40] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 8b2ac36a-0dcb-446a-9624-07bf8945bad4
-[10:44:42] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/15032, l='ServerLevel[world]', x=1285.78, y=69.00, z=923.46]
-[10:46:48] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/15464, l='ServerLevel[world]', x=1285.72, y=69.00, z=922.94]
-[11:08:56] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 4a526982-fab5-4738-b345-00a7a12ac821
-[11:21:32] [Server thread/INFO]: CrazM13 lost connection: Disconnected
-[11:21:32] [Server thread/INFO]: CrazM13 left the game
-[11:21:55] [Server thread/INFO]: Stopping the server
-[11:21:55] [Server thread/INFO]: Stopping server
-[11:21:55] [Server thread/INFO]: Saving players
-[11:21:55] [Server thread/INFO]: Saving worlds
-[11:21:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[11:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[11:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:21:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:21:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:21:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:40:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:40:38] [Server thread/INFO]: Using default channel type
+[13:40:39] [Server thread/INFO]: Preparing level "world"
+[13:40:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:40:42] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:42] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:42] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:42] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:42] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:42] [Server thread/INFO]: Preparing spawn area: 0%
+[13:40:43] [Server thread/INFO]: Time elapsed: 3895 ms
+[13:40:43] [Server thread/INFO]: Done (4.041s)! For help, type "help"
+[13:40:57] [User Authenticator #1/INFO]: UUID of player The15Percenter is 0538d89a-fca6-4d1c-b462-b6ed01dcfda5
+[13:40:57] [Server thread/INFO]: The15Percenter[/100.10.51.177:51886] logged in with entity id 15 at (1994.9473667269858, 73.0, 1650.4401471992599)
+[13:40:57] [Server thread/INFO]: The15Percenter joined the game
+[13:41:02] [User Authenticator #2/INFO]: UUID of player Murloc_Rampage is b8e5cd4e-3514-452a-b3b4-bccdb689abae
+[13:41:02] [Server thread/ERROR]: Couldn't parse player advancements in .\world\advancements\b8e5cd4e-3514-452a-b3b4-bccdb689abae.json
+com.google.gson.JsonSyntaxException: java.io.EOFException: End of input at line 329 column 2 path $.minecraft:recipes/decorations/iron_bars.criteria.
+	at com.google.gson.internal.Streams.parse(Streams.java:58) ~[server.jar:?]
+	at uq.d(SourceFile:138) ~[server.jar:?]
+	at uq.<init>(SourceFile:82) ~[server.jar:?]
+	at abp.f(SourceFile:828) ~[server.jar:?]
+	at ze.<init>(SourceFile:182) ~[server.jar:?]
+	at abp.g(SourceFile:458) ~[server.jar:?]
+	at zx.c(SourceFile:111) ~[server.jar:?]
+	at zx.b(SourceFile:63) ~[server.jar:?]
+	at me.a(SourceFile:229) ~[server.jar:?]
+	at zu.c(SourceFile:170) ~[server.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:884) ~[server.jar:?]
+	at yd.b(SourceFile:306) ~[server.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:813) ~[server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:672) ~[server.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:256) ~[server.jar:?]
+	at java.lang.Thread.run(Thread.java:844) [?:?]
+Caused by: java.io.EOFException: End of input at line 329 column 2 path $.minecraft:recipes/decorations/iron_bars.criteria.
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1393) ~[server.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:494) ~[server.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[server.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:738) ~[server.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[server.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[server.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[server.jar:?]
+	at com.google.gson.internal.Streams.parse(Streams.java:48) ~[server.jar:?]
+	... 15 more
+[13:41:02] [Server thread/INFO]: Murloc_Rampage[/70.172.160.90:60413] logged in with entity id 152 at (1570.1248072760002, 68.9375, 1779.4858318512136)
+[13:41:02] [Server thread/INFO]: Murloc_Rampage joined the game
+[13:41:03] [Server thread/INFO]: Murloc_Rampage has made the advancement [Suit Up]
+[13:41:03] [Server thread/INFO]: Murloc_Rampage has made the advancement [Isn't It Iron Pick]
+[13:41:03] [Server thread/INFO]: Murloc_Rampage has made the advancement [Stone Age]
+[13:41:03] [Server thread/INFO]: Murloc_Rampage has made the advancement [Getting an Upgrade]
+[13:41:03] [Server thread/INFO]: Murloc_Rampage has made the advancement [Acquire Hardware]
+[13:41:04] [User Authenticator #3/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[13:41:04] [Server thread/INFO]: CrazM13[/70.188.147.193:62091] logged in with entity id 230 at (1158.6904941986732, 8.5, 964.3000000119209)
+[13:41:04] [Server thread/INFO]: CrazM13 joined the game
+[13:41:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2054ms or 41 ticks behind
+[13:42:00] [Server thread/INFO]: Murloc_Rampage has made the advancement [A Seedy Place]
+[13:42:56] [Server thread/INFO]: Murloc_Rampage has made the advancement [Sweet Dreams]
+[13:43:22] [Server thread/INFO]: Murloc_Rampage has made the advancement [The Parrots and the Bats]
+[13:44:43] [Server thread/WARN]: Horse (vehicle of The15Percenter) moved wrongly! 0.38270928229917445
+[13:44:43] [Server thread/WARN]: Horse (vehicle of The15Percenter) moved wrongly! 0.35866736438356384
+[13:44:43] [Server thread/WARN]: Horse (vehicle of The15Percenter) moved wrongly! 0.3904736986489752
+[13:47:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[13:48:48] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 946daf77-787c-4d13-b329-043b9ae0446c
+[13:50:14] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 154587bc-30f4-4636-b0ca-13f46cc53691
+[13:55:33] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID a66938e2-7864-4d31-8f0f-cb8a3bf4dc82
+[13:59:00] [Server thread/INFO]: Murloc_Rampage has made the advancement [What a Deal!]
+[14:09:00] [Server thread/INFO]: Murloc_Rampage has made the advancement [Fishy Business]
+[14:13:35] [Server thread/INFO]: Murloc_Rampage has made the advancement [Best Friends Forever]
+[14:17:23] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 21f81f7e-4c9d-4bdb-8386-f74f8f8fc921
+[14:17:51] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID f8d24261-10c1-49f5-aed2-de11af418cbe
+[14:30:42] [Server thread/INFO]: Murloc_Rampage has made the advancement [We Need to Go Deeper]
+[14:49:05] [Server thread/INFO]: Murloc_Rampage was slain by Zombie
+[14:49:15] [Server thread/INFO]: <CrazM13> RIP
+[14:52:34] [Server thread/WARN]: The15Percenter moved too quickly! -299.5839746823301,3.394064326123484,-781.7201234788821
+[15:01:31] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 65b60bf1-16c9-4338-ba98-7678472b6a10
+[15:01:52] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 8c6e030e-3eca-4ed3-969d-65e7dab87698
+[15:07:06] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/36409, l='ServerLevel[world]', x=1285.69, y=69.00, z=926.24]
+[15:10:04] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID a1efde81-36b2-4c46-88fc-9744b8de570f
+[15:15:23] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 5ebb04dd-0e58-4fe4-b1d4-0a5f291524ef
+[15:26:55] [Server thread/INFO]: CrazM13 has made the advancement [Cover Me With Diamonds]
+[15:33:29] [Server thread/INFO]: Murloc_Rampage has made the advancement [Hidden in the Depths]
+[15:35:51] [Server thread/INFO]: Villager bdp['Villager'/47230, l='ServerLevel[world]', x=138.85, y=127.90, z=127.79] died, message: 'Villager was slain by CrazM13 using [Praedam]'
+[15:57:59] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=488, y=96, z=-43} fu{x=489, y=97, z=-42}
+[15:58:18] [Server thread/INFO]: CrazM13 was slain by Hoglin
+[16:02:13] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/57054, l='ServerLevel[world]', x=1286.04, y=69.00, z=927.48]
+[16:02:13] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/57054, l='ServerLevel[world]', x=1286.04, y=69.00, z=927.48]
+[16:09:36] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID bdfc9af4-68be-48cd-aafb-52407c279325
+[16:09:50] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 4362dcc0-5101-4f4d-8a33-9d9d9ee058de
+[16:28:19] [Server thread/WARN]: The15Percenter moved too quickly! -327.0926101818577,-5.309300019478798,-15.421620403635757
+[16:39:46] [Server thread/INFO]: CrazM13 has made the advancement [Those Were the Days]
+[16:42:37] [Server thread/INFO]: <CrazM13> 43 -101
+[16:46:28] [Server thread/INFO]: CrazM13 has made the advancement [A Terrible Fortress]
+[16:47:38] [Server thread/INFO]: CrazM13 burned to death
+[16:50:37] [Server thread/INFO]: CrazM13 has made the advancement [Into Fire]
+[16:56:59] [Server thread/INFO]: Murloc_Rampage has made the advancement [Monster Hunter]
+[17:02:00] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/80784, l='ServerLevel[world]', x=1286.24, y=69.00, z=928.17]
+[17:02:00] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/80784, l='ServerLevel[world]', x=1286.24, y=69.00, z=928.17]
+[17:10:26] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/83735, l='ServerLevel[world]', x=1289.67, y=69.00, z=928.17]
+[17:10:26] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/83735, l='ServerLevel[world]', x=1289.67, y=69.00, z=928.17]
+[17:36:25] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/92962, l='ServerLevel[world]', x=1284.83, y=69.00, z=928.17]
+[17:40:00] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[17:40:00] [Server thread/INFO]: CrazM13 left the game
+[17:41:22] [User Authenticator #4/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[17:41:22] [Server thread/INFO]: CrazM13[/70.188.147.193:63738] logged in with entity id 94737 at (5.497866020374909, 67.0, -99.10014087782962)
+[17:41:22] [Server thread/INFO]: CrazM13 joined the game
+[17:50:17] [Server thread/INFO]: <CrazM13> 603 27
+[18:03:44] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/103620, l='ServerLevel[world]', x=1284.83, y=69.00, z=926.59]
+[18:05:10] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/104117, l='ServerLevel[world]', x=1287.71, y=69.00, z=927.04]
+[18:06:11] [Server thread/INFO]: Murloc_Rampage has made the advancement [Diamonds!]
+[18:10:18] [Server thread/INFO]: CrazM13 withered away whilst fighting Wither Skeleton
+[18:13:07] [Server thread/INFO]: CrazM13 was slain by Wither Skeleton
+[18:13:11] [Server thread/WARN]: CrazM13 moved too quickly! 1281.021153536186,4.0625,821.2530331359981
+[18:15:49] [Server thread/INFO]: CrazM13 withered away
+[18:17:27] [Server thread/WARN]: CrazM13 moved too quickly! 13.795132777238393,0.0,0.37609123570550196
+[18:17:27] [Server thread/WARN]: CrazM13 moved too quickly! 12.002215627757835,0.0,0.3272116462768082
+[18:24:11] [User Authenticator #5/INFO]: UUID of player Brew_Bone is e3006ffe-2439-4525-987d-23c6336b34ae
+[18:24:11] [Server thread/INFO]: Brew_Bone[/192.168.1.1:56575] logged in with entity id 113933 at (1179.5, 66.0000002, 882.5)
+[18:24:11] [Server thread/INFO]: Brew_Bone joined the game
+[18:25:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2403ms or 48 ticks behind
+[18:25:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14763ms or 295 ticks behind
+[18:30:13] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/117311, l='ServerLevel[world]', x=1286.08, y=69.00, z=922.96]
+[18:36:58] [Server thread/INFO]: Brew_Bone fell from a high place
+[18:38:16] [Server thread/INFO]: The15Percenter has made the advancement [Spooky Scary Skeleton]
+[18:38:58] [Server thread/INFO]: The15Percenter fell from a high place
+[18:44:52] [Server thread/INFO]: The15Percenter has made the advancement [A Terrible Fortress]
+[18:46:06] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -2.360116228597235,-10.199999772012234,-2.603711746229692
+[18:46:06] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -2.4299558207603695,-11.199999749660492,-2.680759717115052
+[18:46:06] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -2.492811452042133,-12.23999972641468,-2.750102889074924
+[18:46:06] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -2.549381518697146,-13.3199997022748,-2.8125117421855066
+[18:46:06] [Server thread/WARN]: Boat (vehicle of Brew_Bone) moved too quickly! -2.6002945773377633,-14.439999677240849,-2.8686797084970976
+[18:47:42] [Server thread/INFO]: Brew_Bone lost connection: Disconnected
+[18:47:42] [Server thread/INFO]: Brew_Bone left the game
+[18:48:47] [Server thread/INFO]: The15Percenter was burnt to a crisp whilst fighting Blaze
+[18:51:56] [Server thread/INFO]: The15Percenter withered away
+[18:54:06] [Server thread/INFO]: The15Percenter has made the advancement [Into Fire]
+[18:56:23] [Server thread/INFO]: CrazM13 was slain by Wither Skeleton
+[18:56:26] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/130468, l='ServerLevel[world]', x=617.29, y=54.00, z=0.43]
+[18:56:27] [Server thread/INFO]: The15Percenter was slain by Wither Skeleton
+[18:59:51] [Server thread/INFO]: CrazM13 has made the advancement [Spooky Scary Skeleton]
+[19:06:29] [Server thread/WARN]: CrazM13 moved too quickly! 34.71056264522042,6.0,-13.972494975244398
+[19:09:41] [Server thread/INFO]: The15Percenter was slain by Wither Skeleton
+[19:11:04] [User Authenticator #6/INFO]: UUID of player Chimi_Wacha is 70b91697-5476-4632-a3c3-5c8d449d7cd8
+[19:11:04] [Server thread/INFO]: Chimi_Wacha[/127.0.0.1:63031] logged in with entity id 136384 at (1477.0719346730134, 64.0, 1172.1254387700374)
+[19:11:04] [Server thread/INFO]: Chimi_Wacha joined the game
+[19:11:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
+[19:11:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6279ms or 125 ticks behind
+[19:11:37] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=655, y=54, z=29} fu{x=654, y=53, z=29}
+[19:11:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2103ms or 42 ticks behind
+[19:11:50] [Server thread/INFO]: The15Percenter was slain by Wither Skeleton
+[19:12:51] [Server thread/INFO]: Murloc_Rampage has made the advancement [Cover Me With Diamonds]
+[19:13:16] [Server thread/INFO]: Chimi_Wacha was shot by Pillager
+[19:13:23] [Server thread/INFO]: The15Percenter was slain by Wither Skeleton
+[19:13:32] [Server thread/INFO]: CrazM13 was slain by Wither Skeleton
+[19:13:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[19:13:39] [Server thread/INFO]: The15Percenter was slain by Wither Skeleton
+[19:13:42] [Server thread/INFO]: CrazM13 was slain by Wither Skeleton
+[19:16:07] [Server thread/INFO]: The15Percenter was shot by Skeleton
+[19:16:58] [Server thread/INFO]: The15Percenter burned to death
+[19:17:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2144ms or 42 ticks behind
+[19:17:23] [Server thread/INFO]: Chimi_Wacha was shot by Pillager
+[19:20:22] [Server thread/INFO]: Chimi_Wacha was shot by Pillager
+[19:24:57] [Server thread/INFO]: Chimi_Wacha was shot by Pillager
+[19:25:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[19:25:45] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/147793, l='ServerLevel[world]', x=1286.22, y=69.00, z=927.41]
+[19:25:45] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/147793, l='ServerLevel[world]', x=1286.22, y=69.00, z=927.41]
+[19:27:34] [Server thread/INFO]: Chimi_Wacha was shot by Pillager
+[19:27:35] [Server thread/WARN]: Chimi_Wacha moved too quickly! -496.72774224184263,0.06250020000000234,-259.9953977765117
+[19:29:03] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/150033, l='ServerLevel[world]', x=1286.18, y=69.00, z=923.59]
+[19:33:41] [Server thread/INFO]: Chimi_Wacha was shot by Pillager
+[19:37:00] [Server thread/WARN]: Donkey (vehicle of Chimi_Wacha) moved wrongly! 0.4054175365026822
+[19:40:07] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/155877, l='ServerLevel[world]', x=1285.64, y=69.00, z=926.43]
+[19:40:07] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/155877, l='ServerLevel[world]', x=1285.64, y=69.00, z=926.43]
+[19:41:10] [Server thread/WARN]: Donkey (vehicle of Chimi_Wacha) moved wrongly! 0.27933295656339396
+[19:45:28] [Server thread/INFO]: Chimi_Wacha lost connection: Disconnected
+[19:45:28] [Server thread/INFO]: Chimi_Wacha left the game
+[19:45:47] [Server thread/WARN]: The15Percenter moved too quickly! 39.01589577445884,1.0,-95.6462590216073
+[19:55:44] [Server thread/INFO]: The15Percenter fell from a high place
+[20:05:14] [Server thread/INFO]: The15Percenter drowned
+[20:06:21] [Server thread/INFO]: Murloc_Rampage has completed the challenge [Cover Me in Debris]
+[20:08:48] [Server thread/INFO]: Murloc_Rampage has made the advancement [Enchanter]
+[20:12:09] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID eb8b65bd-2a46-4a5e-9114-0825f42ae8e6
+[20:15:49] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/169139, l='ServerLevel[world]', x=1286.90, y=69.00, z=923.90]
+[20:23:56] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/171601, l='ServerLevel[world]', x=1285.34, y=69.00, z=927.74]
+[20:23:56] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/171601, l='ServerLevel[world]', x=1285.34, y=69.00, z=927.74]
+[20:24:31] [Server thread/INFO]: <CrazM13> 1508 916 | 188 114
+[20:25:01] [Server thread/INFO]: <The15Percenter> 114 188 | 916 1508
+[20:25:04] [Server thread/INFO]: <CrazM13> 1508 916 | 188 114
+[20:25:51] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1207, y=64, z=929} fu{x=1206, y=63, z=930}
+[20:26:27] [Server thread/WARN]: The15Percenter moved too quickly! -22.875903661388065,-6.0,-49.41226405842656
+[20:26:32] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 2518c323-5394-4e70-b6ce-a632e1ece579
+[20:28:42] [Server thread/WARN]: Fetching packet for removed entity aos['Experience Orb'/172853, l='ServerLevel[world]', x=1157.90, y=10.47, z=972.14]
+[20:39:36] [Server thread/INFO]: Murloc_Rampage drowned
+[20:43:51] [Server thread/INFO]: <CrazM13> 1736 584
+[20:44:19] [Server thread/INFO]: <CrazM13> 1736 584 | 217 73
+[20:50:45] [Server thread/INFO]: The15Percenter lost connection: Disconnected
+[20:50:45] [Server thread/INFO]: The15Percenter left the game
+[20:50:59] [Server thread/INFO]: Murloc_Rampage has made the advancement [Ice Bucket Challenge]
+[21:01:51] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[21:01:51] [Server thread/INFO]: CrazM13 left the game
+[21:02:46] [Server thread/INFO]: Murloc_Rampage lost connection: Disconnected
+[21:02:46] [Server thread/INFO]: Murloc_Rampage left the game
+[21:13:50] [User Authenticator #7/INFO]: UUID of player The15Percenter is 0538d89a-fca6-4d1c-b462-b6ed01dcfda5
+[21:13:50] [Server thread/INFO]: The15Percenter[/100.10.51.177:54627] logged in with entity id 183278 at (1190.3024384211112, 130.0, 873.6432870864489)
+[21:13:50] [Server thread/INFO]: The15Percenter joined the game
+[21:14:37] [Server thread/INFO]: Villager bdp['Nitwit'/183449, l='ServerLevel[world]', x=1289.53, y=62.42, z=895.51] died, message: 'Nitwit was slain by Zombie'
+[21:19:29] [User Authenticator #8/INFO]: UUID of player Chimi_Wacha is 70b91697-5476-4632-a3c3-5c8d449d7cd8
+[21:19:29] [Server thread/INFO]: Chimi_Wacha[/127.0.0.1:63631] logged in with entity id 184219 at (1198.2017607344053, 64.0625, 843.0912664153703)
+[21:19:29] [Server thread/INFO]: Chimi_Wacha joined the game
+[21:22:51] [User Authenticator #9/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[21:22:51] [Server thread/INFO]: CrazM13[/70.188.147.193:65161] logged in with entity id 184845 at (160.2993991025852, 128.0, 98.26197292370419)
+[21:22:51] [Server thread/INFO]: CrazM13 joined the game
+[21:25:07] [Server thread/INFO]: Chimi_Wacha fell from a high place
+[21:27:35] [User Authenticator #10/INFO]: UUID of player Murloc_Rampage is b8e5cd4e-3514-452a-b3b4-bccdb689abae
+[21:27:36] [Server thread/INFO]: Murloc_Rampage[/70.172.160.90:62741] logged in with entity id 186139 at (1496.7063167357892, 72.0, 1809.4117440034902)
+[21:27:36] [Server thread/INFO]: Murloc_Rampage joined the game
+[21:34:27] [Server thread/INFO]: <Chimi_Wacha> 1736 584 | 217 73
+[21:38:13] [Server thread/INFO]: Chimi_Wacha has made the advancement [Suit Up]
+[21:39:43] [Server thread/WARN]: The15Percenter moved too quickly! -517.6829864919184,-4.0,-29.96228808755518
+[21:42:06] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/191390, l='ServerLevel[world]', x=1289.82, y=69.00, z=927.64]
+[21:42:06] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/191390, l='ServerLevel[world]', x=1289.82, y=69.00, z=927.64]
+[21:42:06] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/191390, l='ServerLevel[world]', x=1289.82, y=69.00, z=927.64]
+[21:44:27] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1206, y=64, z=930} fu{x=1206, y=63, z=930}
+[21:45:28] [User Authenticator #11/INFO]: UUID of player Brew_Bone is e3006ffe-2439-4525-987d-23c6336b34ae
+[21:45:29] [Server thread/INFO]: Brew_Bone[/192.168.1.1:57437] logged in with entity id 192732 at (1188.699999988079, 61.42227857261452, 860.5679409886801)
+[21:45:29] [Server thread/INFO]: Brew_Bone joined the game
+[21:51:29] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/195503, l='ServerLevel[world]', x=1285.33, y=69.00, z=928.06]
+[21:51:29] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/195503, l='ServerLevel[world]', x=1285.33, y=69.00, z=928.06]
+[21:51:29] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/195503, l='ServerLevel[world]', x=1285.33, y=69.00, z=928.06]
+[22:00:40] [Server thread/INFO]: The15Percenter has made the advancement [Enchanter]
+[22:01:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2071ms or 41 ticks behind
+[22:02:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10397ms or 207 ticks behind
+[22:02:01] [Server thread/WARN]: CrazM13 moved too quickly! -3.2965303916469963,0.3767356137817046,9.647701219176227
+[22:02:13] [Server thread/WARN]: Murloc_Rampage moved too quickly! 8.33577917503294,-2.752203340253729,5.378983171709251
+[22:02:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10473ms or 209 ticks behind
+[22:05:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Glass Bottle'/200633, l='ServerLevel[world]', x=155.67, y=129.00, z=94.91]
+[22:05:12] [Server thread/WARN]: Fetching packet for removed entity bbg['Glass Bottle'/200634, l='ServerLevel[world]', x=155.89, y=129.00, z=94.13]
+[22:05:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2487ms or 49 ticks behind
+[22:06:05] [Server thread/WARN]: Murloc_Rampage moved too quickly! 0.31789006760118355,4.746800019478798,9.298119114967903
+[22:06:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2339ms or 46 ticks behind
+[22:06:51] [Server thread/WARN]: CrazM13 moved too quickly! -9.009913442739673,-0.3772033402537147,4.633287189233414
+[22:06:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2516ms or 50 ticks behind
+[22:07:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10336ms or 206 ticks behind
+[22:08:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5649ms or 112 ticks behind
+[22:10:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4593ms or 91 ticks behind
+[22:11:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7784ms or 155 ticks behind
+[22:12:40] [Server thread/INFO]: CrazM13 has made the advancement [Eye Spy]
+[22:13:13] [Server thread/INFO]: Murloc_Rampage has made the advancement [Eye Spy]
+[22:13:16] [Server thread/INFO]: The15Percenter has made the advancement [Eye Spy]
+[22:13:24] [Server thread/INFO]: Brew_Bone has made the advancement [Eye Spy]
+[22:15:42] [Server thread/WARN]: Chimi_Wacha moved too quickly! 493.68106013952047,-42.362154440509606,-286.2262507563594
+[22:15:42] [Server thread/INFO]: Chimi_Wacha has made the advancement [Eye Spy]
+[22:16:07] [Server thread/INFO]: CrazM13 has made the advancement [The End?]
+[22:16:08] [Server thread/INFO]: Chimi_Wacha has made the advancement [The End?]
+[22:16:08] [Server thread/WARN]: CrazM13 moved too quickly! -1596.258291009013,28.945106652967926,-560.3546320636806
+[22:16:08] [Server thread/INFO]: The15Percenter has made the advancement [The End?]
+[22:16:08] [Server thread/INFO]: Murloc_Rampage has made the advancement [The End?]
+[22:16:08] [Server thread/WARN]: Murloc_Rampage moved too quickly! -1596.9797990414595,29.464159374955443,-562.3292121085232
+[22:16:08] [Server thread/WARN]: The15Percenter moved too quickly! -1596.77369598003,29.464159374955443,-562.3911905168096
+[22:16:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2120ms or 42 ticks behind
+[22:16:10] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[22:16:10] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[22:16:11] [Server thread/INFO]: Brew_Bone has made the advancement [The End?]
+[22:16:11] [Server thread/WARN]: Chimi_Wacha moved too quickly! -1596.0182957748905,29.464159374955443,-562.3245583804871
+[22:16:11] [Server thread/WARN]: Brew_Bone moved too quickly! -1595.639840962262,29.464159374955443,-562.4129369215036
+[22:16:27] [Server thread/INFO]: Chimi_Wacha has made the advancement [Isn't It Iron Pick]
+[22:17:22] [Server thread/INFO]: Brew_Bone was slain by Enderman
+[22:17:29] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.1424734607795,29.23363200604248,-562.5254608631548
+[22:17:29] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.1424734607795,29.23363200604248,-562.5254608631548
+[22:17:29] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.1424734607795,29.23363200604248,-562.5254608631548
+[22:18:13] [Server thread/INFO]: Brew_Bone was slain by Enderman
+[22:18:20] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.4582564678435,29.1875,-562.566296334274
+[22:18:35] [Server thread/INFO]: Chimi_Wacha blew up
+[22:18:42] [Server thread/WARN]: Chimi_Wacha moved too quickly! -1596.0825232706309,29.23363200604248,-562.504213441446
+[22:18:54] [Server thread/INFO]: Brew_Bone was slain by Enderman
+[22:19:08] [Server thread/WARN]: Brew_Bone moved too quickly! -1597.3237687131727,29.1875,-562.6078552647057
+[22:19:25] [Server thread/INFO]: Brew_Bone was slain by Enderman
+[22:19:30] [Server thread/WARN]: Brew_Bone moved too quickly! -1597.4911277316705,29.1875,-562.6876862567013
+[22:19:35] [Server thread/INFO]: Brew_Bone was slain by Enderman
+[22:19:39] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.4086317090466,29.23363200604248,-562.4357306176653
+[22:20:31] [Server thread/INFO]: Chimi_Wacha has reached the goal [You Need a Mint]
+[22:21:25] [Server thread/INFO]: Brew_Bone was slain by Ender Dragon
+[22:21:25] [Server thread/INFO]: The15Percenter was slain by Ender Dragon
+[22:21:33] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.202662848786,28.945106652967926,-561.8592855558765
+[22:21:33] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.202662848786,28.945106652967926,-561.8592855558765
+[22:21:35] [Server thread/WARN]: The15Percenter moved too quickly! -1596.4577635089927,29.23363200604248,-562.3971753618436
+[22:22:01] [Server thread/INFO]: The15Percenter was slain by Ender Dragon
+[22:22:07] [Server thread/WARN]: The15Percenter moved too quickly! -1596.7994559010915,29.1875,-562.5811458976575
+[22:22:32] [Server thread/INFO]: CrazM13 was slain by Enderman
+[22:22:37] [Server thread/WARN]: CrazM13 moved too quickly! -1596.3278936180877,29.23363200604248,-562.2736117888143
+[22:22:57] [Server thread/INFO]: The15Percenter was slain by Ender Dragon
+[22:22:58] [Server thread/INFO]: CrazM13 fell from a high place
+[22:23:03] [Server thread/WARN]: The15Percenter moved too quickly! -1596.3200983517615,29.23363200604248,-562.5199017216704
+[22:23:03] [Server thread/WARN]: The15Percenter moved too quickly! -1596.3200983517615,29.23363200604248,-562.5199017216704
+[22:23:05] [Server thread/WARN]: CrazM13 moved too quickly! -1596.7773426014212,28.945106652967926,-561.9816234771165
+[22:23:33] [Server thread/INFO]: Chimi_Wacha has made the advancement [Ol' Betsy]
+[22:23:54] [Server thread/INFO]: Chimi_Wacha has made the advancement [Take Aim]
+[22:24:02] [Server thread/INFO]: Murloc_Rampage has made the advancement [Take Aim]
+[22:24:03] [Server thread/INFO]: Brew_Bone has made the advancement [Suit Up]
+[22:24:14] [Server thread/INFO]: Brew_Bone was slain by Enderman
+[22:24:19] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.2043436762979,29.1875,-562.6035163127517
+[22:24:29] [Server thread/INFO]: CrazM13 was slain by Enderman
+[22:24:33] [Server thread/WARN]: CrazM13 moved too quickly! -1596.7012314897938,28.945106652967926,-561.893478597703
+[22:24:35] [Server thread/INFO]: The15Percenter was slain by Ender Dragon
+[22:24:40] [Server thread/WARN]: The15Percenter moved too quickly! -1596.168478654963,29.1875,-562.5884579486516
+[22:24:44] [Server thread/INFO]: Chimi_Wacha was slain by Enderman
+[22:24:48] [Server thread/WARN]: Chimi_Wacha moved too quickly! -1595.946086028092,29.23363200604248,-562.4836746036152
+[22:24:48] [Server thread/INFO]: Brew_Bone was slain by Enderman
+[22:24:57] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.4794736231122,29.23363200604248,-562.5251368200068
+[22:24:57] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.4794736231122,29.23363200604248,-562.5251368200068
+[22:25:17] [Server thread/INFO]: Murloc_Rampage was slain by Enderman
+[22:25:18] [Server thread/INFO]: Brew_Bone was slain by Enderman
+[22:25:25] [Server thread/INFO]: CrazM13 has reached the goal [You Need a Mint]
+[22:25:27] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.4176616762754,29.1875,-562.5788654563484
+[22:25:27] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.4176616762754,29.1875,-562.5788654563484
+[22:25:28] [Server thread/WARN]: Murloc_Rampage moved too quickly! -1596.2910467386346,29.23363200604248,-562.5169169462354
+[22:25:36] [Server thread/INFO]: Chimi_Wacha was slain by Ender Dragon
+[22:25:39] [Server thread/INFO]: CrazM13 fell from a high place
+[22:25:55] [Server thread/WARN]: CrazM13 moved too quickly! -1597.3482077806573,29.392604549951344,-562.2921852326491
+[22:25:55] [Server thread/WARN]: Chimi_Wacha moved too quickly! -1595.6954705483388,29.23363200604248,-562.4312166976536
+[22:25:55] [Server thread/WARN]: Murloc_Rampage moved too quickly! -5.533026106578433,-1.0013359791121488,-8.351551117357346
+[22:25:55] [Server thread/WARN]: Brew_Bone moved too quickly! -9.890596373853477,1.0,1.472440810558231
+[22:25:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11891ms or 237 ticks behind
+[22:26:02] [Server thread/INFO]: Chimi_Wacha fell out of the world
+[22:26:02] [Server thread/INFO]: The15Percenter was slain by Ender Dragon
+[22:26:07] [Server thread/WARN]: Chimi_Wacha moved too quickly! -1595.9985208409742,29.23363200604248,-562.4155247957937
+[22:26:07] [Server thread/WARN]: Chimi_Wacha moved too quickly! -1595.9985208409742,29.23363200604248,-562.4155247957937
+[22:26:08] [Server thread/WARN]: The15Percenter moved too quickly! -1596.8020361917775,29.23363200604248,-562.53039721072
+[22:26:22] [Server thread/INFO]: CrazM13 was slain by Ender Dragon
+[22:26:25] [Server thread/INFO]: Brew_Bone was slain by Enderman
+[22:26:27] [Server thread/WARN]: CrazM13 moved too quickly! -1597.469786419979,28.945106652967926,-562.6226299820854
+[22:26:29] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.6691125217117,29.23363200604248,-562.266926530052
+[22:26:30] [Server thread/INFO]: Chimi_Wacha was slain by Ender Dragon
+[22:26:35] [Server thread/WARN]: Chimi_Wacha moved too quickly! -1596.8625084188088,29.23363200604248,-562.3781400500387
+[22:26:50] [Server thread/INFO]: Brew_Bone has reached the goal [You Need a Mint]
+[22:27:03] [Server thread/INFO]: The15Percenter was slain by Ender Dragon
+[22:27:03] [Server thread/INFO]: CrazM13 was slain by Ender Dragon
+[22:27:03] [Server thread/INFO]: Brew_Bone was slain by Ender Dragon
+[22:27:08] [Server thread/WARN]: CrazM13 moved too quickly! -1596.9668830958365,28.945106652967926,-562.0672363334492
+[22:27:09] [Server thread/WARN]: Brew_Bone moved too quickly! -1595.9377852303244,29.23363200604248,-562.4800164285601
+[22:27:09] [Server thread/WARN]: Brew_Bone moved too quickly! -1595.9377852303244,29.23363200604248,-562.4800164285601
+[22:27:09] [Server thread/WARN]: The15Percenter moved too quickly! -1596.238220691116,29.23363200604248,-562.5451520407731
+[22:27:36] [Server thread/INFO]: Murloc_Rampage fell from a high place
+[22:27:37] [Server thread/INFO]: Brew_Bone was slain by Ender Dragon
+[22:27:37] [Server thread/INFO]: Chimi_Wacha was slain by Ender Dragon
+[22:27:38] [Server thread/INFO]: The15Percenter fell from a high place
+[22:27:41] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.1050850847068,29.23363200604248,-562.2442136089262
+[22:27:41] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.1050850847068,29.23363200604248,-562.2442136089262
+[22:27:42] [Server thread/WARN]: Chimi_Wacha moved too quickly! -1596.7669435708872,29.23363200604248,-562.2501104554664
+[22:27:42] [Server thread/WARN]: Chimi_Wacha moved too quickly! -1596.7669435708872,29.23363200604248,-562.2501104554664
+[22:27:45] [Server thread/WARN]: Murloc_Rampage moved too quickly! -1596.6063458823419,29.23363200604248,-562.5394250481245
+[22:27:46] [Server thread/WARN]: The15Percenter moved too quickly! -1597.1794000864038,29.23363200604248,-562.5693931477841
+[22:27:57] [Server thread/INFO]: CrazM13 was killed by Ender Dragon using magic
+[22:28:03] [Server thread/WARN]: CrazM13 moved too quickly! -1597.0065138553907,28.945106652967926,-561.1721742475322
+[22:28:20] [Server thread/INFO]: Brew_Bone was slain by Enderman
+[22:28:24] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.2060483640498,28.945106652967926,-562.6078035082323
+[22:28:28] [Server thread/INFO]: Murloc_Rampage has reached the goal [You Need a Mint]
+[22:28:31] [Server thread/INFO]: The15Percenter was slain by Enderman
+[22:28:36] [Server thread/WARN]: The15Percenter moved too quickly! -1596.4405812838081,29.23363200604248,-562.3914610896
+[22:28:39] [Server thread/INFO]: Brew_Bone was slain by Enderman
+[22:28:43] [Server thread/INFO]: Murloc_Rampage was slain by Ender Dragon
+[22:28:44] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.2322550813967,29.1875,-562.6484674130867
+[22:28:52] [Server thread/WARN]: Murloc_Rampage moved too quickly! -1596.6932042192225,29.23363200604248,-562.4467944685224
+[22:29:00] [Server thread/INFO]: Chimi_Wacha has made the advancement [Free the End]
+[22:29:13] [Server thread/INFO]: Brew_Bone was slain by Enderman
+[22:29:15] [Server thread/INFO]: Chimi_Wacha was slain by Enderman
+[22:29:17] [Server thread/INFO]: The15Percenter has reached the goal [You Need a Mint]
+[22:29:19] [Server thread/WARN]: Chimi_Wacha moved too quickly! -1595.9227453008095,29.23363200604248,-562.2903318818952
+[22:29:47] [Server thread/INFO]: The15Percenter was slain by Enderman
+[22:29:55] [Server thread/WARN]: The15Percenter moved too quickly! -1596.536506437898,29.23363200604248,-562.5319611625326
+[22:29:55] [Server thread/WARN]: Fetching packet for removed entity bbg['End Stone'/211838, l='ServerLevel[world]', x=4.19, y=64.00, z=14.13]
+[22:29:56] [Server thread/WARN]: Fetching packet for removed entity bbg['Dirt'/211865, l='ServerLevel[world]', x=1.01, y=64.00, z=10.52]
+[22:30:44] [Server thread/INFO]: The15Percenter was slain by Enderman
+[22:30:50] [Server thread/WARN]: The15Percenter moved too quickly! -1596.6124656900574,28.945106652967926,-562.5060018146978
+[22:30:50] [Server thread/WARN]: The15Percenter moved too quickly! -1596.6124656900574,28.945106652967926,-562.5060018146978
+[22:31:46] [Server thread/WARN]: The15Percenter moved too quickly! -1596.799465378616,28.945106652967926,-562.1457017372556
+[22:31:46] [Server thread/WARN]: The15Percenter moved too quickly! -1596.799465378616,28.945106652967926,-562.1457017372556
+[22:34:35] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.105064908316,29.23363200604248,-562.5478914049024
+[22:34:35] [Server thread/WARN]: Brew_Bone moved too quickly! -1596.105064908316,29.23363200604248,-562.5478914049024
+[22:34:45] [Server thread/INFO]: Murloc_Rampage lost connection: Disconnected
+[22:34:45] [Server thread/INFO]: Murloc_Rampage left the game
+[22:36:53] [Server thread/INFO]: Brew_Bone was shot by Skeleton
+[22:37:03] [Server thread/INFO]: The15Percenter was shot by Skeleton
+[22:37:07] [Server thread/INFO]: Chimi_Wacha was shot by Skeleton
+[22:39:28] [Server thread/INFO]: Brew_Bone fell from a high place
+[22:39:47] [Server thread/WARN]: Brew_Bone moved too quickly! -555.1150357046665,39.0,287.35758943727694
+[22:45:47] [Server thread/INFO]: Brew_Bone fell from a high place
+[22:46:06] [Server thread/INFO]: Brew_Bone fell from a high place
+[22:46:36] [Server thread/INFO]: Brew_Bone fell from a high place
+[22:52:49] [Server thread/INFO]: Brew_Bone fell from a high place
+[22:52:56] [Server thread/INFO]: The15Percenter lost connection: Disconnected
+[22:52:56] [Server thread/INFO]: The15Percenter left the game
+[22:52:59] [Server thread/INFO]: Chimi_Wacha lost connection: Disconnected
+[22:52:59] [Server thread/INFO]: Chimi_Wacha left the game
+[22:53:00] [Server thread/INFO]: Brew_Bone lost connection: Disconnected
+[22:53:00] [Server thread/INFO]: Brew_Bone left the game
+[22:53:02] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[22:53:02] [Server thread/INFO]: CrazM13 left the game
+[23:00:37] [Server thread/INFO]: Stopping the server
+[23:00:37] [Server thread/INFO]: Stopping server
+[23:00:37] [Server thread/INFO]: Saving players
+[23:00:37] [Server thread/INFO]: Saving worlds
+[23:00:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:00:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:00:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:00:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:00:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:00:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:00:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:00:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:00:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
