@@ -452,7 +452,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-07-10 22:01:50 -0400"
+      "tick": "2020-07-11 12:01:14 -0400"
     },
     "done": false
   },
@@ -653,6 +653,7 @@
       "minecraft:magma_cube": "2020-07-04 18:07:34 -0400",
       "minecraft:spider": "2020-06-28 15:53:24 -0400",
       "minecraft:creeper": "2020-07-03 19:29:59 -0400",
+      "minecraft:wither": "2020-07-11 11:29:48 -0400",
       "minecraft:slime": "2020-07-03 21:37:50 -0400",
       "minecraft:zombified_piglin": "2020-07-04 12:36:57 -0400",
       "minecraft:witch": "2020-07-05 09:53:48 -0400",
@@ -661,7 +662,8 @@
       "minecraft:piglin": "2020-07-03 19:16:06 -0400",
       "minecraft:enderman": "2020-06-28 19:09:08 -0400",
       "minecraft:zombie": "2020-06-28 20:02:39 -0400",
-      "minecraft:drowned": "2020-06-28 15:41:16 -0400"
+      "minecraft:drowned": "2020-06-28 15:41:16 -0400",
+      "minecraft:zombie_villager": "2020-07-11 10:29:06 -0400"
     },
     "done": false
   },
@@ -1073,6 +1075,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_black_flower": "2020-07-11 11:29:08 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2020-06-28 15:43:38 -0400"
@@ -1442,6 +1450,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2020-07-11 11:18:33 -0400"
+    },
+    "done": true
+  },
   "universal_dyeing:recipes/building_blocks/universal_dyeing/stained_glass_pane": {
     "criteria": {
       "has_dye": "2020-06-28 16:02:04 -0400"
@@ -1710,6 +1724,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2020-07-11 10:23:25 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2020-06-28 17:31:17 -0400"
@@ -1864,6 +1884,12 @@
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_obsidian": "2020-06-28 17:15:56 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2020-07-11 11:28:52 -0400"
     },
     "done": true
   },
@@ -2193,6 +2219,12 @@
   "slabs_stairs_to_block:recipes/building_blocks/stairs/nether_bricks": {
     "criteria": {
       "has_stairs": "2020-07-05 16:52:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2020-07-11 11:29:49 -0400"
     },
     "done": true
   },
@@ -3022,6 +3054,12 @@
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2020-07-05 16:50:37 -0400"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/stone": {
+    "criteria": {
+      "has_slab": "2020-07-11 11:18:33 -0400"
     },
     "done": true
   },
