@@ -1,18 +1,18 @@
-[09:44:43] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[09:44:43] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:44:43] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:44:43] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[09:44:43] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:44:43] [main/INFO]: Reloading ResourceManager: Default, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks, VanillaTweaks_c257530.zip, player head drops v1.0.0.zip, villager death messages v1.1.0.zip
-[09:44:45] [Worker-Main-4/INFO]: Loaded 7 recipes
-[09:44:45] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[09:44:45] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
-[09:44:46] [Worker-Main-4/INFO]: Loaded 1028 advancements
-[09:44:48] [Server thread/INFO]: Starting minecraft server version 1.16.1
-[09:44:48] [Server thread/INFO]: Loading properties
-[09:44:48] [Server thread/INFO]: Default game type: SURVIVAL
-[09:44:48] [Server thread/INFO]: Generating keypair
-[09:44:48] [Server console handler/ERROR]: Exception handling console input
+[08:14:34] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:14:34] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:14:34] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:14:34] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:14:34] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:14:34] [main/INFO]: Reloading ResourceManager: Default, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks, VanillaTweaks_c257530.zip, player head drops v1.0.0.zip, villager death messages v1.1.0.zip
+[08:14:37] [Worker-Main-5/INFO]: Loaded 7 recipes
+[08:14:38] [Worker-Main-5/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[08:14:38] [Worker-Main-5/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
+[08:14:38] [Worker-Main-5/INFO]: Loaded 1028 advancements
+[08:15:05] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[08:15:05] [Server thread/INFO]: Loading properties
+[08:15:05] [Server thread/INFO]: Default game type: SURVIVAL
+[08:15:05] [Server thread/INFO]: Generating keypair
+[08:15:05] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:273) ~[?:?]
@@ -26,50 +26,76 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
 	at yd$1.run(SourceFile:90) [server.jar:?]
-[09:44:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:44:49] [Server thread/INFO]: Using default channel type
-[09:44:50] [Server thread/INFO]: Preparing level "world"
-[09:44:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:44:52] [Server thread/INFO]: Preparing spawn area: 0%
-[09:44:52] [Server thread/INFO]: Preparing spawn area: 0%
-[09:44:52] [Server thread/INFO]: Preparing spawn area: 0%
-[09:44:52] [Server thread/INFO]: Preparing spawn area: 0%
-[09:44:53] [Server thread/INFO]: Preparing spawn area: 0%
-[09:44:53] [Server thread/INFO]: Preparing spawn area: 0%
-[09:44:54] [Server thread/INFO]: Preparing spawn area: 84%
-[09:44:54] [Server thread/INFO]: Time elapsed: 3905 ms
-[09:44:54] [Server thread/INFO]: Done (4.445s)! For help, type "help"
-[09:47:40] [User Authenticator #1/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
-[09:47:40] [Server thread/INFO]: CrazM13[/127.0.0.1:54889] logged in with entity id 15 at (144.1212950851463, 235.5, 128.5426838599824)
-[09:47:40] [Server thread/INFO]: CrazM13 joined the game
-[09:47:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2608ms or 52 ticks behind
-[11:15:11] [Server thread/WARN]: CrazM13 moved too quickly! -1596.234990496232,29.23363200604248,-562.4025649001854
-[11:15:13] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[11:15:13] [Server thread/INFO]: Found that the dragon has been killed in this world already.
-[11:19:54] [Server thread/WARN]: CrazM13 moved too quickly! -1596.0244702648824,29.23363200604248,-562.4097210781102
-[11:28:28] [Server thread/INFO]: Chicken has the following entity data: {IsChickenJockey: 0b, Brain: {memories: {}}, HurtByTimestamp: 117, Attributes: [{Base: 0.25d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, ForcedAge: 0, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, InLove: 0, DeathTime: 0s, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 0b, UUID: [I; 66923332, 1320308408, -1079318562, -1931638535], Age: -15574, Motion: [0.0d, -0.0784000015258789d, 0.0d], Health: 1.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [87.17816f, -40.0f], HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], EggLayTime: 10975, Pos: [-0.9058141897814174d, 57.0d, -2.836263372905748d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, HurtTime: 0s}
-[11:28:52] [Server thread/INFO]: CrazM13 has made the advancement [Withering Heights]
-[11:50:26] [Server thread/INFO]: CrazM13 was fireballed by Blaze
-[11:52:01] [Server thread/WARN]: CrazM13 moved too quickly! 10.239194398975087,0.12160004615783748,0.034746408101099746
-[11:52:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2288ms or 45 ticks behind
-[11:55:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2242ms or 44 ticks behind
-[12:02:18] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 2dec20a9-ca84-4bfa-a7ac-ff7cfb68a4e2
-[12:15:53] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=606, y=124, z=13} fu{x=603, y=119, z=15}
-[12:15:53] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=603, y=118, z=15} fu{x=603, y=119, z=15}
-[12:16:19] [Server thread/INFO]: CrazM13 was slain by Piglin
-[12:24:25] [Server thread/INFO]: CrazM13 was slain by Wither Skeleton
-[12:26:28] [Server thread/INFO]: CrazM13 lost connection: Disconnected
-[12:26:28] [Server thread/INFO]: CrazM13 left the game
-[12:26:38] [Server thread/INFO]: Stopping the server
-[12:26:38] [Server thread/INFO]: Stopping server
-[12:26:38] [Server thread/INFO]: Saving players
-[12:26:38] [Server thread/INFO]: Saving worlds
-[12:26:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12:26:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:26:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[12:26:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:26:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[12:26:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:26:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:26:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:26:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:15:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:15:06] [Server thread/INFO]: Using default channel type
+[08:15:08] [Server thread/INFO]: Preparing level "world"
+[08:15:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:19] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:20] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:20] [Server thread/INFO]: Preparing spawn area: 0%
+[08:15:20] [Server thread/INFO]: Time elapsed: 11195 ms
+[08:15:20] [Server thread/INFO]: Done (11.948s)! For help, type "help"
+[08:17:00] [User Authenticator #1/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[08:17:01] [Server thread/INFO]: CrazM13[/127.0.0.1:54351] logged in with entity id 17 at (154.49663870544867, 128.0, 116.30207042452798)
+[08:17:01] [Server thread/INFO]: CrazM13 joined the game
+[08:17:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[08:21:31] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[08:21:31] [Server thread/INFO]: CrazM13 left the game
+[08:32:39] [User Authenticator #2/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[08:32:39] [Server thread/INFO]: CrazM13[/127.0.0.1:54448] logged in with entity id 507 at (154.60655310854114, 128.0, 116.31083978013419)
+[08:32:39] [Server thread/INFO]: CrazM13 joined the game
+[08:32:53] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:32:53] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:32:53] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:32:53] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[08:32:53] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[08:32:53] [Server thread/INFO]: Reloading ResourceManager: Default, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks, VanillaTweaks_c257530.zip, player head drops v1.0.0.zip, villager death messages v1.1.0.zip, Clumps.zip, TradingFix.zip, custom nether portals v2.1.0.zip
+[08:32:53] [Server thread/INFO]: Loaded 7 recipes
+[08:32:53] [Server thread/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[08:32:53] [Server thread/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
+[08:32:54] [Server thread/INFO]: Loaded 1030 advancements
+[08:36:06] [Server thread/INFO]: Cleric has the following entity data: {memories: {"minecraft:last_slept": {value: 1393202L}, "minecraft:last_woken": {value: 1393628L}, "minecraft:last_worked_at_poi": {value: 3961195L}, "minecraft:job_site": {value: {pos: [I; 139, 128, 128], dimension: "minecraft:the_nether"}}}}
+[08:37:52] [Server thread/INFO]: Cleric has the following entity data: [{Target: [I; 1457672314, 819610776, -2124337157, 1858225116], Type: "trading", Value: 25}]
+[08:38:55] [Server thread/INFO]: Cleric has the following entity data: [{Target: [I; 1457672314, 819610776, -2124337157, 1858225116], Type: "trading", Value: 25}]
+[08:44:06] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 82a672aa-a662-4c44-a998-1fefb437721b
+[08:49:04] [Server thread/WARN]: Keeping entity minecraft:skeleton that already exists with UUID 294c8910-6b8c-4720-97e0-c2484f49a811
+[09:01:46] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[09:01:46] [Server thread/INFO]: CrazM13 left the game
+[09:14:24] [User Authenticator #3/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[09:14:24] [Server thread/INFO]: CrazM13[/127.0.0.1:54694] logged in with entity id 5630 at (1347.699999988079, 11.0, 850.5066209981778)
+[09:14:24] [Server thread/INFO]: CrazM13 joined the game
+[11:39:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2635ms or 52 ticks behind
+[12:19:37] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[12:19:38] [Server thread/INFO]: CrazM13 left the game
+[12:19:46] [Server thread/INFO]: Stopping the server
+[12:19:46] [Server thread/INFO]: Stopping server
+[12:19:47] [Server thread/INFO]: Saving players
+[12:19:47] [Server thread/INFO]: Saving worlds
+[12:19:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:19:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:19:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12:19:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:19:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12:19:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:19:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:19:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:19:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
