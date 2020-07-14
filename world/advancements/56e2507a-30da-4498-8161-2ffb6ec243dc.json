@@ -458,7 +458,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-07-12 09:26:28 -0400"
+      "tick": "2020-07-12 21:14:48 -0400"
     },
     "done": false
   },
@@ -1998,6 +1998,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2020-06-28 18:38:54 -0400",
+      "cooked_mutton": "2020-07-12 20:27:45 -0400",
       "spider_eye": "2020-07-03 20:07:43 -0400",
       "cooked_cod": "2020-07-03 15:05:47 -0400",
       "pumpkin_pie": "2020-07-03 18:41:31 -0400",
@@ -3444,6 +3445,12 @@
   "minecraft:recipes/combat/netherite_helmet_smithing": {
     "criteria": {
       "has_netherite_ingot": "2020-07-11 18:24:39 -0400"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/nether_bricks": {
+    "criteria": {
+      "has_slab": "2020-07-12 20:38:38 -0400"
     },
     "done": true
   },
