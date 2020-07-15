@@ -233,6 +233,12 @@
     },
     "done": true
   },
+  "main:main/wandering_trades": {
+    "criteria": {
+      "tick": "2020-07-13 21:24:35 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2020-07-01 23:03:28 -0400"
@@ -398,7 +404,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-07-12 17:22:38 -0400"
+      "tick": "2020-07-13 23:56:11 -0400"
     },
     "done": false
   },
@@ -831,6 +837,12 @@
   "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2020-07-04 21:10:58 -0400"
+    },
+    "done": true
+  },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/acacia_planks": {
+    "criteria": {
+      "has_the_recipe": "2020-07-13 23:15:20 -0400"
     },
     "done": true
   },
@@ -1624,7 +1636,8 @@
       "melon_slice": "2020-06-28 19:29:07 -0400",
       "beetroot": "2020-07-05 19:30:59 -0400",
       "cooked_chicken": "2020-07-05 21:57:39 -0400",
-      "cooked_salmon": "2020-06-28 18:30:44 -0400"
+      "cooked_salmon": "2020-06-28 18:30:44 -0400",
+      "carrot": "2020-07-13 22:31:11 -0400"
     },
     "done": false
   },
