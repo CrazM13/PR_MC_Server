@@ -1,17 +1,18 @@
-[00:02:48] [Server thread/INFO]: The15Percenter lost connection: Disconnected
-[00:02:48] [Server thread/INFO]: The15Percenter left the game
-[00:02:56] [Server thread/INFO]: Stopping the server
-[00:02:56] [Server thread/INFO]: Stopping server
-[00:02:56] [Server thread/INFO]: Saving players
-[00:02:57] [Server thread/INFO]: Chimi_Wacha lost connection: Server closed
-[00:02:57] [Server thread/INFO]: Chimi_Wacha left the game
-[00:02:57] [Server thread/INFO]: Saving worlds
-[00:02:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:02:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:02:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:02:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:02:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:02:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:02:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:02:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:02:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:00:58] [Server thread/INFO]: The15Percenter lost connection: Disconnected
+[00:00:58] [Server thread/INFO]: The15Percenter left the game
+[00:01:06] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/24546, l='ServerLevel[world]', x=1173.40, y=63.00, z=883.70]
+[00:01:06] [Server thread/INFO]: Chimi_Wacha lost connection: Disconnected
+[00:01:06] [Server thread/INFO]: Chimi_Wacha left the game
+[00:01:17] [Server thread/INFO]: Stopping the server
+[00:01:17] [Server thread/INFO]: Stopping server
+[00:01:17] [Server thread/INFO]: Saving players
+[00:01:17] [Server thread/INFO]: Saving worlds
+[00:01:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:01:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:01:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:01:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:01:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:01:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:01:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:01:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:01:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

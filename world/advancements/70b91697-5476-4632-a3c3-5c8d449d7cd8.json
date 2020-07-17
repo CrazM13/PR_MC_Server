@@ -404,7 +404,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-07-13 23:56:11 -0400"
+      "tick": "2020-07-17 00:01:00 -0400"
     },
     "done": false
   },
@@ -2150,6 +2150,12 @@
   "minecraft:recipes/decorations/slime_block": {
     "criteria": {
       "has_slime_ball": "2020-07-04 20:58:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2020-07-16 23:21:22 -0400"
     },
     "done": true
   },
