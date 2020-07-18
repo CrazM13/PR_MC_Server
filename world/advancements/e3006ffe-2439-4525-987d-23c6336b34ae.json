@@ -360,6 +360,12 @@
     },
     "done": true
   },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/dark_oak_planks": {
+    "criteria": {
+      "has_slab": "2020-07-17 20:57:41 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_red_mushroom": "2020-06-28 17:57:01 -0400"
@@ -414,6 +420,7 @@
       "cooked_mutton": "2020-07-03 15:33:36 -0400",
       "cooked_beef": "2020-07-05 21:56:41 -0400",
       "beef": "2020-06-28 20:49:58 -0400",
+      "baked_potato": "2020-07-17 21:18:36 -0400",
       "porkchop": "2020-06-28 18:50:04 -0400",
       "apple": "2020-06-28 21:25:46 -0400",
       "potato": "2020-07-05 21:48:06 -0400",
@@ -713,7 +720,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-07-13 23:56:11 -0400"
+      "tick": "2020-07-17 21:28:02 -0400"
     },
     "done": false
   },
@@ -1000,7 +1007,8 @@
       "minecraft:creeper": "2020-07-05 22:37:59 -0400",
       "minecraft:zombified_piglin": "2020-07-04 12:54:37 -0400",
       "minecraft:silverfish": "2020-07-05 22:15:59 -0400",
-      "minecraft:zombie": "2020-06-28 18:52:05 -0400"
+      "minecraft:zombie": "2020-06-28 18:52:05 -0400",
+      "minecraft:drowned": "2020-07-17 21:05:02 -0400"
     },
     "done": false
   },
@@ -1899,6 +1907,12 @@
   "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-06-28 18:17:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2020-07-17 20:57:41 -0400"
     },
     "done": true
   },

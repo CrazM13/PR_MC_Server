@@ -524,7 +524,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-07-16 22:52:58 -0400"
+      "tick": "2020-07-17 22:58:22 -0400"
     },
     "done": false
   },
@@ -796,6 +796,12 @@
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2020-06-28 17:30:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_brown_dye": "2020-07-17 20:46:40 -0400"
     },
     "done": true
   },
@@ -1168,6 +1174,12 @@
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
       "has_logs": "2020-06-28 15:23:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2020-07-17 21:51:41 -0400"
     },
     "done": true
   },
@@ -2672,9 +2684,10 @@
   },
   "universal_dyeing:recipes/building_blocks/universal_dyeing/terracotta": {
     "criteria": {
-      "has_dye": "2020-06-28 16:02:04 -0400"
+      "has_dye": "2020-06-28 16:02:04 -0400",
+      "has_block": "2020-07-17 21:51:41 -0400"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {

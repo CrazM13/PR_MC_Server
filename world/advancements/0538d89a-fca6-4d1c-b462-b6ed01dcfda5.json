@@ -299,6 +299,12 @@
     },
     "done": true
   },
+  "slabs_stairs_to_block:recipes/building_blocks/slabs/dark_oak_planks": {
+    "criteria": {
+      "has_slab": "2020-07-17 19:55:42 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2020-06-28 20:17:25 -0400"
@@ -464,7 +470,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-07-16 23:49:59 -0400"
+      "tick": "2020-07-17 22:58:22 -0400"
     },
     "done": false
   },
@@ -709,6 +715,12 @@
   "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
       "has_flint": "2020-07-03 21:10:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_brown_dye": "2020-07-17 20:35:00 -0400"
     },
     "done": true
   },
@@ -3051,6 +3063,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime": "2020-07-17 22:11:54 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2020-06-28 17:18:20 -0400"
@@ -3174,6 +3192,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2020-06-28 17:17:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2020-07-17 19:55:42 -0400"
     },
     "done": true
   },
