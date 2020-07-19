@@ -548,7 +548,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-07-18 18:24:54 -0400"
+      "tick": "2020-07-19 13:12:19 -0400"
     },
     "done": false
   },
@@ -1258,6 +1258,12 @@
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_sand": "2020-06-28 15:35:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2020-07-19 12:39:55 -0400"
     },
     "done": true
   },
@@ -3635,6 +3641,12 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2020-07-03 16:04:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2020-07-19 12:58:44 -0400"
     },
     "done": true
   },
