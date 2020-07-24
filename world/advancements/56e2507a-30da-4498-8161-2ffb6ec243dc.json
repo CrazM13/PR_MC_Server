@@ -305,6 +305,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2020-07-23 21:56:20 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2020-06-28 20:07:53 -0400"
@@ -548,7 +554,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-07-19 13:12:19 -0400"
+      "tick": "2020-07-23 22:42:22 -0400"
     },
     "done": false
   },
@@ -579,6 +585,12 @@
   "minecraft:recipes/redstone/comparator": {
     "criteria": {
       "has_quartz": "2020-06-28 18:00:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_double_plant": "2020-07-23 22:39:53 -0400"
     },
     "done": true
   },
@@ -877,6 +889,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_red_flower": "2020-07-23 21:49:14 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2020-07-16 22:07:14 -0400"
@@ -1096,6 +1114,12 @@
   "minecraft:recipes/brewing/glass_bottle": {
     "criteria": {
       "has_glass": "2020-06-28 19:03:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_blue_flower": "2020-07-23 22:00:15 -0400"
     },
     "done": true
   },
@@ -1578,8 +1602,10 @@
       "minecraft:cold_ocean": "2020-06-28 16:37:40 -0400",
       "minecraft:forest": "2020-06-28 15:21:47 -0400",
       "minecraft:mountains": "2020-07-13 21:39:47 -0400",
+      "minecraft:taiga": "2020-07-23 21:13:57 -0400",
       "minecraft:desert_hills": "2020-07-05 22:10:13 -0400",
       "minecraft:deep_cold_ocean": "2020-06-28 16:36:53 -0400",
+      "minecraft:taiga_hills": "2020-07-23 21:14:00 -0400",
       "minecraft:desert": "2020-07-01 22:40:56 -0400",
       "minecraft:deep_frozen_ocean": "2020-06-28 16:37:17 -0400",
       "minecraft:birch_forest": "2020-07-03 17:22:13 -0400",
@@ -1883,6 +1909,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_red_flower": "2020-07-23 21:56:20 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/orange_dye_from_red_yellow": {
     "criteria": {
       "has_red_dye": "2020-07-18 10:34:21 -0400"
@@ -2148,6 +2180,12 @@
     },
     "done": true
   },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2020-07-23 20:50:06 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/packed_ice": {
     "criteria": {
       "has_ice": "2020-07-04 14:34:00 -0400"
@@ -2287,6 +2325,12 @@
   "minecraft:recipes/building_blocks/warped_hyphae": {
     "criteria": {
       "has_log": "2020-06-28 19:08:08 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2020-07-23 21:08:07 -0400"
     },
     "done": true
   },
