@@ -1,18 +1,19 @@
-[20:04:59] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:04:59] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:04:59] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:04:59] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:04:59] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:04:59] [main/INFO]: Reloading ResourceManager: Default, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks, VanillaTweaks_c257530.zip, player head drops v1.0.0.zip, villager death messages v1.1.0.zip, Clumps.zip, custom nether portals v2.1.0.zip, wandering trades v1.3.0.zip, spawning spheres v1.0.0.zip, TradingFix
-[20:05:07] [Worker-Main-4/INFO]: Loaded 7 recipes
-[20:05:12] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[20:05:12] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
-[20:05:12] [Worker-Main-4/INFO]: Loaded 1032 advancements
-[20:05:24] [Server thread/INFO]: Starting minecraft server version 1.16.1
-[20:05:24] [Server thread/INFO]: Loading properties
-[20:05:24] [Server thread/INFO]: Default game type: SURVIVAL
-[20:05:24] [Server thread/INFO]: Generating keypair
-[20:05:24] [Server console handler/ERROR]: Exception handling console input
+[09:31:40] [main/WARN]: Missing data pack file/AutoLighting
+[09:31:40] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09:31:40] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:31:40] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:31:40] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09:31:40] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:31:40] [main/INFO]: Reloading ResourceManager: Default, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks, VanillaTweaks_c257530.zip, player head drops v1.0.0.zip, villager death messages v1.1.0.zip, Clumps.zip, custom nether portals v2.1.0.zip, wandering trades v1.3.0.zip, spawning spheres v1.0.0.zip, TradingFix
+[09:31:43] [Worker-Main-6/INFO]: Loaded 7 recipes
+[09:31:43] [Worker-Main-6/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[09:31:43] [Worker-Main-6/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
+[09:31:44] [Worker-Main-6/INFO]: Loaded 1032 advancements
+[09:31:55] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[09:31:55] [Server thread/INFO]: Loading properties
+[09:31:55] [Server thread/INFO]: Default game type: SURVIVAL
+[09:31:55] [Server thread/INFO]: Generating keypair
+[09:31:55] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:273) ~[?:?]
@@ -26,224 +27,392 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
 	at yd$1.run(SourceFile:90) [server.jar:?]
-[20:05:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:05:25] [Server thread/INFO]: Using default channel type
-[20:05:32] [Server thread/INFO]: Preparing level "world"
-[20:05:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:59] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:01] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:06:01] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:06:01] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[20:06:03] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:03] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:03] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:03] [Server thread/INFO]: Preparing spawn area: 0%
-[20:06:04] [Server thread/INFO]: Time elapsed: 16687 ms
-[20:06:04] [Server thread/INFO]: Done (31.168s)! For help, type "help"
-[20:06:06] [User Authenticator #1/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
-[20:06:07] [Server thread/INFO]: CrazM13[/127.0.0.1:59272] logged in with entity id 17 at (628.6440978532426, 47.5625, 15.715825848353898)
-[20:06:07] [Server thread/INFO]: CrazM13 joined the game
-[20:06:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2730ms or 54 ticks behind
-[20:11:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
-[20:11:13] [Server thread/WARN]: CrazM13 moved too quickly! -9.861017793842535,-1.5926045976350593,1.9853142326964957
-[20:11:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2486ms or 49 ticks behind
-[20:12:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20102ms or 402 ticks behind
-[20:12:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15031ms or 300 ticks behind
-[20:13:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12364ms or 247 ticks behind
-[20:13:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12500ms or 250 ticks behind
-[20:14:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12642ms or 252 ticks behind
-[20:14:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12134ms or 242 ticks behind
-[20:14:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12586ms or 251 ticks behind
-[20:15:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15533ms or 310 ticks behind
-[20:15:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15615ms or 312 ticks behind
-[20:16:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15040ms or 300 ticks behind
-[20:16:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15190ms or 303 ticks behind
-[20:17:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13211ms or 264 ticks behind
-[20:17:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13068ms or 261 ticks behind
-[20:18:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14599ms or 291 ticks behind
-[20:18:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13387ms or 267 ticks behind
-[20:19:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13215ms or 264 ticks behind
-[20:19:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13281ms or 265 ticks behind
-[20:20:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12978ms or 259 ticks behind
-[20:20:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16114ms or 322 ticks behind
-[20:21:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13152ms or 263 ticks behind
-[20:21:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13370ms or 267 ticks behind
-[20:22:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15114ms or 302 ticks behind
-[20:22:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12397ms or 247 ticks behind
-[20:23:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13175ms or 263 ticks behind
-[20:23:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14402ms or 288 ticks behind
-[20:24:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14531ms or 290 ticks behind
-[20:24:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13346ms or 266 ticks behind
-[20:25:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13358ms or 267 ticks behind
-[20:25:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13115ms or 262 ticks behind
-[20:25:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5533ms or 110 ticks behind
-[20:27:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[20:28:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15866ms or 317 ticks behind
-[20:28:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14137ms or 282 ticks behind
-[20:29:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13181ms or 263 ticks behind
-[20:29:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14532ms or 290 ticks behind
-[20:29:43] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/3667, l='ServerLevel[world]', x=1146.32, y=63.88, z=895.95]
-[20:30:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14905ms or 298 ticks behind
-[20:30:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13808ms or 276 ticks behind
-[20:31:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13530ms or 270 ticks behind
-[20:31:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14491ms or 289 ticks behind
-[20:32:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13164ms or 263 ticks behind
-[20:32:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14930ms or 298 ticks behind
-[20:33:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15417ms or 308 ticks behind
-[20:33:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13730ms or 274 ticks behind
-[20:34:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13412ms or 268 ticks behind
-[20:34:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13747ms or 274 ticks behind
-[20:34:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12982ms or 259 ticks behind
-[20:35:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12543ms or 250 ticks behind
-[20:35:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11858ms or 237 ticks behind
-[20:36:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11472ms or 229 ticks behind
-[20:36:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11615ms or 232 ticks behind
-[20:37:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12617ms or 252 ticks behind
-[20:37:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11784ms or 235 ticks behind
-[20:38:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12556ms or 251 ticks behind
-[20:38:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13780ms or 275 ticks behind
-[20:39:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12806ms or 256 ticks behind
-[20:39:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12914ms or 258 ticks behind
-[20:39:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12754ms or 255 ticks behind
-[20:40:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12716ms or 254 ticks behind
-[20:40:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14075ms or 281 ticks behind
-[20:41:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15643ms or 312 ticks behind
-[20:45:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2061ms or 41 ticks behind
-[20:45:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16259ms or 325 ticks behind
-[20:46:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14982ms or 299 ticks behind
-[20:46:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14387ms or 287 ticks behind
-[20:47:52] [Server thread/WARN]: CrazM13 moved too quickly! -1596.6139965217,29.23363200604248,-562.2794447616867
-[20:47:52] [Server thread/WARN]: CrazM13 moved too quickly! -1596.6139965217,29.23363200604248,-562.2794447616867
-[20:47:54] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[20:47:54] [Server thread/INFO]: Found that the dragon has been killed in this world already.
-[20:50:06] [Server thread/INFO]: CrazM13 has reached the goal [Beaconator]
-[20:55:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
-[20:55:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16156ms or 323 ticks behind
-[20:56:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16651ms or 333 ticks behind
-[20:56:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14833ms or 296 ticks behind
-[20:57:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14229ms or 284 ticks behind
-[20:57:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8144ms or 162 ticks behind
-[21:08:07] [Server thread/INFO]: CrazM13 has completed the challenge [Subspace Bubble]
-[21:08:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3334ms or 66 ticks behind
-[21:08:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3231ms or 64 ticks behind
-[21:13:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4679ms or 93 ticks behind
-[21:13:01] [Server thread/WARN]: CrazM13 moved too quickly! 9.94351350028137,-0.8391945580851399,2.3030554214092263
-[21:14:14] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7826, y=66, z=-5840} fu{x=-7952, y=76, z=-5840}
-[21:18:27] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7613, y=64, z=-5834} fu{x=-7602, y=66, z=-5835}
-[21:18:27] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7613, y=64, z=-5834} fu{x=-7602, y=66, z=-5835}
-[21:28:42] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[21:28:42] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21:28:42] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21:28:42] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[21:28:42] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21:28:42] [Server thread/INFO]: Reloading ResourceManager: Default, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks, VanillaTweaks_c257530.zip, player head drops v1.0.0.zip, villager death messages v1.1.0.zip, Clumps.zip, custom nether portals v2.1.0.zip, wandering trades v1.3.0.zip, spawning spheres v1.0.0.zip, TradingFix, AutoLighting
-[21:28:44] [Server thread/INFO]: Loaded 7 recipes
-[21:28:44] [Server thread/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[21:28:44] [Server thread/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
-[21:28:44] [Server thread/INFO]: Loaded 1032 advancements
-[21:28:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2649ms or 52 ticks behind
-[21:39:29] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7612, y=66, z=-5811} fu{x=-7609, y=65, z=-5808}
-[21:39:29] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7612, y=66, z=-5811} fu{x=-7609, y=65, z=-5808}
-[21:47:57] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7583, y=66, z=-5842} fu{x=-7586, y=65, z=-5836}
-[21:47:57] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7583, y=66, z=-5842} fu{x=-7586, y=65, z=-5836}
-[22:19:05] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7716, y=67, z=-5797} fu{x=-7715, y=67, z=-5796}
-[22:19:05] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7716, y=67, z=-5797} fu{x=-7715, y=67, z=-5796}
-[22:19:05] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7716, y=67, z=-5797} fu{x=-7715, y=67, z=-5796}
-[22:19:21] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7722, y=67, z=-5795} fu{x=-7721, y=66, z=-5795}
-[22:19:21] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7722, y=67, z=-5795} fu{x=-7721, y=66, z=-5795}
-[22:19:21] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7722, y=67, z=-5795} fu{x=-7721, y=66, z=-5795}
-[22:19:21] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7722, y=67, z=-5795} fu{x=-7721, y=66, z=-5795}
-[22:20:22] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7715, y=68, z=-5799} fu{x=-7716, y=68, z=-5798}
-[22:20:22] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7715, y=68, z=-5799} fu{x=-7716, y=68, z=-5798}
-[22:20:23] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7716, y=67, z=-5799} fu{x=-7718, y=68, z=-5799}
-[22:20:23] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7716, y=67, z=-5799} fu{x=-7718, y=68, z=-5799}
-[22:20:23] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7716, y=67, z=-5799} fu{x=-7718, y=68, z=-5799}
-[22:20:23] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7716, y=67, z=-5799} fu{x=-7718, y=68, z=-5799}
-[22:20:23] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7716, y=67, z=-5799} fu{x=-7718, y=68, z=-5799}
-[22:20:23] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7716, y=67, z=-5799} fu{x=-7718, y=68, z=-5799}
-[22:22:48] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7708, y=66, z=-5800} fu{x=-7707, y=66, z=-5807}
-[22:22:48] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7708, y=66, z=-5800} fu{x=-7707, y=66, z=-5807}
-[22:23:20] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7717, y=67, z=-5817} fu{x=-7717, y=66, z=-5817}
-[22:23:20] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7717, y=67, z=-5817} fu{x=-7717, y=66, z=-5817}
-[22:23:20] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7717, y=67, z=-5817} fu{x=-7717, y=66, z=-5817}
-[22:23:20] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7717, y=67, z=-5817} fu{x=-7717, y=66, z=-5817}
-[22:23:20] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7717, y=67, z=-5817} fu{x=-7717, y=66, z=-5817}
-[22:23:26] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7716, y=67, z=-5816} fu{x=-7718, y=66, z=-5816}
-[22:23:26] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7716, y=67, z=-5816} fu{x=-7718, y=66, z=-5816}
-[22:23:26] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7716, y=67, z=-5816} fu{x=-7718, y=66, z=-5816}
-[22:23:26] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7716, y=67, z=-5816} fu{x=-7718, y=66, z=-5816}
-[22:23:27] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7716, y=67, z=-5816} fu{x=-7718, y=66, z=-5816}
-[22:23:27] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7716, y=67, z=-5816} fu{x=-7718, y=66, z=-5816}
-[22:26:24] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7712, y=66, z=-5811} fu{x=-7713, y=68, z=-5809}
-[22:26:24] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7712, y=66, z=-5811} fu{x=-7713, y=68, z=-5809}
-[22:26:24] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7712, y=66, z=-5811} fu{x=-7713, y=68, z=-5809}
-[22:26:24] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7712, y=66, z=-5811} fu{x=-7713, y=68, z=-5809}
-[22:27:01] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7760, y=67, z=-5797} fu{x=-7731, y=68, z=-5799}
-[22:29:07] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7767, y=69, z=-5800} fu{x=-7767, y=68, z=-5802}
-[22:29:08] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7767, y=69, z=-5800} fu{x=-7767, y=68, z=-5802}
-[22:29:44] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7728, y=65, z=-5814} fu{x=-7729, y=64, z=-5814}
-[22:29:44] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7728, y=65, z=-5814} fu{x=-7729, y=64, z=-5814}
-[22:30:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7737, y=66, z=-5820} fu{x=-7736, y=68, z=-5820}
-[22:30:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7737, y=66, z=-5820} fu{x=-7736, y=68, z=-5820}
-[22:33:13] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7729, y=66, z=-5805} fu{x=-7729, y=65, z=-5813}
-[22:33:13] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7729, y=66, z=-5805} fu{x=-7729, y=65, z=-5813}
-[22:33:13] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7729, y=66, z=-5805} fu{x=-7729, y=65, z=-5813}
-[22:35:37] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7739, y=69, z=-5815} fu{x=-7739, y=69, z=-5814}
-[22:35:37] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7739, y=69, z=-5815} fu{x=-7739, y=69, z=-5814}
-[22:35:37] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7739, y=69, z=-5815} fu{x=-7739, y=69, z=-5814}
-[22:35:37] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7739, y=69, z=-5815} fu{x=-7739, y=69, z=-5814}
-[22:35:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7739, y=68, z=-5815} fu{x=-7738, y=68, z=-5814}
-[22:35:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7739, y=68, z=-5815} fu{x=-7738, y=68, z=-5814}
-[22:35:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7739, y=68, z=-5815} fu{x=-7738, y=68, z=-5814}
-[22:35:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7739, y=68, z=-5815} fu{x=-7738, y=68, z=-5814}
-[22:35:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7739, y=68, z=-5815} fu{x=-7738, y=68, z=-5814}
-[22:35:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7739, y=68, z=-5815} fu{x=-7738, y=68, z=-5814}
-[22:35:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7739, y=68, z=-5815} fu{x=-7738, y=68, z=-5814}
-[22:37:34] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7741, y=69, z=-5807} fu{x=-7738, y=69, z=-5806}
-[22:37:34] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7741, y=69, z=-5807} fu{x=-7738, y=68, z=-5806}
-[22:37:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7741, y=69, z=-5807} fu{x=-7737, y=70, z=-5807}
-[22:37:38] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7741, y=69, z=-5807} fu{x=-7737, y=70, z=-5807}
-[22:37:54] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7747, y=67, z=-5806} fu{x=-7747, y=70, z=-5810}
-[22:38:59] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7746, y=70, z=-5816} fu{x=-7747, y=70, z=-5817}
-[22:39:00] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7746, y=70, z=-5816} fu{x=-7747, y=70, z=-5817}
-[22:40:16] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7755, y=69, z=-5799} fu{x=-7755, y=68, z=-5799}
-[22:40:54] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7749, y=69, z=-5833} fu{x=-7748, y=69, z=-5833}
-[22:50:36] [Server thread/INFO]: CrazM13 lost connection: Disconnected
-[22:50:36] [Server thread/INFO]: CrazM13 left the game
-[22:50:56] [Server thread/INFO]: Stopping the server
-[22:50:56] [Server thread/INFO]: Stopping server
-[22:50:56] [Server thread/INFO]: Saving players
-[22:50:56] [Server thread/INFO]: Saving worlds
-[22:50:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:50:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:50:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:50:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:50:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:50:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:50:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:51:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:31:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:31:55] [Server thread/INFO]: Using default channel type
+[09:31:57] [Server thread/INFO]: Preparing level "world"
+[09:31:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:31:59] [Server thread/INFO]: Preparing spawn area: 0%
+[09:31:59] [Server thread/INFO]: Preparing spawn area: 0%
+[09:31:59] [Server thread/INFO]: Preparing spawn area: 0%
+[09:31:59] [Server thread/INFO]: Preparing spawn area: 0%
+[09:31:59] [Server thread/INFO]: Preparing spawn area: 0%
+[09:32:01] [Server thread/INFO]: Preparing spawn area: 0%
+[09:32:01] [Server thread/INFO]: Preparing spawn area: 0%
+[09:32:02] [Server thread/INFO]: Time elapsed: 4514 ms
+[09:32:02] [Server thread/INFO]: Done (5.090s)! For help, type "help"
+[09:34:10] [User Authenticator #1/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[09:34:11] [Server thread/INFO]: CrazM13[/127.0.0.1:61136] logged in with entity id 17 at (-7733.493164160361, 64.0, -5811.940916773641)
+[09:34:11] [Server thread/INFO]: CrazM13 joined the game
+[09:34:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2305ms or 46 ticks behind
+[09:44:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2125ms or 42 ticks behind
+[10:16:30] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7788, y=64, z=-5839} fu{x=-7622, y=66, z=-5780}
+[10:16:30] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7788, y=64, z=-5839} fu{x=-7622, y=66, z=-5780}
+[10:16:30] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7788, y=64, z=-5839} fu{x=-7622, y=66, z=-5780}
+[10:17:06] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=-7662, y=68, z=-5795} fu{x=-7664, y=66, z=-5798}
+[10:20:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3061ms or 61 ticks behind
+[10:25:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[10:26:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16876ms or 337 ticks behind
+[10:26:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13467ms or 269 ticks behind
+[10:27:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11448ms or 228 ticks behind
+[10:27:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12413ms or 248 ticks behind
+[10:28:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11598ms or 231 ticks behind
+[10:28:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14681ms or 293 ticks behind
+[10:29:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13263ms or 265 ticks behind
+[10:29:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11612ms or 232 ticks behind
+[10:30:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10507ms or 210 ticks behind
+[10:30:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10676ms or 213 ticks behind
+[10:30:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10606ms or 212 ticks behind
+[10:31:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10042ms or 200 ticks behind
+[10:31:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10249ms or 204 ticks behind
+[10:32:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10275ms or 205 ticks behind
+[10:32:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11174ms or 223 ticks behind
+[10:32:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10553ms or 211 ticks behind
+[10:33:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9962ms or 199 ticks behind
+[10:33:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10202ms or 204 ticks behind
+[10:34:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11315ms or 226 ticks behind
+[10:34:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9989ms or 199 ticks behind
+[10:35:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9997ms or 199 ticks behind
+[10:35:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10102ms or 202 ticks behind
+[10:35:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10885ms or 217 ticks behind
+[10:36:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11860ms or 237 ticks behind
+[10:36:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10180ms or 203 ticks behind
+[10:37:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12629ms or 252 ticks behind
+[10:37:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10115ms or 202 ticks behind
+[10:38:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10345ms or 206 ticks behind
+[10:38:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10178ms or 203 ticks behind
+[10:38:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10196ms or 203 ticks behind
+[10:39:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10225ms or 204 ticks behind
+[10:39:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10208ms or 204 ticks behind
+[10:40:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10088ms or 201 ticks behind
+[10:40:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10191ms or 203 ticks behind
+[10:41:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10024ms or 200 ticks behind
+[10:41:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10025ms or 200 ticks behind
+[10:41:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10052ms or 201 ticks behind
+[10:42:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10028ms or 200 ticks behind
+[10:42:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10335ms or 206 ticks behind
+[10:43:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10222ms or 204 ticks behind
+[10:43:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9986ms or 199 ticks behind
+[10:43:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10335ms or 206 ticks behind
+[10:44:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10452ms or 209 ticks behind
+[10:44:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10310ms or 206 ticks behind
+[10:45:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10208ms or 204 ticks behind
+[10:45:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10215ms or 204 ticks behind
+[10:46:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10026ms or 200 ticks behind
+[10:46:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9806ms or 196 ticks behind
+[10:46:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10320ms or 206 ticks behind
+[10:47:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11037ms or 220 ticks behind
+[10:47:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10803ms or 216 ticks behind
+[10:47:54] [Server thread/INFO]: Villager bdp['Villager'/27524, l='ServerLevel[world]', x=1238.43, y=56.00, z=824.43] died, message: 'Villager discovered the floor was lava'
+[10:48:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10428ms or 208 ticks behind
+[10:48:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10598ms or 211 ticks behind
+[10:49:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10521ms or 210 ticks behind
+[10:49:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9902ms or 198 ticks behind
+[10:49:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10311ms or 206 ticks behind
+[10:50:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9913ms or 198 ticks behind
+[10:50:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9810ms or 196 ticks behind
+[10:51:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10214ms or 204 ticks behind
+[10:51:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11015ms or 220 ticks behind
+[10:52:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11120ms or 222 ticks behind
+[10:52:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10781ms or 215 ticks behind
+[10:52:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10339ms or 206 ticks behind
+[10:53:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10492ms or 209 ticks behind
+[10:53:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10407ms or 208 ticks behind
+[10:54:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10955ms or 219 ticks behind
+[10:54:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10304ms or 206 ticks behind
+[10:54:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10318ms or 206 ticks behind
+[10:55:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10287ms or 205 ticks behind
+[10:55:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10268ms or 205 ticks behind
+[10:56:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10520ms or 210 ticks behind
+[10:56:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10194ms or 203 ticks behind
+[10:57:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10265ms or 205 ticks behind
+[10:57:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10234ms or 204 ticks behind
+[10:57:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10153ms or 203 ticks behind
+[10:58:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10140ms or 202 ticks behind
+[10:58:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10220ms or 204 ticks behind
+[10:59:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10046ms or 200 ticks behind
+[10:59:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10194ms or 203 ticks behind
+[11:00:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10321ms or 206 ticks behind
+[11:00:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10039ms or 200 ticks behind
+[11:00:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10086ms or 201 ticks behind
+[11:01:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10408ms or 208 ticks behind
+[11:01:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9534ms or 190 ticks behind
+[11:02:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9883ms or 197 ticks behind
+[11:02:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10067ms or 201 ticks behind
+[11:02:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10086ms or 201 ticks behind
+[11:03:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10166ms or 203 ticks behind
+[11:03:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9713ms or 194 ticks behind
+[11:04:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9517ms or 190 ticks behind
+[11:04:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9540ms or 190 ticks behind
+[11:05:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11310ms or 226 ticks behind
+[11:05:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10844ms or 216 ticks behind
+[11:05:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11732ms or 234 ticks behind
+[11:06:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11289ms or 225 ticks behind
+[11:06:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11367ms or 227 ticks behind
+[11:07:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11218ms or 224 ticks behind
+[11:07:32] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[11:07:32] [Server thread/INFO]: CrazM13 left the game
+[11:07:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5707ms or 114 ticks behind
+[11:07:41] [User Authenticator #2/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[11:07:42] [Server thread/INFO]: CrazM13[/127.0.0.1:61340] logged in with entity id 31385 at (1151.300000011921, 66.05173018535174, 883.3000000119209)
+[11:07:42] [Server thread/INFO]: CrazM13 joined the game
+[11:07:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5722ms or 114 ticks behind
+[11:08:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12159ms or 243 ticks behind
+[11:08:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11353ms or 227 ticks behind
+[11:09:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11348ms or 226 ticks behind
+[11:09:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12666ms or 253 ticks behind
+[11:10:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12548ms or 250 ticks behind
+[11:10:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13404ms or 268 ticks behind
+[11:11:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12915ms or 258 ticks behind
+[11:11:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12605ms or 252 ticks behind
+[11:12:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12662ms or 253 ticks behind
+[11:12:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12431ms or 248 ticks behind
+[11:12:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11794ms or 235 ticks behind
+[11:13:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12836ms or 256 ticks behind
+[11:13:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12795ms or 255 ticks behind
+[11:14:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14147ms or 282 ticks behind
+[11:14:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16141ms or 322 ticks behind
+[11:15:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15924ms or 318 ticks behind
+[11:15:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11213ms or 224 ticks behind
+[11:16:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11099ms or 221 ticks behind
+[11:16:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12729ms or 254 ticks behind
+[11:17:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12498ms or 249 ticks behind
+[11:17:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12174ms or 243 ticks behind
+[11:17:59] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/32914, l='ServerLevel[world]', x=1285.49, y=69.00, z=926.92]
+[11:18:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10904ms or 218 ticks behind
+[11:18:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11299ms or 225 ticks behind
+[11:18:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11286ms or 225 ticks behind
+[11:19:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12574ms or 251 ticks behind
+[11:19:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12690ms or 253 ticks behind
+[11:20:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13097ms or 261 ticks behind
+[11:20:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11805ms or 236 ticks behind
+[11:21:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12014ms or 240 ticks behind
+[11:21:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12375ms or 247 ticks behind
+[11:22:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13007ms or 260 ticks behind
+[11:22:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11951ms or 239 ticks behind
+[11:23:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11864ms or 237 ticks behind
+[11:23:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11756ms or 235 ticks behind
+[11:23:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11551ms or 231 ticks behind
+[11:23:55] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1218, y=58, z=853} fu{x=1218, y=59, z=853}
+[11:23:55] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1220, y=58, z=853} fu{x=1220, y=59, z=853}
+[11:24:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11532ms or 230 ticks behind
+[11:24:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12569ms or 251 ticks behind
+[11:25:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12441ms or 248 ticks behind
+[11:25:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12907ms or 258 ticks behind
+[11:26:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12813ms or 256 ticks behind
+[11:26:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12836ms or 256 ticks behind
+[11:27:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12862ms or 257 ticks behind
+[11:27:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12469ms or 249 ticks behind
+[11:28:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12923ms or 258 ticks behind
+[11:28:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12880ms or 257 ticks behind
+[11:28:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12610ms or 252 ticks behind
+[11:29:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12869ms or 257 ticks behind
+[11:29:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13145ms or 262 ticks behind
+[11:30:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13463ms or 269 ticks behind
+[11:30:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13500ms or 270 ticks behind
+[11:31:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12897ms or 257 ticks behind
+[11:31:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13254ms or 265 ticks behind
+[11:32:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12123ms or 242 ticks behind
+[11:32:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12669ms or 253 ticks behind
+[11:33:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10819ms or 216 ticks behind
+[11:33:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12405ms or 248 ticks behind
+[11:34:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12151ms or 243 ticks behind
+[11:34:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12075ms or 241 ticks behind
+[11:34:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12111ms or 242 ticks behind
+[11:35:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12899ms or 257 ticks behind
+[11:35:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13194ms or 263 ticks behind
+[11:36:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13182ms or 263 ticks behind
+[11:36:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13116ms or 262 ticks behind
+[11:37:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14757ms or 295 ticks behind
+[11:37:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11971ms or 239 ticks behind
+[11:38:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9521ms or 190 ticks behind
+[11:38:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10185ms or 203 ticks behind
+[11:38:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9642ms or 192 ticks behind
+[11:39:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10320ms or 206 ticks behind
+[11:39:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12289ms or 245 ticks behind
+[11:40:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12350ms or 247 ticks behind
+[11:40:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12669ms or 253 ticks behind
+[11:41:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11980ms or 239 ticks behind
+[11:41:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12147ms or 242 ticks behind
+[11:42:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12142ms or 242 ticks behind
+[11:42:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12329ms or 246 ticks behind
+[11:43:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12608ms or 252 ticks behind
+[11:43:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12501ms or 250 ticks behind
+[11:43:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11996ms or 239 ticks behind
+[11:44:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12091ms or 241 ticks behind
+[11:44:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11897ms or 237 ticks behind
+[11:45:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13027ms or 260 ticks behind
+[11:45:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12471ms or 249 ticks behind
+[11:46:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12115ms or 242 ticks behind
+[11:46:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12100ms or 242 ticks behind
+[11:47:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12180ms or 243 ticks behind
+[11:47:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12001ms or 240 ticks behind
+[11:48:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11916ms or 238 ticks behind
+[11:48:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11969ms or 239 ticks behind
+[11:48:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11859ms or 237 ticks behind
+[11:49:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12061ms or 241 ticks behind
+[11:49:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11980ms or 239 ticks behind
+[11:50:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14102ms or 282 ticks behind
+[11:50:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13075ms or 261 ticks behind
+[11:51:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12690ms or 253 ticks behind
+[11:51:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13335ms or 266 ticks behind
+[11:52:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12649ms or 252 ticks behind
+[11:52:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12837ms or 256 ticks behind
+[11:52:41] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/36554, l='ServerLevel[world]', x=1240.45, y=61.51, z=819.38]
+[11:52:54] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/36573, l='ServerLevel[world]', x=1240.52, y=61.51, z=818.58]
+[11:52:55] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/36580, l='ServerLevel[world]', x=1240.45, y=61.51, z=819.38]
+[11:53:04] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/36600, l='ServerLevel[world]', x=1240.45, y=61.51, z=819.38]
+[11:53:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12645ms or 252 ticks behind
+[11:53:06] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/36608, l='ServerLevel[world]', x=1240.45, y=61.51, z=819.38]
+[11:53:07] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/36616, l='ServerLevel[world]', x=1240.45, y=61.51, z=819.38]
+[11:53:08] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/36625, l='ServerLevel[world]', x=1240.45, y=61.51, z=819.38]
+[11:53:11] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/36647, l='ServerLevel[world]', x=1240.45, y=61.51, z=819.38]
+[11:53:13] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/36655, l='ServerLevel[world]', x=1240.45, y=61.51, z=819.38]
+[11:53:14] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/36663, l='ServerLevel[world]', x=1240.45, y=61.51, z=819.38]
+[11:53:15] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/36671, l='ServerLevel[world]', x=1240.45, y=61.51, z=819.38]
+[11:53:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12792ms or 255 ticks behind
+[11:54:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17877ms or 357 ticks behind
+[11:54:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12738ms or 254 ticks behind
+[11:55:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12626ms or 252 ticks behind
+[11:55:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12498ms or 249 ticks behind
+[11:55:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12288ms or 245 ticks behind
+[11:56:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12428ms or 248 ticks behind
+[11:56:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12868ms or 257 ticks behind
+[11:57:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12514ms or 250 ticks behind
+[11:57:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14589ms or 291 ticks behind
+[11:58:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12477ms or 249 ticks behind
+[11:58:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13284ms or 265 ticks behind
+[11:59:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15998ms or 319 ticks behind
+[11:59:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12395ms or 247 ticks behind
+[12:00:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14019ms or 280 ticks behind
+[12:00:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12826ms or 256 ticks behind
+[12:01:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11927ms or 238 ticks behind
+[12:01:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12859ms or 257 ticks behind
+[12:02:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13147ms or 262 ticks behind
+[12:02:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13330ms or 266 ticks behind
+[12:02:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13687ms or 273 ticks behind
+[12:03:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13082ms or 261 ticks behind
+[12:03:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13129ms or 262 ticks behind
+[12:04:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13630ms or 272 ticks behind
+[12:04:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13118ms or 262 ticks behind
+[12:04:57] [Server thread/INFO]: Villager bdp['Villager'/33659, l='ServerLevel[world]', x=1240.66, y=61.05, z=819.03] died, message: 'Villager drowned'
+[12:05:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12641ms or 252 ticks behind
+[12:05:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12615ms or 252 ticks behind
+[12:06:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13319ms or 266 ticks behind
+[12:06:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12455ms or 249 ticks behind
+[12:07:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12096ms or 241 ticks behind
+[12:07:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12843ms or 256 ticks behind
+[12:07:39] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1210, y=67, z=868} fu{x=1208, y=67, z=869}
+[12:07:39] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1209, y=66, z=867} fu{x=1208, y=67, z=869}
+[12:07:39] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1209, y=66, z=867} fu{x=1208, y=67, z=869}
+[12:07:39] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1209, y=66, z=867} fu{x=1208, y=67, z=869}
+[12:07:39] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1209, y=67, z=867} fu{x=1208, y=67, z=869}
+[12:07:39] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1208, y=67, z=867} fu{x=1208, y=67, z=869}
+[12:07:40] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1208, y=67, z=867} fu{x=1208, y=67, z=869}
+[12:07:45] [Server thread/WARN]: Mismatch in destroy block pos: fu{x=1209, y=66, z=871} fu{x=1207, y=67, z=873}
+[12:08:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12491ms or 249 ticks behind
+[12:08:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12411ms or 248 ticks behind
+[12:08:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12456ms or 249 ticks behind
+[12:09:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12889ms or 257 ticks behind
+[12:09:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12778ms or 255 ticks behind
+[12:10:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12893ms or 257 ticks behind
+[12:10:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13008ms or 260 ticks behind
+[12:11:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12827ms or 256 ticks behind
+[12:11:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13963ms or 279 ticks behind
+[12:12:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12527ms or 250 ticks behind
+[12:12:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12643ms or 252 ticks behind
+[12:12:47] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/39138, l='ServerLevel[world]', x=1290.42, y=69.00, z=927.06]
+[12:13:09] [Server thread/WARN]: Fetching packet for removed entity bbg['Air'/39185, l='ServerLevel[world]', x=1290.74, y=69.00, z=927.59]
+[12:13:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12784ms or 255 ticks behind
+[12:13:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12848ms or 256 ticks behind
+[12:14:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13373ms or 267 ticks behind
+[12:14:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14175ms or 283 ticks behind
+[12:15:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14150ms or 283 ticks behind
+[12:15:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14591ms or 291 ticks behind
+[12:16:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13141ms or 262 ticks behind
+[12:16:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12965ms or 259 ticks behind
+[12:16:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13348ms or 266 ticks behind
+[12:17:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12613ms or 252 ticks behind
+[12:17:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12604ms or 252 ticks behind
+[12:18:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13463ms or 269 ticks behind
+[12:18:34] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[12:18:34] [Server thread/INFO]: CrazM13 left the game
+[12:26:49] [User Authenticator #3/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[12:26:50] [Server thread/INFO]: CrazM13[/127.0.0.1:61464] logged in with entity id 39594 at (1232.245545515141, 64.0, 861.1088339713684)
+[12:26:50] [Server thread/INFO]: CrazM13 joined the game
+[12:27:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
+[12:27:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14489ms or 289 ticks behind
+[12:28:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29756ms or 595 ticks behind
+[12:28:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14282ms or 285 ticks behind
+[12:29:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11637ms or 232 ticks behind
+[12:29:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11361ms or 227 ticks behind
+[12:30:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12332ms or 246 ticks behind
+[12:30:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12497ms or 249 ticks behind
+[12:31:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11785ms or 235 ticks behind
+[12:31:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12462ms or 249 ticks behind
+[12:31:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12100ms or 242 ticks behind
+[12:32:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12590ms or 251 ticks behind
+[12:32:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12025ms or 240 ticks behind
+[12:33:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11615ms or 232 ticks behind
+[12:33:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12553ms or 251 ticks behind
+[12:34:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12751ms or 255 ticks behind
+[12:34:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12162ms or 243 ticks behind
+[12:35:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12649ms or 252 ticks behind
+[12:35:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12504ms or 250 ticks behind
+[12:36:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13414ms or 268 ticks behind
+[12:36:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11535ms or 230 ticks behind
+[12:36:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11352ms or 227 ticks behind
+[12:37:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11889ms or 237 ticks behind
+[12:37:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11133ms or 222 ticks behind
+[12:38:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11985ms or 239 ticks behind
+[12:38:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12553ms or 251 ticks behind
+[12:39:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12767ms or 255 ticks behind
+[12:39:21] [Server thread/INFO]: Villager bdp['Villager'/39647, l='ServerLevel[world]', x=1240.30, y=62.10, z=819.35] died, message: 'Villager drowned'
+[12:39:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11753ms or 235 ticks behind
+[12:40:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12043ms or 240 ticks behind
+[12:40:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11477ms or 229 ticks behind
+[12:40:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11414ms or 228 ticks behind
+[12:41:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11583ms or 231 ticks behind
+[12:41:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11791ms or 235 ticks behind
+[12:42:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13359ms or 267 ticks behind
+[12:42:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10892ms or 217 ticks behind
+[12:43:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10778ms or 215 ticks behind
+[12:43:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11352ms or 227 ticks behind
+[12:44:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11230ms or 224 ticks behind
+[12:44:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11317ms or 226 ticks behind
+[12:44:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10619ms or 212 ticks behind
+[12:45:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10031ms or 200 ticks behind
+[12:45:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11791ms or 235 ticks behind
+[12:46:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10734ms or 214 ticks behind
+[12:46:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11335ms or 226 ticks behind
+[12:47:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11715ms or 234 ticks behind
+[12:47:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11730ms or 234 ticks behind
+[12:47:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11867ms or 237 ticks behind
+[12:48:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11097ms or 221 ticks behind
+[12:48:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10779ms or 215 ticks behind
+[12:49:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11110ms or 222 ticks behind
+[12:49:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11287ms or 225 ticks behind
+[12:50:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11410ms or 228 ticks behind
+[12:50:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11759ms or 235 ticks behind
+[12:51:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11838ms or 236 ticks behind
+[12:51:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11550ms or 231 ticks behind
+[12:51:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11391ms or 227 ticks behind
+[12:52:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11308ms or 226 ticks behind
+[12:52:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11487ms or 229 ticks behind
+[12:53:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11897ms or 237 ticks behind
+[12:53:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12467ms or 249 ticks behind
+[12:54:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12095ms or 241 ticks behind
+[12:54:22] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[12:54:22] [Server thread/INFO]: CrazM13 left the game
+[12:54:42] [Server thread/INFO]: Stopping the server
+[12:54:42] [Server thread/INFO]: Stopping server
+[12:54:42] [Server thread/INFO]: Saving players
+[12:54:42] [Server thread/INFO]: Saving worlds
+[12:54:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:54:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:54:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12:54:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:54:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12:54:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:54:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:54:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:54:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
