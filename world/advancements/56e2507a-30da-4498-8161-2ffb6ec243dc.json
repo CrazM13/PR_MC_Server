@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2020-07-25 17:33:51 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_stained_glass": {
     "criteria": {
       "has_glass": "2020-06-28 19:03:15 -0400"
@@ -287,6 +293,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2020-07-25 15:19:39 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2020-06-28 15:50:47 -0400"
@@ -320,6 +332,12 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2020-06-28 20:07:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2020-07-25 15:19:39 -0400"
     },
     "done": true
   },
@@ -474,6 +492,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2020-07-25 13:37:28 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
     "criteria": {
       "has_sand": "2020-06-28 15:35:14 -0400"
@@ -564,9 +588,15 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2020-07-25 15:19:39 -0400"
+    },
+    "done": true
+  },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-07-25 12:46:26 -0400"
+      "tick": "2020-07-25 19:26:27 -0400"
     },
     "done": false
   },
@@ -895,6 +925,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2020-07-25 13:53:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_crimson_planks": "2020-07-25 15:19:39 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2020-07-05 16:31:06 -0400"
@@ -916,6 +958,12 @@
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_pickaxe": "2020-06-28 15:44:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2020-07-25 17:33:51 -0400"
     },
     "done": true
   },
@@ -1135,6 +1183,12 @@
     },
     "done": true
   },
+  "uncraftable_ice:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_blue_ice": "2020-07-25 18:01:25 -0400"
+    },
+    "done": true
+  },
   "slabs_stairs_to_block:recipes/building_blocks/stairs/cobblestone": {
     "criteria": {
       "has_stairs": "2020-06-28 15:51:16 -0400"
@@ -1159,6 +1213,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/crimson_slab": {
+    "criteria": {
+      "has_planks": "2020-07-25 15:19:39 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2020-07-04 20:09:52 -0400"
@@ -1180,6 +1240,18 @@
   "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2020-07-05 16:40:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2020-07-25 15:19:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2020-07-25 15:19:39 -0400"
     },
     "done": true
   },
@@ -1915,6 +1987,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2020-07-25 13:53:15 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
       "has_white_wool": "2020-06-28 15:54:44 -0400"
@@ -1948,6 +2026,12 @@
   "minecraft:recipes/misc/fire_charge": {
     "criteria": {
       "has_blaze_powder": "2020-07-05 16:50:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2020-07-25 17:33:51 -0400"
     },
     "done": true
   },
@@ -2502,6 +2586,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2020-07-25 13:53:15 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_slab": {
     "criteria": {
       "has_planks": "2020-06-28 16:53:35 -0400"
@@ -2633,6 +2723,12 @@
   "minecraft:recipes/building_blocks/orange_wool": {
     "criteria": {
       "has_white_wool": "2020-06-28 15:54:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2020-07-25 15:19:39 -0400"
     },
     "done": true
   },
@@ -2801,6 +2897,12 @@
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2020-06-28 17:09:49 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2020-07-25 15:19:39 -0400"
     },
     "done": true
   },
@@ -3511,6 +3613,12 @@
   "minecraft:recipes/building_blocks/blackstone_slab": {
     "criteria": {
       "has_blackstone": "2020-07-05 16:40:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime": "2020-07-25 14:32:59 -0400"
     },
     "done": true
   },
