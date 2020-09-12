@@ -1,72 +1,55 @@
-[13:05:36] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[13:05:37] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13:05:37] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:05:37] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:05:37] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13:05:37] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13:05:37] [main/INFO]: Reloading ResourceManager: Default, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks, VanillaTweaks_c257530.zip, player head drops v1.0.0.zip, villager death messages v1.1.0.zip, Clumps.zip, custom nether portals v2.1.0.zip, wandering trades v1.3.0.zip, spawning spheres v1.0.0.zip, TradingFix.zip, radio
-[13:05:39] [Worker-Main-13/INFO]: Loaded 7 recipes
-[13:05:40] [Worker-Main-13/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[13:05:40] [Worker-Main-13/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
-[13:05:40] [Worker-Main-13/INFO]: Loaded 1032 advancements
-[13:05:51] [Server thread/INFO]: Starting minecraft server version 1.16.1
-[13:05:51] [Server thread/INFO]: Loading properties
-[13:05:51] [Server thread/INFO]: Default game type: SURVIVAL
-[13:05:51] [Server thread/INFO]: Generating keypair
-[13:05:51] [Server console handler/ERROR]: Exception handling console input
+[13:21:20] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[13:21:21] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:21:21] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:21:21] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:21:21] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:21:21] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:21:21] [main/INFO]: Reloading ResourceManager: Default, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks, VanillaTweaks_c257530.zip, player head drops v1.0.0.zip, villager death messages v1.1.0.zip, Clumps.zip, custom nether portals v2.1.0.zip, wandering trades v1.3.0.zip, spawning spheres v1.0.0.zip, TradingFix.zip, radio
+[13:21:24] [Worker-Main-4/INFO]: Loaded 7 recipes
+[13:21:25] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[13:21:25] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
+[13:21:25] [Worker-Main-4/INFO]: Loaded 1032 advancements
+[13:21:29] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[13:21:29] [Server thread/INFO]: Loading properties
+[13:21:29] [Server thread/INFO]: Default game type: SURVIVAL
+[13:21:29] [Server thread/INFO]: Generating keypair
+[13:21:29] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:273) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:283) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:344) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
 	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
 	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
-	at yd$1.run(SourceFile:90) [server.jar:?]
-[13:05:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:05:51] [Server thread/INFO]: Using default channel type
-[13:05:53] [Server thread/INFO]: Preparing level "world"
-[13:05:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:05:56] [Server thread/INFO]: Preparing spawn area: 0%
-[13:05:56] [Server thread/INFO]: Preparing spawn area: 0%
-[13:05:56] [Server thread/INFO]: Preparing spawn area: 0%
-[13:05:56] [Server thread/INFO]: Preparing spawn area: 0%
-[13:05:56] [Server thread/INFO]: Preparing spawn area: 0%
-[13:05:56] [Server thread/INFO]: Preparing spawn area: 0%
-[13:05:56] [Server thread/INFO]: Preparing spawn area: 0%
-[13:05:56] [Server thread/INFO]: Preparing spawn area: 0%
-[13:05:57] [Server thread/INFO]: Time elapsed: 3771 ms
-[13:05:57] [Server thread/INFO]: Done (4.032s)! For help, type "help"
-[13:06:11] [User Authenticator #1/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
-[13:06:11] [Server thread/INFO]: CrazM13[/70.188.147.193:51051] logged in with entity id 17 at (1195.9367418631477, 63.5, 868.3136729487313)
-[13:06:11] [Server thread/INFO]: CrazM13 joined the game
-[13:11:57] [Server thread/INFO]: Villager bdp['Mason'/167, l='ServerLevel[world]', x=1225.30, y=64.30, z=859.30] died, message: 'Mason was slain by Zombie'
-[13:12:11] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[13:12:11] [Server thread/INFO]: no my villager<--[HERE]
-[13:13:08] [Server thread/INFO]: Villager bdp['Villager'/95, l='ServerLevel[world]', x=1199.24, y=63.00, z=864.30] died, message: 'Villager was slain by Zombie'
-[13:14:33] [User Authenticator #2/INFO]: UUID of player The15Percenter is 0538d89a-fca6-4d1c-b462-b6ed01dcfda5
-[13:14:34] [Server thread/INFO]: The15Percenter[/127.0.0.1:51930] logged in with entity id 2709 at (5031.461780459898, 64.0, 280.3362051858232)
-[13:14:34] [Server thread/INFO]: The15Percenter joined the game
-[13:14:35] [Server thread/WARN]: CrazM13 moved too quickly! -4.075496346531281,1.4042232112077713,-9.172566804431654
-[13:14:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2078ms or 41 ticks behind
-[13:15:12] [Server thread/INFO]: CrazM13 lost connection: Disconnected
-[13:15:12] [Server thread/INFO]: CrazM13 left the game
-[13:15:13] [Server thread/INFO]: The15Percenter lost connection: Disconnected
-[13:15:13] [Server thread/INFO]: The15Percenter left the game
-[13:15:17] [Server thread/INFO]: Stopping the server
-[13:15:17] [Server thread/INFO]: Stopping server
-[13:15:17] [Server thread/INFO]: Saving players
-[13:15:17] [Server thread/INFO]: Saving worlds
-[13:15:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:15:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:15:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[13:15:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:15:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[13:15:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:15:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:15:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:15:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+	at zg$1.run(SourceFile:89) [server.jar:?]
+[13:21:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:21:29] [Server thread/INFO]: Using default channel type
+[13:21:31] [Server thread/INFO]: Preparing level "world"
+[13:21:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:21:33] [Server thread/INFO]: Preparing spawn area: 0%
+[13:21:33] [Server thread/INFO]: Preparing spawn area: 0%
+[13:21:33] [Server thread/INFO]: Preparing spawn area: 0%
+[13:21:33] [Server thread/INFO]: Preparing spawn area: 0%
+[13:21:33] [Server thread/INFO]: Preparing spawn area: 0%
+[13:21:34] [Server thread/INFO]: Preparing spawn area: 0%
+[13:21:34] [Server thread/INFO]: Preparing spawn area: 0%
+[13:21:35] [Server thread/INFO]: Time elapsed: 3329 ms
+[13:21:35] [Server thread/INFO]: Done (3.571s)! For help, type "help"
+[13:21:49] [Server thread/INFO]: Stopping the server
+[13:21:49] [Server thread/INFO]: Stopping server
+[13:21:49] [Server thread/INFO]: Saving players
+[13:21:49] [Server thread/INFO]: Saving worlds
+[13:21:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:21:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:21:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:21:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:21:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:21:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:21:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:21:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:21:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
