@@ -1,0 +1,45 @@
+[20:02:24] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[20:02:25] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:02:25] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:02:25] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:02:25] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:02:25] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:02:25] [main/INFO]: Reloading ResourceManager: Default, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks, VanillaTweaks_c257530.zip, player head drops v1.0.0.zip, villager death messages v1.1.0.zip, Clumps.zip, custom nether portals v2.1.0.zip, wandering trades v1.3.0.zip, spawning spheres v1.0.0.zip, TradingFix.zip, radio
+[20:02:28] [Worker-Main-13/INFO]: Loaded 7 recipes
+[20:02:28] [Worker-Main-13/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[20:02:28] [Worker-Main-13/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
+[20:02:28] [Worker-Main-13/INFO]: Loaded 1032 advancements
+[20:02:36] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[20:02:36] [Server thread/INFO]: Loading properties
+[20:02:36] [Server thread/INFO]: Default game type: SURVIVAL
+[20:02:36] [Server thread/INFO]: Generating keypair
+[20:02:36] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:273) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:283) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:344) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at zg$1.run(SourceFile:89) [server.jar:?]
+[20:02:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:02:36] [Server thread/INFO]: Using default channel type
+[20:02:38] [Server thread/INFO]: Preparing level "world"
+[20:02:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:02:39] [Server thread/INFO]: Preparing spawn area: 0%
+[20:02:39] [Server thread/INFO]: Preparing spawn area: 0%
+[20:02:39] [Server thread/INFO]: Preparing spawn area: 0%
+[20:02:40] [Server thread/INFO]: Preparing spawn area: 84%
+[20:02:40] [Server thread/INFO]: Time elapsed: 1586 ms
+[20:02:40] [Server thread/INFO]: Done (1.700s)! For help, type "help"
+[20:03:23] [User Authenticator #1/INFO]: UUID of player The15Percenter is 0538d89a-fca6-4d1c-b462-b6ed01dcfda5
+[20:03:23] [Server thread/INFO]: The15Percenter[/127.0.0.1:58141] logged in with entity id 17 at (160.69999998807907, 60.0, 76.30000001192093)
+[20:03:23] [Server thread/INFO]: The15Percenter joined the game
+[20:03:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[20:05:26] [Server thread/INFO]: The15Percenter lost connection: Disconnected
+[20:05:26] [Server thread/INFO]: The15Percenter left the game

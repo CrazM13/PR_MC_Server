@@ -251,6 +251,12 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2020-09-18 21:07:34 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2020-06-28 15:50:47 -0400"
@@ -308,6 +314,12 @@
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2020-07-16 22:07:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2020-09-18 20:43:00 -0400"
     },
     "done": true
   },
@@ -662,7 +674,7 @@
   },
   "multiplayer_sleep:sleep": {
     "criteria": {
-      "tick": "2020-09-12 17:42:13 -0400"
+      "tick": "2020-09-18 22:17:19 -0400"
     },
     "done": false
   },
@@ -675,6 +687,12 @@
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_gold_ingot": "2020-06-28 17:31:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_purple_dye": "2020-09-18 22:12:01 -0400"
     },
     "done": true
   },
@@ -928,6 +946,8 @@
       "minecraft:zombified_piglin": "2020-07-04 12:36:57 -0400",
       "minecraft:witch": "2020-07-05 09:53:48 -0400",
       "minecraft:wither_skeleton": "2020-07-05 17:37:53 -0400",
+      "minecraft:husk": "2020-09-18 20:35:58 -0400",
+      "minecraft:shulker": "2020-09-18 20:59:25 -0400",
       "minecraft:cave_spider": "2020-06-28 21:34:36 -0400",
       "minecraft:piglin": "2020-07-03 19:16:06 -0400",
       "minecraft:enderman": "2020-06-28 19:09:08 -0400",
@@ -1231,6 +1251,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2020-09-18 22:11:57 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2020-07-05 16:50:37 -0400"
@@ -1450,6 +1476,12 @@
   "minecraft:recipes/misc/lime_dye_from_smelting": {
     "criteria": {
       "has_sea_pickle": "2020-07-01 22:41:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2020-09-18 21:05:19 -0400"
     },
     "done": true
   },
@@ -1860,6 +1892,12 @@
   "minecraft:recipes/building_blocks/cut_red_sandstone": {
     "criteria": {
       "has_red_sandstone": "2020-08-02 12:03:02 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2020-09-18 21:07:21 -0400"
     },
     "done": true
   },
@@ -2419,6 +2457,12 @@
     },
     "done": true
   },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2020-09-18 21:49:35 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal_from_bone_block": {
     "criteria": {
       "has_bone_block": "2020-07-04 22:07:38 -0400"
@@ -2586,6 +2630,7 @@
     "criteria": {
       "cooked_porkchop": "2020-06-28 18:38:54 -0400",
       "cooked_mutton": "2020-07-12 20:27:45 -0400",
+      "chorus_fruit": "2020-09-18 21:45:45 -0400",
       "spider_eye": "2020-07-03 20:07:43 -0400",
       "cooked_cod": "2020-07-03 15:05:47 -0400",
       "pumpkin_pie": "2020-07-03 18:41:31 -0400",
@@ -3862,6 +3907,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2020-09-18 20:59:25 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/skull_banner_pattern": {
     "criteria": {
       "has_wither_skeleton_skull": "2020-07-05 18:59:51 -0400"
@@ -3952,6 +4003,12 @@
     },
     "done": true
   },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2020-09-18 20:59:20 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2020-07-05 16:50:37 -0400"
@@ -3973,6 +4030,12 @@
   "minecraft:recipes/building_blocks/polished_granite_slab": {
     "criteria": {
       "has_polished_granite": "2020-07-26 13:27:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2020-09-18 20:42:47 -0400"
     },
     "done": true
   },
@@ -4093,6 +4156,12 @@
   "minecraft:recipes/decorations/red_bed": {
     "criteria": {
       "has_red_wool": "2020-07-18 10:34:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2020-09-18 22:21:19 -0400"
     },
     "done": true
   },
