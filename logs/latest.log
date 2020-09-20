@@ -1,19 +1,19 @@
-[20:25:13] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[20:25:13] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:25:13] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:25:13] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:25:13] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:25:13] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:25:13] [main/INFO]: Reloading ResourceManager: Default, afk display v1.0.1.zip, anti enderman grief v1.0.0.zip, double shulker shells v1.2.0.zip, more mob heads v2.6.2.zip, multiplayer sleep v1.0.2.zip, BarteringTweaks, VanillaTweaks_c257530.zip, player head drops v1.0.0.zip, villager death messages v1.1.0.zip, Clumps.zip, custom nether portals v2.1.0.zip, wandering trades v1.3.0.zip, spawning spheres v1.0.0.zip, TradingFix.zip, radio
-[20:25:16] [Worker-Main-13/INFO]: Loaded 7 recipes
-[20:25:16] [Worker-Main-13/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[20:25:16] [Worker-Main-13/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
-[20:25:16] [Worker-Main-13/INFO]: Loaded 1032 advancements
-[20:25:19] [Server thread/INFO]: Starting minecraft server version 1.16.3
-[20:25:19] [Server thread/INFO]: Loading properties
-[20:25:19] [Server thread/INFO]: Default game type: SURVIVAL
-[20:25:19] [Server thread/INFO]: Generating keypair
-[20:25:19] [Server console handler/ERROR]: Exception handling console input
+[20:05:25] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[20:05:26] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:05:26] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:05:26] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:05:26] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:05:26] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:05:26] [main/INFO]: Reloading ResourceManager: Default, BarteringTweaks, VanillaTweaks_c257530.zip, Clumps.zip, TradingFix.zip, radio, Recipes, afk display v1.1.0.zip, anti enderman grief v1.1.0.zip, custom nether portals v2.3.2.zip, double shulker shells v1.3.0.zip, more mob heads v2.8.1.zip, multiplayer sleep v2.4.3.zip, player head drops v1.1.0.zip, spawning spheres v1.1.0.zip, unlock all recipes v2.0.0.zip, villager death messages v1.2.1.zip, wandering trades v1.4.0.zip
+[20:05:29] [Worker-Main-10/INFO]: Loaded 7 recipes
+[20:05:30] [Worker-Main-10/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[20:05:30] [Worker-Main-10/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
+[20:05:30] [Worker-Main-10/INFO]: Loaded 1032 advancements
+[20:05:33] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[20:05:33] [Server thread/INFO]: Loading properties
+[20:05:33] [Server thread/INFO]: Default game type: SURVIVAL
+[20:05:33] [Server thread/INFO]: Generating keypair
+[20:05:33] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:273) ~[?:?]
@@ -27,110 +27,63 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
 	at zg$1.run(SourceFile:89) [server.jar:?]
-[20:25:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:25:19] [Server thread/INFO]: Using default channel type
-[20:25:20] [Server thread/INFO]: Preparing level "world"
-[20:25:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:25:22] [Server thread/INFO]: Preparing spawn area: 0%
-[20:25:22] [Server thread/INFO]: Preparing spawn area: 0%
-[20:25:22] [Server thread/INFO]: Preparing spawn area: 0%
-[20:25:22] [Server thread/INFO]: Preparing spawn area: 0%
-[20:25:23] [Server thread/INFO]: Time elapsed: 2465 ms
-[20:25:23] [Server thread/INFO]: Done (2.592s)! For help, type "help"
-[20:25:33] [User Authenticator #1/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
-[20:25:34] [Server thread/INFO]: CrazM13[/70.188.147.193:56714] logged in with entity id 17 at (1162.1902346826496, 62.9375, 879.1996242288669)
-[20:25:34] [Server thread/INFO]: CrazM13 joined the game
-[20:26:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2283ms or 45 ticks behind
-[20:29:10] [User Authenticator #2/INFO]: UUID of player The15Percenter is 0538d89a-fca6-4d1c-b462-b6ed01dcfda5
-[20:29:10] [Server thread/INFO]: The15Percenter[/127.0.0.1:58788] logged in with entity id 705 at (160.6087830767876, 60.0, 81.69999998807907)
-[20:29:10] [Server thread/INFO]: The15Percenter joined the game
-[20:33:02] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{name:"minecraft:block_pile",config:{state_provider:{state:{Properties:{axis:"y"},Name:"minecraft:hay_block"},type:"minecraft:rotated_block_provider"}}}]
-[20:33:02] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{name:"minecraft:tree",config:{heightmap:"OCEAN_FLOOR",decorators:[L;],trunk_provider:{state:{Properties:{axis:"y"},Name:"minecraft:acacia_log"},type:"minecraft:simple_state_provider"},minimum_size:{limit:1,type:"minecraft:two_layers_feature_size",lower_size:0,upper_size:2},max_water_depth:0,trunk_placer:{height_rand_b:2,base_height:5,height_rand_a:2,type:"minecraft:forking_trunk_placer"},leaves_provider:{state:{Properties:{distance:"7",persistent:"false"},Name:"minecraft:acacia_leaves"},type:"minecraft:simple_state_provider"},ignore_vines:1b,foliage_placer:{offset_random:0,offset:0,radius:2,type:"minecraft:acacia_foliage_placer",radius_random:0}}}]
-[20:33:02] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{name:"minecraft:tree",config:{heightmap:"OCEAN_FLOOR",decorators:[L;],trunk_provider:{state:{Properties:{axis:"y"},Name:"minecraft:acacia_log"},type:"minecraft:simple_state_provider"},minimum_size:{limit:1,type:"minecraft:two_layers_feature_size",lower_size:0,upper_size:2},max_water_depth:0,trunk_placer:{height_rand_b:2,base_height:5,height_rand_a:2,type:"minecraft:forking_trunk_placer"},leaves_provider:{state:{Properties:{distance:"7",persistent:"false"},Name:"minecraft:acacia_leaves"},type:"minecraft:simple_state_provider"},ignore_vines:1b,foliage_placer:{offset_random:0,offset:0,radius:2,type:"minecraft:acacia_foliage_placer",radius_random:0}}}]
-[20:33:02] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{name:"minecraft:block_pile",config:{state_provider:{state:{Properties:{axis:"y"},Name:"minecraft:hay_block"},type:"minecraft:rotated_block_provider"}}}]
-[20:33:02] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{name:"minecraft:block_pile",config:{state_provider:{state:{Properties:{axis:"y"},Name:"minecraft:hay_block"},type:"minecraft:rotated_block_provider"}}}]
-[20:33:02] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{name:"minecraft:tree",config:{heightmap:"OCEAN_FLOOR",decorators:[L;],trunk_provider:{state:{Properties:{axis:"y"},Name:"minecraft:acacia_log"},type:"minecraft:simple_state_provider"},minimum_size:{limit:1,type:"minecraft:two_layers_feature_size",lower_size:0,upper_size:2},max_water_depth:0,trunk_placer:{height_rand_b:2,base_height:5,height_rand_a:2,type:"minecraft:forking_trunk_placer"},leaves_provider:{state:{Properties:{distance:"7",persistent:"false"},Name:"minecraft:acacia_leaves"},type:"minecraft:simple_state_provider"},ignore_vines:1b,foliage_placer:{offset_random:0,offset:0,radius:2,type:"minecraft:acacia_foliage_placer",radius_random:0}}}]
-[20:34:17] [Server thread/INFO]: Villager bfg['Villager'/3318, l='ServerLevel[world]', x=160.31, y=45.50, z=102.50] died, message: 'Villager hit the ground too hard'
-[20:35:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18971ms or 379 ticks behind
-[20:36:32] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[20:36:32] [Server thread/INFO]: Found that the dragon has been killed in this world already.
-[20:42:47] [Server thread/INFO]: CrazM13 has made the advancement [Remote Getaway]
-[20:42:49] [Server thread/INFO]: The15Percenter has made the advancement [Remote Getaway]
-[20:59:20] [Server thread/INFO]: CrazM13 has made the advancement [The City at the End of the Game]
-[21:00:12] [Server thread/INFO]: CrazM13 lost connection: Disconnected
-[21:00:12] [Server thread/INFO]: CrazM13 left the game
-[21:02:01] [Server thread/INFO]: com.mojang.authlib.GameProfile@38606def[id=<null>,name=CrazM13,properties={},legacy=false] (/70.188.147.193:56771) lost connection: Disconnected
-[21:02:04] [Server thread/INFO]: com.mojang.authlib.GameProfile@3742fd06[id=<null>,name=CrazM13,properties={},legacy=false] (/70.188.147.193:56773) lost connection: Disconnected
-[21:02:27] [Server thread/INFO]: The15Percenter has made the advancement [The City at the End of the Game]
-[21:04:40] [Server thread/INFO]: com.mojang.authlib.GameProfile@3a22314e[id=<null>,name=CrazM13,properties={},legacy=false] (/70.188.147.193:56864) lost connection: Disconnected
-[21:04:46] [User Authenticator #3/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
-[21:04:46] [Server thread/INFO]: CrazM13[/70.188.147.193:56872] logged in with entity id 13025 at (-1847.5124984512377, 83.0, 1980.2490021795734)
-[21:04:46] [Server thread/INFO]: CrazM13 joined the game
-[21:05:19] [Server thread/INFO]: CrazM13 has made the advancement [Not Today, Thank You]
-[21:06:05] [Server thread/INFO]: The15Percenter has made the advancement [Cover Me With Diamonds]
-[21:07:21] [Server thread/INFO]: CrazM13 has made the advancement [Local Brewery]
-[21:07:34] [Server thread/INFO]: CrazM13 has reached the goal [Sky's the Limit]
-[21:10:27] [Server thread/INFO]: CrazM13 lost connection: Disconnected
-[21:10:27] [Server thread/INFO]: CrazM13 left the game
-[21:41:38] [Server thread/INFO]: The15Percenter has reached the goal [Sky's the Limit]
-[21:42:09] [User Authenticator #4/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
-[21:42:09] [Server thread/INFO]: CrazM13[/70.188.147.193:56910] logged in with entity id 15863 at (-1886.3646187468564, 127.2000000476837, 1980.8086386164302)
-[21:42:09] [Server thread/INFO]: CrazM13 joined the game
-[21:42:43] [Server thread/WARN]: The15Percenter moved too quickly! 3428.864306232817,85.12160004615787,3902.829071015748
-[21:43:10] [Server thread/INFO]: CrazM13 was slain by Shulker
-[21:45:47] [Server thread/WARN]: CrazM13 moved too quickly! -6.934421116725389,-58.0,1.6733796313028506
-[21:46:34] [Server thread/WARN]: CrazM13 moved too quickly! -2.463476008377711,-58.0,2.4117478240586934
-[21:48:17] [Server thread/WARN]: CrazM13 moved too quickly! -1.14491860173257,-30.0,-6.127816692897568
-[21:48:21] [Server thread/INFO]: CrazM13 was slain by Enderman
-[21:48:41] [Server thread/WARN]: CrazM13 moved too quickly! -5.0640326879549775,-28.0,7.329051774576328
-[21:49:35] [Server thread/WARN]: CrazM13 moved too quickly! 6.039346566569975,-74.0,3.7113385557254333
-[21:49:35] [Server thread/INFO]: CrazM13 has completed the challenge [Great View From Up Here]
-[21:50:50] [Server thread/WARN]: The15Percenter moved too quickly! -5.016571202370187,-73.0,1.8429977069679353
-[21:50:50] [Server thread/WARN]: The15Percenter moved too quickly! -5.016571202370187,-73.0,1.8429977069679353
-[21:50:50] [Server thread/WARN]: The15Percenter moved too quickly! -5.016571202370187,-73.0,1.8429977069679353
-[21:50:50] [Server thread/INFO]: The15Percenter has completed the challenge [Great View From Up Here]
-[22:16:50] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{name:"minecraft:block_pile",config:{state_provider:{state:{Properties:{axis:"y"},Name:"minecraft:hay_block"},type:"minecraft:rotated_block_provider"}}}]
-[22:16:50] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{name:"minecraft:block_pile",config:{state_provider:{state:{Properties:{axis:"y"},Name:"minecraft:hay_block"},type:"minecraft:rotated_block_provider"}}}]
-[22:16:50] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{name:"minecraft:block_pile",config:{state_provider:{state:{Properties:{axis:"y"},Name:"minecraft:hay_block"},type:"minecraft:rotated_block_provider"}}}]
-[22:16:50] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{name:"minecraft:random_patch",config:{tries:10,yspread:3,xspread:7,need_water:0b,zspread:7,project:0b,blacklist:[L;],block_placer:{extra_size:2,min_size:1,type:"minecraft:column_placer"},whitelist:[L;],state_provider:{state:{Properties:{age:"0"},Name:"minecraft:cactus"},type:"minecraft:simple_state_provider"},can_replace:0b}}]
-[22:16:50] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{name:"minecraft:random_patch",config:{tries:10,yspread:3,xspread:7,need_water:0b,zspread:7,project:0b,blacklist:[L;],block_placer:{extra_size:2,min_size:1,type:"minecraft:column_placer"},whitelist:[L;],state_provider:{state:{Properties:{age:"0"},Name:"minecraft:cactus"},type:"minecraft:simple_state_provider"},can_replace:0b}}]
-[22:16:50] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{name:"minecraft:block_pile",config:{state_provider:{state:{Properties:{axis:"y"},Name:"minecraft:hay_block"},type:"minecraft:rotated_block_provider"}}}]
-[22:16:50] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{name:"minecraft:block_pile",config:{state_provider:{state:{Properties:{axis:"y"},Name:"minecraft:hay_block"},type:"minecraft:rotated_block_provider"}}}]
-[22:16:50] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{name:"minecraft:block_pile",config:{state_provider:{state:{Properties:{axis:"y"},Name:"minecraft:hay_block"},type:"minecraft:rotated_block_provider"}}}]
-[22:16:50] [Server thread/ERROR]: Input does not contain a key [type]: MapLike[{name:"minecraft:random_patch",config:{tries:10,yspread:3,xspread:7,need_water:0b,zspread:7,project:0b,blacklist:[L;],block_placer:{extra_size:2,min_size:1,type:"minecraft:column_placer"},whitelist:[L;],state_provider:{state:{Properties:{age:"0"},Name:"minecraft:cactus"},type:"minecraft:simple_state_provider"},can_replace:0b}}]
-[22:19:48] [Server thread/WARN]: The15Percenter moved too quickly! -0.6063946265642528,-10.201788143051395,0.08613712471355939
-[22:19:57] [Server thread/WARN]: The15Percenter moved too quickly! -65.08962756483085,21.999572738610023,-8.234631865202317
-[22:20:00] [Server thread/WARN]: The15Percenter moved too quickly! -24.007175148038016,34.154837205217596,-46.94535040550845
-[22:20:02] [Server thread/WARN]: The15Percenter moved too quickly! -0.16990432947480372,33.553410322223414,3.0149087335452975
-[22:21:01] [Server thread/WARN]: The15Percenter moved too quickly! -409.3618702261298,-23.913051306418893,110.9705912820477
-[22:21:04] [Server thread/WARN]: The15Percenter moved too quickly! -18.173367054722007,48.5848781136192,11.880105475281283
-[22:21:05] [Server thread/INFO]: The15Percenter has made the advancement [Those Were the Days]
-[22:21:19] [Server thread/INFO]: CrazM13 has made the advancement [War Pigs]
-[22:21:59] [Server thread/INFO]: CrazM13 was slain by Piglin Brute
-[22:24:57] [Server thread/INFO]: CrazM13 was slain by Hoglin
-[22:25:55] [Server thread/INFO]: The15Percenter has completed the challenge [Serious Dedication]
-[22:29:28] [Server thread/WARN]: The15Percenter moved too quickly! 0.8617194070593541,41.8468170122288,-20.67800176346114
-[22:33:09] [Server thread/INFO]: CrazM13 lost connection: Disconnected
-[22:33:09] [Server thread/INFO]: CrazM13 left the game
-[22:33:34] [User Authenticator #5/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
-[22:33:34] [Server thread/INFO]: CrazM13[/70.188.147.193:57154] logged in with entity id 31757 at (-1041.7702735512912, 25.23265933575686, -104.20742700177121)
-[22:33:34] [Server thread/INFO]: CrazM13 joined the game
-[22:37:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3379ms or 67 ticks behind
-[22:38:35] [Server thread/INFO]: CrazM13 fell from a high place
-[22:49:03] [Server thread/INFO]: CrazM13 lost connection: Disconnected
-[22:49:03] [Server thread/INFO]: CrazM13 left the game
-[22:49:09] [Server thread/INFO]: The15Percenter lost connection: Disconnected
-[22:49:09] [Server thread/INFO]: The15Percenter left the game
-[22:49:20] [Server thread/INFO]: Stopping the server
-[22:49:20] [Server thread/INFO]: Stopping server
-[22:49:20] [Server thread/INFO]: Saving players
-[22:49:20] [Server thread/INFO]: Saving worlds
-[22:49:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:49:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:49:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:49:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:49:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:49:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:49:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:49:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:49:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:05:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:05:34] [Server thread/INFO]: Using default channel type
+[20:05:35] [Server thread/INFO]: Preparing level "world"
+[20:05:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:05:37] [Server thread/INFO]: Preparing spawn area: 0%
+[20:05:37] [Server thread/INFO]: Preparing spawn area: 0%
+[20:05:37] [Server thread/INFO]: Preparing spawn area: 0%
+[20:05:37] [Server thread/INFO]: Preparing spawn area: 0%
+[20:05:37] [Server thread/INFO]: Preparing spawn area: 0%
+[20:05:37] [Server thread/INFO]: Time elapsed: 2415 ms
+[20:05:38] [Server thread/INFO]: Done (2.680s)! For help, type "help"
+[20:07:38] [User Authenticator #1/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[20:07:40] [Server thread/INFO]: CrazM13[/70.188.147.193:61067] logged in with entity id 26 at (1187.4914295299805, 64.0, 903.6999999880791)
+[20:07:40] [Server thread/INFO]: CrazM13 joined the game
+[20:07:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2068ms or 41 ticks behind
+[20:08:10] [User Authenticator #2/INFO]: UUID of player The15Percenter is 0538d89a-fca6-4d1c-b462-b6ed01dcfda5
+[20:08:11] [Server thread/INFO]: The15Percenter[/127.0.0.1:56908] logged in with entity id 375 at (2282.3093314439907, 73.77585644700456, 1369.2587785509015)
+[20:08:11] [Server thread/INFO]: The15Percenter joined the game
+[20:15:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1353, y=71, z=984} fx{x=1353, y=70, z=983}
+[20:15:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1353, y=71, z=984} fx{x=1353, y=70, z=983}
+[20:20:28] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[20:20:28] [Server thread/INFO]: Found that the dragon has been killed in this world already.
+[20:52:35] [Server thread/INFO]: CrazM13 fell out of the world
+[20:53:12] [Server thread/INFO]: Villager bfg['Villager'/420, l='ServerLevel[world]', x=2273.98, y=64.50, z=1350.14] died, message: 'Villager burned to death'
+[20:58:33] [Server thread/INFO]: CrazM13 experienced kinetic energy
+[20:58:59] [Server thread/WARN]: Fetching packet for removed entity bcs['Netherite Boots'/16019, l='ServerLevel[world]', x=155.17, y=129.00, z=95.13]
+[20:58:59] [Server thread/WARN]: Fetching packet for removed entity bcs['Shears'/16018, l='ServerLevel[world]', x=156.03, y=129.00, z=94.13]
+[20:58:59] [Server thread/WARN]: Fetching packet for removed entity bcs['Carrot'/16022, l='ServerLevel[world]', x=154.95, y=129.00, z=94.82]
+[20:58:59] [Server thread/WARN]: Fetching packet for removed entity aqd['Experience Orb'/16036, l='ServerLevel[world]', x=154.81, y=129.00, z=95.75]
+[21:00:25] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[21:00:25] [Server thread/INFO]: CrazM13 left the game
+[21:02:54] [User Authenticator #3/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[21:02:54] [Server thread/INFO]: CrazM13[/70.188.147.193:61229] logged in with entity id 17011 at (1192.2209207659532, 72.0, 883.2164137596664)
+[21:02:54] [Server thread/INFO]: CrazM13 joined the game
+[21:11:16] [Server thread/INFO]: Villager bfg['Weaponsmith'/4482, l='ServerLevel[world]', x=2279.17, y=64.00, z=1354.17] died, message: 'Weaponsmith was slain by Zombie'
+[21:12:50] [Server thread/INFO]: Villager bfg['Villager'/19799, l='ServerLevel[world]', x=2280.30, y=64.00, z=1366.15] died, message: 'Villager was slain by Zombie'
+[21:14:30] [Server thread/INFO]: The15Percenter has reached the goal [Hired Help]
+[22:12:56] [Server thread/INFO]: <The15Percenter> x 2298 y 65 z 1370
+[22:24:53] [Server thread/WARN]: CrazM13 moved too quickly! -12.690722765695341,-3.626646233772952,29.7971468621135
+[22:32:10] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:32:10] [Server thread/INFO]: PEPE<--[HERE]
+[22:34:26] [Server thread/INFO]: Villager bfg['Mason'/41779, l='ServerLevel[world]', x=1232.44, y=64.00, z=858.04] died, message: 'Mason was burnt to a crisp whilst fighting Zombie'
+[22:34:34] [Server thread/WARN]: Fetching packet for removed entity bcs['Iron Ingot'/42177, l='ServerLevel[world]', x=1151.16, y=66.44, z=884.83]
+[22:51:32] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[22:51:32] [Server thread/INFO]: CrazM13 left the game
+[22:51:33] [Server thread/INFO]: The15Percenter lost connection: Disconnected
+[22:51:33] [Server thread/INFO]: The15Percenter left the game
+[22:51:50] [Server thread/INFO]: Stopping the server
+[22:51:50] [Server thread/INFO]: Stopping server
+[22:51:50] [Server thread/INFO]: Saving players
+[22:51:50] [Server thread/INFO]: Saving worlds
+[22:51:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:51:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:51:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:51:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:51:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:51:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:51:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:52:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:52:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
