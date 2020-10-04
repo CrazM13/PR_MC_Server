@@ -1,19 +1,18 @@
-[20:05:25] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[20:05:26] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:05:26] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:05:26] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:05:26] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:05:26] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:05:26] [main/INFO]: Reloading ResourceManager: Default, BarteringTweaks, VanillaTweaks_c257530.zip, Clumps.zip, TradingFix.zip, radio, Recipes, afk display v1.1.0.zip, anti enderman grief v1.1.0.zip, custom nether portals v2.3.2.zip, double shulker shells v1.3.0.zip, more mob heads v2.8.1.zip, multiplayer sleep v2.4.3.zip, player head drops v1.1.0.zip, spawning spheres v1.1.0.zip, unlock all recipes v2.0.0.zip, villager death messages v1.2.1.zip, wandering trades v1.4.0.zip
-[20:05:29] [Worker-Main-10/INFO]: Loaded 7 recipes
-[20:05:30] [Worker-Main-10/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[20:05:30] [Worker-Main-10/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
-[20:05:30] [Worker-Main-10/INFO]: Loaded 1032 advancements
-[20:05:33] [Server thread/INFO]: Starting minecraft server version 1.16.3
-[20:05:33] [Server thread/INFO]: Loading properties
-[20:05:33] [Server thread/INFO]: Default game type: SURVIVAL
-[20:05:33] [Server thread/INFO]: Generating keypair
-[20:05:33] [Server console handler/ERROR]: Exception handling console input
+[18:34:00] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:34:00] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:34:00] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:34:00] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:34:00] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:34:00] [main/INFO]: Reloading ResourceManager: Default, BarteringTweaks, VanillaTweaks_c257530.zip, Clumps.zip, TradingFix.zip, radio, Recipes, afk display v1.1.0.zip, anti enderman grief v1.1.0.zip, custom nether portals v2.3.2.zip, double shulker shells v1.3.0.zip, more mob heads v2.8.1.zip, multiplayer sleep v2.4.3.zip, player head drops v1.1.0.zip, spawning spheres v1.1.0.zip, unlock all recipes v2.0.0.zip, villager death messages v1.2.1.zip, wandering trades v1.4.0.zip
+[18:34:07] [Worker-Main-14/INFO]: Loaded 7 recipes
+[18:34:07] [Worker-Main-14/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[18:34:07] [Worker-Main-14/WARN]: Found validation problem in {minecraft:entities/villager}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/villager/villager_head
+[18:34:07] [Worker-Main-14/INFO]: Loaded 1032 advancements
+[18:34:28] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[18:34:28] [Server thread/INFO]: Loading properties
+[18:34:28] [Server thread/INFO]: Default game type: SURVIVAL
+[18:34:28] [Server thread/INFO]: Generating keypair
+[18:34:28] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:273) ~[?:?]
@@ -27,63 +26,87 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
 	at zg$1.run(SourceFile:89) [server.jar:?]
-[20:05:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:05:34] [Server thread/INFO]: Using default channel type
-[20:05:35] [Server thread/INFO]: Preparing level "world"
-[20:05:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:05:37] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:37] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:37] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:37] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:37] [Server thread/INFO]: Preparing spawn area: 0%
-[20:05:37] [Server thread/INFO]: Time elapsed: 2415 ms
-[20:05:38] [Server thread/INFO]: Done (2.680s)! For help, type "help"
-[20:07:38] [User Authenticator #1/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
-[20:07:40] [Server thread/INFO]: CrazM13[/70.188.147.193:61067] logged in with entity id 26 at (1187.4914295299805, 64.0, 903.6999999880791)
-[20:07:40] [Server thread/INFO]: CrazM13 joined the game
-[20:07:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2068ms or 41 ticks behind
-[20:08:10] [User Authenticator #2/INFO]: UUID of player The15Percenter is 0538d89a-fca6-4d1c-b462-b6ed01dcfda5
-[20:08:11] [Server thread/INFO]: The15Percenter[/127.0.0.1:56908] logged in with entity id 375 at (2282.3093314439907, 73.77585644700456, 1369.2587785509015)
-[20:08:11] [Server thread/INFO]: The15Percenter joined the game
-[20:15:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1353, y=71, z=984} fx{x=1353, y=70, z=983}
-[20:15:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1353, y=71, z=984} fx{x=1353, y=70, z=983}
-[20:20:28] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[20:20:28] [Server thread/INFO]: Found that the dragon has been killed in this world already.
-[20:52:35] [Server thread/INFO]: CrazM13 fell out of the world
-[20:53:12] [Server thread/INFO]: Villager bfg['Villager'/420, l='ServerLevel[world]', x=2273.98, y=64.50, z=1350.14] died, message: 'Villager burned to death'
-[20:58:33] [Server thread/INFO]: CrazM13 experienced kinetic energy
-[20:58:59] [Server thread/WARN]: Fetching packet for removed entity bcs['Netherite Boots'/16019, l='ServerLevel[world]', x=155.17, y=129.00, z=95.13]
-[20:58:59] [Server thread/WARN]: Fetching packet for removed entity bcs['Shears'/16018, l='ServerLevel[world]', x=156.03, y=129.00, z=94.13]
-[20:58:59] [Server thread/WARN]: Fetching packet for removed entity bcs['Carrot'/16022, l='ServerLevel[world]', x=154.95, y=129.00, z=94.82]
-[20:58:59] [Server thread/WARN]: Fetching packet for removed entity aqd['Experience Orb'/16036, l='ServerLevel[world]', x=154.81, y=129.00, z=95.75]
-[21:00:25] [Server thread/INFO]: CrazM13 lost connection: Disconnected
-[21:00:25] [Server thread/INFO]: CrazM13 left the game
-[21:02:54] [User Authenticator #3/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
-[21:02:54] [Server thread/INFO]: CrazM13[/70.188.147.193:61229] logged in with entity id 17011 at (1192.2209207659532, 72.0, 883.2164137596664)
-[21:02:54] [Server thread/INFO]: CrazM13 joined the game
-[21:11:16] [Server thread/INFO]: Villager bfg['Weaponsmith'/4482, l='ServerLevel[world]', x=2279.17, y=64.00, z=1354.17] died, message: 'Weaponsmith was slain by Zombie'
-[21:12:50] [Server thread/INFO]: Villager bfg['Villager'/19799, l='ServerLevel[world]', x=2280.30, y=64.00, z=1366.15] died, message: 'Villager was slain by Zombie'
-[21:14:30] [Server thread/INFO]: The15Percenter has reached the goal [Hired Help]
-[22:12:56] [Server thread/INFO]: <The15Percenter> x 2298 y 65 z 1370
-[22:24:53] [Server thread/WARN]: CrazM13 moved too quickly! -12.690722765695341,-3.626646233772952,29.7971468621135
-[22:32:10] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[22:32:10] [Server thread/INFO]: PEPE<--[HERE]
-[22:34:26] [Server thread/INFO]: Villager bfg['Mason'/41779, l='ServerLevel[world]', x=1232.44, y=64.00, z=858.04] died, message: 'Mason was burnt to a crisp whilst fighting Zombie'
-[22:34:34] [Server thread/WARN]: Fetching packet for removed entity bcs['Iron Ingot'/42177, l='ServerLevel[world]', x=1151.16, y=66.44, z=884.83]
-[22:51:32] [Server thread/INFO]: CrazM13 lost connection: Disconnected
-[22:51:32] [Server thread/INFO]: CrazM13 left the game
-[22:51:33] [Server thread/INFO]: The15Percenter lost connection: Disconnected
-[22:51:33] [Server thread/INFO]: The15Percenter left the game
-[22:51:50] [Server thread/INFO]: Stopping the server
-[22:51:50] [Server thread/INFO]: Stopping server
-[22:51:50] [Server thread/INFO]: Saving players
-[22:51:50] [Server thread/INFO]: Saving worlds
-[22:51:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:51:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:51:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:51:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:51:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:51:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:51:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:52:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:52:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:34:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:34:29] [Server thread/INFO]: Using default channel type
+[18:34:31] [Server thread/INFO]: Preparing level "world"
+[18:34:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:34:32] [Server thread/INFO]: Preparing spawn area: 0%
+[18:34:32] [Server thread/INFO]: Preparing spawn area: 0%
+[18:34:32] [Server thread/INFO]: Preparing spawn area: 0%
+[18:34:33] [Server thread/INFO]: Preparing spawn area: 64%
+[18:34:33] [Server thread/INFO]: Time elapsed: 1593 ms
+[18:34:33] [Server thread/INFO]: Done (1.935s)! For help, type "help"
+[18:34:47] [User Authenticator #1/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[18:34:48] [Server thread/INFO]: CrazM13[/70.188.147.193:57676] logged in with entity id 27 at (252.04496965298077, 6.0625, 4.92285252293023)
+[18:34:48] [Server thread/INFO]: CrazM13 joined the game
+[18:34:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[18:37:06] [User Authenticator #2/INFO]: UUID of player The15Percenter is 0538d89a-fca6-4d1c-b462-b6ed01dcfda5
+[18:37:08] [Server thread/INFO]: The15Percenter[/127.0.0.1:49500] logged in with entity id 947 at (1244.1309721763519, 68.9375, 919.8305475818374)
+[18:37:08] [Server thread/INFO]: The15Percenter joined the game
+[18:37:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[18:37:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6277ms or 125 ticks behind
+[18:38:41] [Server thread/INFO]: The15Percenter fell out of the world
+[18:39:19] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[18:39:19] [Server thread/INFO]: Found that the dragon has been killed in this world already.
+[18:39:45] [Server thread/WARN]: CrazM13 moved too quickly! 6.99003869031435,0.0,9.020637218354523
+[18:39:45] [Server thread/WARN]: The15Percenter moved too quickly! 9.115255465377686,0.0,-5.944687559412159
+[18:39:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[18:39:59] [Server thread/WARN]: CrazM13 moved too quickly! 8.54406956464095,0.0,-5.741152475450008
+[18:40:32] [Server thread/WARN]: CrazM13 moved too quickly! 446.8166211119187,0.0,-3.0589309363883785
+[18:40:38] [Server thread/WARN]: The15Percenter moved too quickly! -646.9244328144296,-6.630257325609463,-22.229027076831017
+[18:40:38] [Server thread/WARN]: The15Percenter moved too quickly! -646.9244328144296,-6.630257325609463,-22.229027076831017
+[18:40:58] [Server thread/WARN]: The15Percenter moved too quickly! 96.2891874612751,-48.17158720262697,310.7018299668089
+[18:41:37] [Server thread/INFO]: The15Percenter has made the advancement [Country Lode, Take Me Home]
+[18:48:28] [Server thread/INFO]: Villager bfg['Villager'/6684, l='ServerLevel[world]', x=2287.50, y=63.94, z=1335.34] died, message: 'Villager burned to death'
+[18:54:05] [Server thread/INFO]: CrazM13 fell out of the world
+[19:13:11] [Server thread/INFO]: Villager bfg['Villager'/12801, l='ServerLevel[world]', x=202.85, y=44.00, z=106.61] died, message: 'Villager hit the ground too hard'
+[19:13:19] [Server thread/INFO]: <The15Percenter> F
+[19:25:34] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[19:25:34] [Server thread/INFO]: CrazM13 left the game
+[19:50:10] [Server thread/INFO]: Villager bfg['Toolsmith'/6813, l='ServerLevel[world]', x=2285.70, y=64.00, z=1336.89] died, message: 'Toolsmith was slain by Zombie'
+[20:02:20] [User Authenticator #3/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[20:02:21] [Server thread/INFO]: CrazM13[/70.188.147.193:57902] logged in with entity id 19270 at (167.97439591147983, 128.0, 84.4978073104902)
+[20:02:21] [Server thread/INFO]: CrazM13 joined the game
+[20:05:05] [Server thread/INFO]: Villager bfg['Villager'/20219, l='ServerLevel[world]', x=158.70, y=61.50, z=85.26] died, message: 'Villager was slain by Zombie'
+[20:05:06] [Server thread/INFO]: Villager bfg['Villager'/20221, l='ServerLevel[world]', x=161.70, y=59.62, z=93.55] died, message: 'Villager was slain by Zombie'
+[20:06:08] [Server thread/WARN]: The15Percenter moved too quickly! -2137.6915751117212,-3.0,-1286.608415394933
+[20:06:11] [Server thread/WARN]: CrazM13 moved too quickly! -14.362079608900217,0.0,0.006726912516796801
+[20:06:15] [Server thread/WARN]: CrazM13 moved too quickly! -14.344515549693597,0.0,0.32976827343179593
+[20:07:54] [Server thread/WARN]: CrazM13 moved too quickly! 1.0794526808466287,0.0,9.964294683709639
+[20:07:54] [Server thread/WARN]: The15Percenter moved too quickly! -3.2294436145035377,0.0,10.397926167559604
+[20:09:14] [Server thread/WARN]: CrazM13 moved too quickly! 26.86328617066681,0.0,114.06121669323403
+[20:14:58] [Server thread/INFO]: Villager bfg['Villager'/28987, l='ServerLevel[world]', x=236.86, y=62.60, z=123.50] died, message: 'Villager was slain by Drowned'
+[20:15:35] [Server thread/INFO]: CrazM13 fell out of the world
+[20:16:36] [Server thread/INFO]: The15Percenter fell out of the world
+[20:18:52] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/31248, l='ServerLevel[world]', x=1285.26, y=69.00, z=926.56]
+[20:24:01] [Server thread/INFO]: The15Percenter fell out of the world
+[20:24:02] [Server thread/WARN]: The15Percenter moved too quickly! 1030.3982505044632,60.0,351.84124184768257
+[20:25:45] [Server thread/INFO]: Villager bfg['Villager'/33675, l='ServerLevel[world]', x=162.12, y=59.50, z=96.58] died, message: 'Villager was slain by Zombie'
+[20:25:49] [Server thread/INFO]: Villager bfg['Villager'/33681, l='ServerLevel[world]', x=154.08, y=50.54, z=83.26] died, message: 'Villager was slain by Zombie'
+[20:25:56] [Server thread/INFO]: Villager bfg['Villager'/33680, l='ServerLevel[world]', x=158.70, y=61.50, z=83.94] died, message: 'Villager was slain by Zombie Villager'
+[20:39:40] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[20:39:40] [Server thread/INFO]: CrazM13 left the game
+[20:40:22] [User Authenticator #4/INFO]: UUID of player CrazM13 is 56e2507a-30da-4498-8161-2ffb6ec243dc
+[20:40:22] [Server thread/INFO]: CrazM13[/70.188.147.193:58192] logged in with entity id 37192 at (161.7346113663097, 141.0, 72.12041104021856)
+[20:40:22] [Server thread/INFO]: CrazM13 joined the game
+[21:45:33] [Server thread/INFO]: The15Percenter lost connection: Disconnected
+[21:45:33] [Server thread/INFO]: The15Percenter left the game
+[21:45:34] [Server thread/INFO]: CrazM13 lost connection: Disconnected
+[21:45:34] [Server thread/INFO]: CrazM13 left the game
+[21:45:55] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[21:45:55] [Server thread/INFO]: done<--[HERE]
+[21:46:01] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[21:46:01] [Server thread/INFO]: done<--[HERE]
+[21:46:05] [Server thread/INFO]: Stopping the server
+[21:46:05] [Server thread/INFO]: Stopping server
+[21:46:05] [Server thread/INFO]: Saving players
+[21:46:05] [Server thread/INFO]: Saving worlds
+[21:46:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:46:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:46:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:46:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:46:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:46:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:46:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:46:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:46:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

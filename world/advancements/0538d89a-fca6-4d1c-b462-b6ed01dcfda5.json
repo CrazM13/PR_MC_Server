@@ -5118,6 +5118,12 @@
     },
     "done": true
   },
+  "minecraft:nether/use_lodestone": {
+    "criteria": {
+      "use_lodestone": "2020-10-03 18:41:37 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_ice": {
     "criteria": {
       "has_the_recipe": "2020-09-19 12:53:52 -0400"
@@ -5937,7 +5943,10 @@
   },
   "minecraft:husbandry/complete_catalogue": {
     "criteria": {
-      "textures/entity/cat/persian.png": "2020-07-01 23:05:47 -0400"
+      "textures/entity/cat/white.png": "2020-10-03 19:30:32 -0400",
+      "textures/entity/cat/black.png": "2020-10-03 19:21:54 -0400",
+      "textures/entity/cat/persian.png": "2020-07-01 23:05:47 -0400",
+      "textures/entity/cat/red.png": "2020-10-03 19:20:44 -0400"
     },
     "done": false
   },
