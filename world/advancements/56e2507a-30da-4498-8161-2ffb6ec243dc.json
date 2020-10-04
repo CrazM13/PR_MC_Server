@@ -5236,12 +5236,6 @@
     },
     "done": true
   },
-  "craftable_blackstone:recipes/building_blocks/coral/blackstone": {
-    "criteria": {
-      "has_coal": "2020-06-28 15:39:37 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/jack_o_lantern": {
     "criteria": {
       "has_carved_pumpkin": "2020-07-03 21:59:53 -0400"
@@ -5545,13 +5539,6 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2020-07-13 21:58:08 -0400"
-    },
-    "done": true
-  },
-  "craftable_blackstone:recipes/building_blocks/coral/polished_blackstone": {
-    "criteria": {
-      "has_coal": "2020-06-28 15:39:37 -0400",
-      "has_the_recipe": "2020-06-28 15:39:37 -0400"
     },
     "done": true
   },
